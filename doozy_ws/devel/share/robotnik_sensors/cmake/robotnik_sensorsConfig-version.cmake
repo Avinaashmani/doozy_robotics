@@ -1,0 +1,1 @@
+/home/avinaash/doozy_ws/devel/.private/robotnik_sensors/share/robotnik_sensors/cmake/robotnik_sensorsConfig-version.cmake

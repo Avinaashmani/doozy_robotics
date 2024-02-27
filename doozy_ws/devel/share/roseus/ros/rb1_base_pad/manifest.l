@@ -1,0 +1,1 @@
+/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/share/roseus/ros/rb1_base_pad/manifest.l

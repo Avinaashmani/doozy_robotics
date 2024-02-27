@@ -1,0 +1,8 @@
+prefix=/home/avinaash/doozy_ws/install
+
+Name: rb1_base_pad
+Description: Description of rb1_base_pad
+Version: 1.12.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: robotnik_msgs roscpp sensor_msgs geometry_msgs message_runtime diagnostic_updater joy
