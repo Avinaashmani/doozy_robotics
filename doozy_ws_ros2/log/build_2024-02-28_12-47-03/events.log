@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000144] (fork_lift_aligner) JobQueued: {'identifier': 'fork_lift_aligner', 'dependencies': OrderedDict()}
+[0.000187] (fork_lift_aligner) JobStarted: {'identifier': 'fork_lift_aligner'}
+[0.099201] (-) TimerEvent: {}
+[0.200545] (-) TimerEvent: {}
+[0.301511] (-) TimerEvent: {}
+[0.403806] (-) TimerEvent: {}
+[0.504368] (-) TimerEvent: {}
+[0.604757] (-) TimerEvent: {}
+[0.705260] (-) TimerEvent: {}
+[0.805517] (-) TimerEvent: {}
+[0.906168] (-) TimerEvent: {}
+[1.006426] (-) TimerEvent: {}
+[1.106673] (-) TimerEvent: {}
+[1.206942] (-) TimerEvent: {}
+[1.307842] (-) TimerEvent: {}
+[1.408279] (-) TimerEvent: {}
+[1.508566] (-) TimerEvent: {}
+[1.608850] (-) TimerEvent: {}
+[1.709127] (-) TimerEvent: {}
+[1.732645] (fork_lift_aligner) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/fork_lift_aligner', 'build', '--build-base', '/home/avinaash/doozy_robotics/doozy_ws_ros2/build/fork_lift_aligner/build', 'install', '--record', '/home/avinaash/doozy_robotics/doozy_ws_ros2/build/fork_lift_aligner/install.log', '--install-scripts', '$base/lib/fork_lift_aligner', '--single-version-externally-managed'], 'cwd': '/home/avinaash/doozy_robotics/doozy_ws_ros2/src/fork_lift_aligner', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'avinaash', 'SSH_AGENT_PID': '1419', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/avinaash', 'OLDPWD': '/home/avinaash/doozy_robotics/doozy_ws_ros2/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1214', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '53690', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'avinaash', 'JOURNAL_STREAM': '8:35697', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'avinaash', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/avinaash-IdeaPad-L340-15IRH-Gaming:@/tmp/.ICE-unix/1473,unix/avinaash-IdeaPad-L340-15IRH-Gaming:/tmp/.ICE-unix/1473', 'INVOCATION_ID': 'f25b235e7e2940ee89c5dcfd029e748d', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_IN', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/foxy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:277ed333-7911-4890-9007-6b9deeb71422', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/avinaash/doozy_robotics/doozy_ws_ros2/build/fork_lift_aligner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/avinaash/doozy_robotics/doozy_ws_ros2/build/fork_lift_aligner/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_ros2/install/fork_lift_aligner/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'VTE_VERSION': '6003'}, 'shell': False}
+[1.809315] (-) TimerEvent: {}
+[1.909738] (-) TimerEvent: {}
+[2.007417] (fork_lift_aligner) StdoutLine: {'line': b'running egg_info\n'}
+[2.008263] (fork_lift_aligner) StdoutLine: {'line': b'creating ../../build/fork_lift_aligner/fork_lift_aligner.egg-info\n'}
+[2.008885] (fork_lift_aligner) StdoutLine: {'line': b'writing ../../build/fork_lift_aligner/fork_lift_aligner.egg-info/PKG-INFO\n'}
+[2.009173] (fork_lift_aligner) StdoutLine: {'line': b'writing dependency_links to ../../build/fork_lift_aligner/fork_lift_aligner.egg-info/dependency_links.txt\n'}
+[2.009384] (fork_lift_aligner) StdoutLine: {'line': b'writing entry points to ../../build/fork_lift_aligner/fork_lift_aligner.egg-info/entry_points.txt\n'}
+[2.009596] (fork_lift_aligner) StdoutLine: {'line': b'writing requirements to ../../build/fork_lift_aligner/fork_lift_aligner.egg-info/requires.txt\n'}
+[2.009692] (fork_lift_aligner) StdoutLine: {'line': b'writing top-level names to ../../build/fork_lift_aligner/fork_lift_aligner.egg-info/top_level.txt\n'}
+[2.009776] (-) TimerEvent: {}
+[2.011135] (fork_lift_aligner) StdoutLine: {'line': b"writing manifest file '../../build/fork_lift_aligner/fork_lift_aligner.egg-info/SOURCES.txt'\n"}
+[2.051783] (fork_lift_aligner) StdoutLine: {'line': b"reading manifest file '../../build/fork_lift_aligner/fork_lift_aligner.egg-info/SOURCES.txt'\n"}
+[2.052706] (fork_lift_aligner) StdoutLine: {'line': b"writing manifest file '../../build/fork_lift_aligner/fork_lift_aligner.egg-info/SOURCES.txt'\n"}
+[2.052886] (fork_lift_aligner) StdoutLine: {'line': b'running build\n'}
+[2.053122] (fork_lift_aligner) StdoutLine: {'line': b'running build_py\n'}
+[2.053371] (fork_lift_aligner) StdoutLine: {'line': b'creating /home/avinaash/doozy_robotics/doozy_ws_ros2/build/fork_lift_aligner/build\n'}
+[2.053477] (fork_lift_aligner) StdoutLine: {'line': b'creating /home/avinaash/doozy_robotics/doozy_ws_ros2/build/fork_lift_aligner/build/lib\n'}
+[2.053564] (fork_lift_aligner) StdoutLine: {'line': b'creating /home/avinaash/doozy_robotics/doozy_ws_ros2/build/fork_lift_aligner/build/lib/fork_lift_aligner\n'}
+[2.053647] (fork_lift_aligner) StdoutLine: {'line': b'copying fork_lift_aligner/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_ros2/build/fork_lift_aligner/build/lib/fork_lift_aligner\n'}
+[2.053729] (fork_lift_aligner) StdoutLine: {'line': b'running install\n'}
+[2.054202] (fork_lift_aligner) StdoutLine: {'line': b'running install_lib\n'}
+[2.055291] (fork_lift_aligner) StdoutLine: {'line': b'creating /home/avinaash/doozy_robotics/doozy_ws_ros2/install/fork_lift_aligner/lib/python3.8/site-packages/fork_lift_aligner\n'}
+[2.055572] (fork_lift_aligner) StdoutLine: {'line': b'copying /home/avinaash/doozy_robotics/doozy_ws_ros2/build/fork_lift_aligner/build/lib/fork_lift_aligner/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_ros2/install/fork_lift_aligner/lib/python3.8/site-packages/fork_lift_aligner\n'}
+[2.055954] (fork_lift_aligner) StdoutLine: {'line': b'byte-compiling /home/avinaash/doozy_robotics/doozy_ws_ros2/install/fork_lift_aligner/lib/python3.8/site-packages/fork_lift_aligner/__init__.py to __init__.cpython-38.pyc\n'}
+[2.057264] (fork_lift_aligner) StdoutLine: {'line': b'running install_data\n'}
+[2.057787] (fork_lift_aligner) StdoutLine: {'line': b'creating /home/avinaash/doozy_robotics/doozy_ws_ros2/install/fork_lift_aligner/share/ament_index\n'}
+[2.057921] (fork_lift_aligner) StdoutLine: {'line': b'creating /home/avinaash/doozy_robotics/doozy_ws_ros2/install/fork_lift_aligner/share/ament_index/resource_index\n'}
+[2.058142] (fork_lift_aligner) StdoutLine: {'line': b'creating /home/avinaash/doozy_robotics/doozy_ws_ros2/install/fork_lift_aligner/share/ament_index/resource_index/packages\n'}
+[2.058352] (fork_lift_aligner) StdoutLine: {'line': b'copying resource/fork_lift_aligner -> /home/avinaash/doozy_robotics/doozy_ws_ros2/install/fork_lift_aligner/share/ament_index/resource_index/packages\n'}
+[2.058452] (fork_lift_aligner) StdoutLine: {'line': b'copying package.xml -> /home/avinaash/doozy_robotics/doozy_ws_ros2/install/fork_lift_aligner/share/fork_lift_aligner\n'}
+[2.058540] (fork_lift_aligner) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.059949] (fork_lift_aligner) StdoutLine: {'line': b'Copying ../../build/fork_lift_aligner/fork_lift_aligner.egg-info to /home/avinaash/doozy_robotics/doozy_ws_ros2/install/fork_lift_aligner/lib/python3.8/site-packages/fork_lift_aligner-0.0.0-py3.8.egg-info\n'}
+[2.061095] (fork_lift_aligner) StdoutLine: {'line': b'running install_scripts\n'}
+[2.081574] (fork_lift_aligner) StdoutLine: {'line': b"writing list of installed files to '/home/avinaash/doozy_robotics/doozy_ws_ros2/build/fork_lift_aligner/install.log'\n"}
+[2.102259] (fork_lift_aligner) CommandEnded: {'returncode': 0}
+[2.110024] (-) TimerEvent: {}
+[2.210336] (-) TimerEvent: {}
+[2.311772] (-) TimerEvent: {}
+[2.412315] (-) TimerEvent: {}
+[2.512609] (-) TimerEvent: {}
+[2.521556] (fork_lift_aligner) JobEnded: {'identifier': 'fork_lift_aligner', 'rc': 0}
+[2.522251] (-) EventReactorShutdown: {}
