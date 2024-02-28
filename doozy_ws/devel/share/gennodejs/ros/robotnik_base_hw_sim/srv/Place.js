@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/share/gennodejs/ros/robotnik_base_hw_sim/srv/Place.js
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/share/gennodejs/ros/robotnik_base_hw_sim/srv/Place.js

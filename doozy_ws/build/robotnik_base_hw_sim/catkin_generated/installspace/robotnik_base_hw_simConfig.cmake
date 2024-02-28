@@ -67,14 +67,14 @@ set(robotnik_base_hw_sim_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robotnik_base_hw_sim_SOURCE_PREFIX /home/avinaash/doozy_ws/src/robotnik_base_hw_sim)
-  set(robotnik_base_hw_sim_DEVEL_PREFIX /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim)
+  set(robotnik_base_hw_sim_SOURCE_PREFIX /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim)
+  set(robotnik_base_hw_sim_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim)
   set(robotnik_base_hw_sim_INSTALL_PREFIX "")
   set(robotnik_base_hw_sim_PREFIX ${robotnik_base_hw_sim_DEVEL_PREFIX})
 else()
   set(robotnik_base_hw_sim_SOURCE_PREFIX "")
   set(robotnik_base_hw_sim_DEVEL_PREFIX "")
-  set(robotnik_base_hw_sim_INSTALL_PREFIX /home/avinaash/doozy_ws/install)
+  set(robotnik_base_hw_sim_INSTALL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/install)
   set(robotnik_base_hw_sim_PREFIX ${robotnik_base_hw_sim_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/avinaash/doozy_ws/install/lib;/home/avinaash/doozy_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/avinaash/doozy_robotics/doozy_ws/install/lib;/home/avinaash/doozy_robotics/doozy_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

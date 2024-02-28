@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/share/roseus/ros/robotnik_msgs/msg/AlarmSensor.l
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/share/roseus/ros/robotnik_msgs/msg/AlarmSensor.l

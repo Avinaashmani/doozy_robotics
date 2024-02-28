@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/avinaash/doozy_ws/devel/.private/hector_gazebo_thermal_camera:$CMAKE_PREFIX_PATH"
-export PWD='/home/avinaash/doozy_ws/build/hector_gazebo_thermal_camera'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/avinaash/doozy_ws/devel/.private/hector_gazebo_thermal_camera/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/avinaash/doozy_ws/src/hector_gazebo/hector_gazebo_thermal_camera:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_thermal_camera:$CMAKE_PREFIX_PATH"
+export PWD='/home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_thermal_camera'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_thermal_camera/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/avinaash/doozy_robotics/doozy_ws/src/hector_gazebo/hector_gazebo_thermal_camera:$ROS_PACKAGE_PATH"

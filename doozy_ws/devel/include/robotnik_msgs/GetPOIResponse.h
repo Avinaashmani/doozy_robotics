@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/include/robotnik_msgs/GetPOIResponse.h
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/include/robotnik_msgs/GetPOIResponse.h

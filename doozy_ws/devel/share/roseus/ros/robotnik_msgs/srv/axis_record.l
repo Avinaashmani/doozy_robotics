@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/share/roseus/ros/robotnik_msgs/srv/axis_record.l
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/share/roseus/ros/robotnik_msgs/srv/axis_record.l

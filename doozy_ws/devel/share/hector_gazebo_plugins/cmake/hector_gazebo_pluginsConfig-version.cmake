@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_pluginsConfig-version.cmake
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/share/hector_gazebo_plugins/cmake/hector_gazebo_pluginsConfig-version.cmake

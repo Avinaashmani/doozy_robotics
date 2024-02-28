@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/share/common-lisp/ros/robotnik_msgs/msg/robotnik_msgs-msg.asd
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/share/common-lisp/ros/robotnik_msgs/msg/robotnik_msgs-msg.asd

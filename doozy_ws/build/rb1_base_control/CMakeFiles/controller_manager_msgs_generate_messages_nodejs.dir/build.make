@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_control
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/rb1_base_control
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_control
 
 # Utility rule file for controller_manager_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/avinaash/doozy_ws/build/rb1_base_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_control /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_control /home/avinaash/doozy_ws/build/rb1_base_control /home/avinaash/doozy_ws/build/rb1_base_control /home/avinaash/doozy_ws/build/rb1_base_control/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_control /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_control /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_control /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_control /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_control/CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/controller_manager_msgs_generate_messages_nodejs.dir/depend
 

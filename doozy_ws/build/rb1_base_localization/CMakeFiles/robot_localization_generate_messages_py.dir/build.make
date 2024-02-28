@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_localization
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_localization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/rb1_base_localization
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_localization
 
 # Utility rule file for robot_localization_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/robot_localization_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/robot_localization_generate_messages_py.dir/clean
 
 CMakeFiles/robot_localization_generate_messages_py.dir/depend:
-	cd /home/avinaash/doozy_ws/build/rb1_base_localization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_localization /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_localization /home/avinaash/doozy_ws/build/rb1_base_localization /home/avinaash/doozy_ws/build/rb1_base_localization /home/avinaash/doozy_ws/build/rb1_base_localization/CMakeFiles/robot_localization_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_localization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_localization /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_localization /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_localization /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_localization /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_localization/CMakeFiles/robot_localization_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_localization_generate_messages_py.dir/depend
 

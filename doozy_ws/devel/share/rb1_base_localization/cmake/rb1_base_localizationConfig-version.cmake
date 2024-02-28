@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/rb1_base_localization/share/rb1_base_localization/cmake/rb1_base_localizationConfig-version.cmake
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_localization/share/rb1_base_localization/cmake/rb1_base_localizationConfig-version.cmake

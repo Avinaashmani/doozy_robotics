@@ -1,4 +1,6 @@
-// This script takes in the value of 5 ultrasonic sensors and Aligns the forks towards the palette //
+// This script takes in the value of 5 ultrasonic sensors and sends
+// to a python script to help 
+// Align the forks towards the palette //
 
 #include <ros.h>
 #include <ros/time.h>
@@ -21,7 +23,7 @@ ros::Publisher range_1 ("/range_sensor/one", &sonar_1);
 ros::Publisher range_2 ("/range_sensor/two", &sonar_2);
 ros::Publisher range_3 ("/range_sensor/three",&sonar_3);
 ros::Publisher range_4 ("/range_sensor/four",&sonar_4);
-ros::Publisher range_5 ("/range_sonar/five",&sonar_5);
+ros::Publisher range_5 ("/range_sensor/five",&sonar_5);
 
 ros::NodeHandle node;
 
@@ -90,30 +92,30 @@ void loop()
 
 void read_sensor_1()
 {
-  sensor_reading_1 = analogRead(sensor_1) * tuning_parameter;
+  sensor_reading_1 = (analogRead(sensor_1) * tuning_parameter)/10;
   return sensor_reading_1;
 }
 
 void read_sensor_2()
 {
-  sensor_reading_2 = analogRead(sensor_2) * tuning_parameter;
+  sensor_reading_2 = (analogRead(sensor_2) * tuning_parameter)/10;
   return sensor_reading_2;
 }
 
 void read_sensor_3()
 {
-  sensor_reading_3 = analogRead(sensor_3) * tuning_parameter;
+  sensor_reading_3 = (analogRead(sensor_3) * tuning_parameter)/10;
   return sensor_reading_3;
 }
 
 void read_sensor_4()
 {
-  sensor_reading_4 = analogRead(sensor_4) * tuning_parameter;
+  sensor_reading_4 = (analogRead(sensor_4) * tuning_parameter)/10;
   return sensor_reading_4;
 }
 
 void read_sensor_5()
 {
-  sensor_reading_5 = analogRead(sensor_5) * tuning_parameter;
+  sensor_reading_5 = (analogRead(sensor_5) * tuning_parameter)/10;
   return sensor_reading_5;
 }

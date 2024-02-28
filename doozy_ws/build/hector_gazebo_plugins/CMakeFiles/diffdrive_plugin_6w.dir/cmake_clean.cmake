@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_6w.pdb"
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_6w.so"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_6w.pdb"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_6w.so"
   "CMakeFiles/diffdrive_plugin_6w.dir/src/diffdrive_plugin_6w.cpp.o"
 )
 

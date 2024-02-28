@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/share/roseus/ros/hector_gazebo_plugins/manifest.l"
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/share/roseus/ros/hector_gazebo_plugins/manifest.l"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/share/roseus/ros/hector_gazebo_plugins/srv/SetBias.l"
   "CMakeFiles/hector_gazebo_plugins_generate_messages_eus"
 )
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad
+# Install script for directory: /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/avinaash/doozy_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/avinaash/doozy_robotics/doozy_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,134 +49,134 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/avinaash/doozy_ws/install/_setup_util.py")
+   "/home/avinaash/doozy_robotics/doozy_ws/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/avinaash/doozy_ws/install" TYPE PROGRAM FILES "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/avinaash/doozy_robotics/doozy_ws/install" TYPE PROGRAM FILES "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/avinaash/doozy_ws/install/env.sh")
+   "/home/avinaash/doozy_robotics/doozy_ws/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/avinaash/doozy_ws/install" TYPE PROGRAM FILES "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/avinaash/doozy_robotics/doozy_ws/install" TYPE PROGRAM FILES "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/avinaash/doozy_ws/install/setup.bash;/home/avinaash/doozy_ws/install/local_setup.bash")
+   "/home/avinaash/doozy_robotics/doozy_ws/install/setup.bash;/home/avinaash/doozy_robotics/doozy_ws/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/avinaash/doozy_ws/install" TYPE FILE FILES
-    "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/setup.bash"
-    "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/home/avinaash/doozy_robotics/doozy_ws/install" TYPE FILE FILES
+    "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/setup.bash"
+    "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/avinaash/doozy_ws/install/setup.sh;/home/avinaash/doozy_ws/install/local_setup.sh")
+   "/home/avinaash/doozy_robotics/doozy_ws/install/setup.sh;/home/avinaash/doozy_robotics/doozy_ws/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/avinaash/doozy_ws/install" TYPE FILE FILES
-    "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/setup.sh"
-    "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/home/avinaash/doozy_robotics/doozy_ws/install" TYPE FILE FILES
+    "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/setup.sh"
+    "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/avinaash/doozy_ws/install/setup.zsh;/home/avinaash/doozy_ws/install/local_setup.zsh")
+   "/home/avinaash/doozy_robotics/doozy_ws/install/setup.zsh;/home/avinaash/doozy_robotics/doozy_ws/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/avinaash/doozy_ws/install" TYPE FILE FILES
-    "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/setup.zsh"
-    "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/home/avinaash/doozy_robotics/doozy_ws/install" TYPE FILE FILES
+    "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/setup.zsh"
+    "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/avinaash/doozy_ws/install/.rosinstall")
+   "/home/avinaash/doozy_robotics/doozy_ws/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/avinaash/doozy_ws/install" TYPE FILE FILES "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/avinaash/doozy_robotics/doozy_ws/install" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/.rosinstall")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rb1_base_pad/srv" TYPE FILE FILES "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rb1_base_pad/srv" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rb1_base_pad/cmake" TYPE FILE FILES "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/rb1_base_pad-msg-paths.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rb1_base_pad/cmake" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/rb1_base_pad-msg-paths.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/include/rb1_base_pad")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/include/rb1_base_pad")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/share/roseus/ros/rb1_base_pad")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/roseus/ros" TYPE DIRECTORY FILES "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/share/roseus/ros/rb1_base_pad")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/share/common-lisp/ros/rb1_base_pad")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/common-lisp/ros" TYPE DIRECTORY FILES "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/share/common-lisp/ros/rb1_base_pad")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/share/gennodejs/ros/rb1_base_pad")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/gennodejs/ros" TYPE DIRECTORY FILES "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/share/gennodejs/ros/rb1_base_pad")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/lib/python3/dist-packages/rb1_base_pad")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/lib/python3/dist-packages/rb1_base_pad")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/lib/python3/dist-packages/rb1_base_pad")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages" TYPE DIRECTORY FILES "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/lib/python3/dist-packages/rb1_base_pad")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/rb1_base_pad.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/rb1_base_pad.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rb1_base_pad/cmake" TYPE FILE FILES "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/rb1_base_pad-msg-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rb1_base_pad/cmake" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/rb1_base_pad-msg-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rb1_base_pad/cmake" TYPE FILE FILES
-    "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/rb1_base_padConfig.cmake"
-    "/home/avinaash/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/rb1_base_padConfig-version.cmake"
+    "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/rb1_base_padConfig.cmake"
+    "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/catkin_generated/installspace/rb1_base_padConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rb1_base_pad" TYPE FILE FILES "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rb1_base_pad" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -186,7 +186,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rb1_base_pad/rb1_base_pad"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rb1_base_pad" TYPE EXECUTABLE FILES "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/lib/rb1_base_pad/rb1_base_pad")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/rb1_base_pad" TYPE EXECUTABLE FILES "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/lib/rb1_base_pad/rb1_base_pad")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rb1_base_pad/rb1_base_pad" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/rb1_base_pad/rb1_base_pad")
     file(RPATH_CHANGE
@@ -201,14 +201,14 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rb1_base_pad" TYPE DIRECTORY FILES
-    "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/launch"
-    "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/config"
+    "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/launch"
+    "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/config"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/avinaash/doozy_ws/build/rb1_base_pad/gtest/cmake_install.cmake")
+  include("/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/gtest/cmake_install.cmake")
 
 endif()
 
@@ -220,5 +220,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/avinaash/doozy_ws/build/rb1_base_pad/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

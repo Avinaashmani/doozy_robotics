@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/rb1_base_control/share/rb1_base_control/cmake/rb1_base_controlConfig-version.cmake
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_control/share/rb1_base_control/cmake/rb1_base_controlConfig-version.cmake

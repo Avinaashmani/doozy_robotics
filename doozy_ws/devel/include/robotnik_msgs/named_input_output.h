@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/include/robotnik_msgs/named_input_output.h
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/include/robotnik_msgs/named_input_output.h

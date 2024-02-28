@@ -67,14 +67,14 @@ set(rb1_base_pad_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(rb1_base_pad_SOURCE_PREFIX /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad)
-  set(rb1_base_pad_DEVEL_PREFIX /home/avinaash/doozy_ws/devel/.private/rb1_base_pad)
+  set(rb1_base_pad_SOURCE_PREFIX /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad)
+  set(rb1_base_pad_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad)
   set(rb1_base_pad_INSTALL_PREFIX "")
   set(rb1_base_pad_PREFIX ${rb1_base_pad_DEVEL_PREFIX})
 else()
   set(rb1_base_pad_SOURCE_PREFIX "")
   set(rb1_base_pad_DEVEL_PREFIX "")
-  set(rb1_base_pad_INSTALL_PREFIX /home/avinaash/doozy_ws/install)
+  set(rb1_base_pad_INSTALL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/install)
   set(rb1_base_pad_PREFIX ${rb1_base_pad_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(rb1_base_pad_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/include " STREQUAL " ")
+if(NOT "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/include " STREQUAL " ")
   set(rb1_base_pad_INCLUDE_DIRS "")
-  set(_include_dirs "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/include")
+  set(_include_dirs "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/include")
   if(NOT "https://github.com/RobotnikAutomation/rb1_base_common/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/RobotnikAutomation/rb1_base_common/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://wiki.ros.org/rb1_base_pad " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/include " STREQUAL "
         message(FATAL_ERROR "Project 'rb1_base_pad' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'rb1_base_pad' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'rb1_base_pad' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/${idir}'.  ${_report}")
     endif()
     _list_append_unique(rb1_base_pad_INCLUDE_DIRS ${include})
   endforeach()
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/avinaash/doozy_ws/devel/.private/rb1_base_pad/lib;/home/avinaash/doozy_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/lib;/home/avinaash/doozy_robotics/doozy_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/rb1_base_navigation/share/rb1_base_navigation/cmake/rb1_base_navigationConfig-version.cmake
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_navigation/share/rb1_base_navigation/cmake/rb1_base_navigationConfig-version.cmake

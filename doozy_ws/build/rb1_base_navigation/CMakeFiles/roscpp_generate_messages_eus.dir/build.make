@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_navigation
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/rb1_base_navigation
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_navigation
 
 # Utility rule file for roscpp_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_eus.dir/clean
 
 CMakeFiles/roscpp_generate_messages_eus.dir/depend:
-	cd /home/avinaash/doozy_ws/build/rb1_base_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_navigation /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_navigation /home/avinaash/doozy_ws/build/rb1_base_navigation /home/avinaash/doozy_ws/build/rb1_base_navigation /home/avinaash/doozy_ws/build/rb1_base_navigation/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_navigation && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_navigation /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_navigation /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_navigation /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_navigation /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_navigation/CMakeFiles/roscpp_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_eus.dir/depend
 

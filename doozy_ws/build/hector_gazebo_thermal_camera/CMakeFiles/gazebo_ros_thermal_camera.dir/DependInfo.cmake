@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/avinaash/doozy_ws/src/hector_gazebo/hector_gazebo_thermal_camera/src/gazebo_ros_thermal_camera_plugin.cpp" "/home/avinaash/doozy_ws/build/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/src/gazebo_ros_thermal_camera_plugin.cpp.o"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/hector_gazebo/hector_gazebo_thermal_camera/src/gazebo_ros_thermal_camera_plugin.cpp" "/home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_thermal_camera/CMakeFiles/gazebo_ros_thermal_camera.dir/src/gazebo_ros_thermal_camera_plugin.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -30,7 +30,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/avinaash/doozy_ws/src/hector_gazebo/hector_gazebo_thermal_camera/include"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/hector_gazebo/hector_gazebo_thermal_camera/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/gazebo-11"
   "/usr/include/bullet"

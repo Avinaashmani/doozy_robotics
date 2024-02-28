@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_multi_wheel.pdb"
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_multi_wheel.so"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_multi_wheel.pdb"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libdiffdrive_plugin_multi_wheel.so"
   "CMakeFiles/diffdrive_plugin_multi_wheel.dir/src/diffdrive_plugin_multi_wheel.cpp.o"
 )
 

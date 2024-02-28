@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/lib/librobotnik_elevator_controller.pdb"
-  "/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/lib/librobotnik_elevator_controller.so"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/lib/librobotnik_elevator_controller.pdb"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/lib/librobotnik_elevator_controller.so"
   "CMakeFiles/robotnik_elevator_controller.dir/src/robotnik_elevator_controller.cpp.o"
 )
 

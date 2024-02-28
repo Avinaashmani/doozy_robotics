@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 # generated from dynamic_reconfigure/cmake/setup_custom_pythonpath.sh.in
 
-PYTHONPATH=/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/python3/dist-packages:$PYTHONPATH
+PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/python3/dist-packages:$PYTHONPATH
 exec /usr/bin/python3 "$@"

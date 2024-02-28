@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/hector_gazebo/hector_gazebo_plugins
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/hector_gazebo/hector_gazebo_plugins
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/hector_gazebo_plugins
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_plugins
 
 # Utility rule file for hector_gazebo_plugins_geneus.
 
@@ -67,6 +67,6 @@ CMakeFiles/hector_gazebo_plugins_geneus.dir/clean:
 .PHONY : CMakeFiles/hector_gazebo_plugins_geneus.dir/clean
 
 CMakeFiles/hector_gazebo_plugins_geneus.dir/depend:
-	cd /home/avinaash/doozy_ws/build/hector_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_ws/src/hector_gazebo/hector_gazebo_plugins /home/avinaash/doozy_ws/src/hector_gazebo/hector_gazebo_plugins /home/avinaash/doozy_ws/build/hector_gazebo_plugins /home/avinaash/doozy_ws/build/hector_gazebo_plugins /home/avinaash/doozy_ws/build/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_plugins && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws/src/hector_gazebo/hector_gazebo_plugins /home/avinaash/doozy_robotics/doozy_ws/src/hector_gazebo/hector_gazebo_plugins /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_plugins /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_plugins /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_plugins/CMakeFiles/hector_gazebo_plugins_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hector_gazebo_plugins_geneus.dir/depend
 

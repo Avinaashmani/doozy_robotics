@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/include/hector_gazebo_plugins/SetBias.h"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/include/hector_gazebo_plugins/SetBias.h"
   "CMakeFiles/hector_gazebo_plugins_generate_messages_cpp"
 )
 

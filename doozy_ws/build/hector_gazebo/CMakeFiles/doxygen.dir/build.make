@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/hector_gazebo/hector_gazebo
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/hector_gazebo/hector_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/hector_gazebo
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/avinaash/doozy_ws/build/hector_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_ws/src/hector_gazebo/hector_gazebo /home/avinaash/doozy_ws/src/hector_gazebo/hector_gazebo /home/avinaash/doozy_ws/build/hector_gazebo /home/avinaash/doozy_ws/build/hector_gazebo /home/avinaash/doozy_ws/build/hector_gazebo/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws/src/hector_gazebo/hector_gazebo /home/avinaash/doozy_robotics/doozy_ws/src/hector_gazebo/hector_gazebo /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

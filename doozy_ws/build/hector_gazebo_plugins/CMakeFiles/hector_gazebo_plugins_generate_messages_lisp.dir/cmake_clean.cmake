@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/share/common-lisp/ros/hector_gazebo_plugins/srv/SetBias.lisp"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/share/common-lisp/ros/hector_gazebo_plugins/srv/SetBias.lisp"
   "CMakeFiles/hector_gazebo_plugins_generate_messages_lisp"
 )
 

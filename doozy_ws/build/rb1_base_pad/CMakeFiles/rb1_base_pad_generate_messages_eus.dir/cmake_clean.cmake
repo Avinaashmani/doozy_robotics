@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/share/roseus/ros/rb1_base_pad/manifest.l"
-  "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/share/roseus/ros/rb1_base_pad/srv/enable_disable_pad.l"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/share/roseus/ros/rb1_base_pad/manifest.l"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/share/roseus/ros/rb1_base_pad/srv/enable_disable_pad.l"
   "CMakeFiles/rb1_base_pad_generate_messages_eus"
 )
 

@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/share/gennodejs/ros/hector_gazebo_plugins/srv/_index.js
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/share/gennodejs/ros/hector_gazebo_plugins/srv/_index.js

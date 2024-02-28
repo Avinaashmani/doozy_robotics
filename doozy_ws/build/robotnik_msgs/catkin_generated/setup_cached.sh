@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/avinaash/doozy_ws/devel/.private/robotnik_msgs:$CMAKE_PREFIX_PATH"
-export PWD='/home/avinaash/doozy_ws/build/robotnik_msgs'
-export ROSLISP_PACKAGE_DIRECTORIES="/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/avinaash/doozy_ws/src/robotnik_msgs:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs:$CMAKE_PREFIX_PATH"
+export PWD='/home/avinaash/doozy_robotics/doozy_ws/build/robotnik_msgs'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_msgs:$ROS_PACKAGE_PATH"

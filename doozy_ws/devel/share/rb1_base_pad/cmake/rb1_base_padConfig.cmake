@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/share/rb1_base_pad/cmake/rb1_base_padConfig.cmake
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/share/rb1_base_pad/cmake/rb1_base_padConfig.cmake

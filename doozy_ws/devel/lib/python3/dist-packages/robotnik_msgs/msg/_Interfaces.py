@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/lib/python3/dist-packages/robotnik_msgs/msg/_Interfaces.py
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/lib/python3/dist-packages/robotnik_msgs/msg/_Interfaces.py

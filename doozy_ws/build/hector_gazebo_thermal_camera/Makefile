@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/hector_gazebo/hector_gazebo_thermal_camera
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/hector_gazebo/hector_gazebo_thermal_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/hector_gazebo_thermal_camera
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_thermal_camera
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avinaash/doozy_ws/build/hector_gazebo_thermal_camera/CMakeFiles /home/avinaash/doozy_ws/build/hector_gazebo_thermal_camera/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_thermal_camera/CMakeFiles /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_thermal_camera/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/avinaash/doozy_ws/build/hector_gazebo_thermal_camera/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/avinaash/doozy_robotics/doozy_ws/build/hector_gazebo_thermal_camera/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libhector_gazebo_ros_magnetic.pdb"
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libhector_gazebo_ros_magnetic.so"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libhector_gazebo_ros_magnetic.pdb"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libhector_gazebo_ros_magnetic.so"
   "CMakeFiles/hector_gazebo_ros_magnetic.dir/src/gazebo_ros_magnetic.cpp.o"
 )
 

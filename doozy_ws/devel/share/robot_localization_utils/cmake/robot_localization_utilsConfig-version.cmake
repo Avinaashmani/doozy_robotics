@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robot_localization_utils/share/robot_localization_utils/cmake/robot_localization_utilsConfig-version.cmake
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robot_localization_utils/share/robot_localization_utils/cmake/robot_localization_utilsConfig-version.cmake

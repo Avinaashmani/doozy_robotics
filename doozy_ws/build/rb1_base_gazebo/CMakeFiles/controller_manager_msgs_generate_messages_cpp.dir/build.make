@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/rb1_base_sim/rb1_base_gazebo
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_sim/rb1_base_gazebo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/rb1_base_gazebo
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_gazebo
 
 # Utility rule file for controller_manager_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/depend:
-	cd /home/avinaash/doozy_ws/build/rb1_base_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_ws/src/rb1_base_sim/rb1_base_gazebo /home/avinaash/doozy_ws/src/rb1_base_sim/rb1_base_gazebo /home/avinaash/doozy_ws/build/rb1_base_gazebo /home/avinaash/doozy_ws/build/rb1_base_gazebo /home/avinaash/doozy_ws/build/rb1_base_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_gazebo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_sim/rb1_base_gazebo /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_sim/rb1_base_gazebo /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_gazebo /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_gazebo /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_gazebo/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/depend
 

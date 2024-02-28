@@ -2,7 +2,7 @@
 
 message(STATUS "robotnik_base_hw_sim: 2 messages, 4 services")
 
-set(MSG_I_FLAGS "-Irobotnik_base_hw_sim:/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Irobotnik_base_hw_sim:/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,34 +17,34 @@ add_custom_target(robotnik_base_hw_sim_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
 add_custom_target(_robotnik_base_hw_sim_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" ""
 )
 
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
 add_custom_target(_robotnik_base_hw_sim_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" "robotnik_base_hw_sim/PickState"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" "robotnik_base_hw_sim/PickState"
 )
 
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
 add_custom_target(_robotnik_base_hw_sim_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" "geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" "geometry_msgs/Point:geometry_msgs/Pose:geometry_msgs/Quaternion"
 )
 
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
 add_custom_target(_robotnik_base_hw_sim_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" ""
 )
 
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
 add_custom_target(_robotnik_base_hw_sim_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" ""
 )
 
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
 add_custom_target(_robotnik_base_hw_sim_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "robotnik_base_hw_sim" "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" ""
 )
 
 #
@@ -54,39 +54,39 @@ add_custom_target(_robotnik_base_hw_sim_generate_messages_check_deps_${_filename
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_msg_cpp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg"
   "${MSG_I_FLAGS}"
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robotnik_base_hw_sim
 )
 
 ### Generating Services
 _generate_srv_cpp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_cpp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_cpp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_cpp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/robotnik_base_hw_sim
@@ -104,17 +104,17 @@ add_custom_target(robotnik_base_hw_sim_generate_messages_cpp
 add_dependencies(robotnik_base_hw_sim_generate_messages robotnik_base_hw_sim_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_cpp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_cpp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_cpp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_cpp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_cpp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_cpp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -127,39 +127,39 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS robotnik_base_hw_sim_generate_messa
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_msg_eus(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg"
   "${MSG_I_FLAGS}"
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/robotnik_base_hw_sim
 )
 
 ### Generating Services
 _generate_srv_eus(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_eus(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_eus(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_eus(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/robotnik_base_hw_sim
@@ -177,17 +177,17 @@ add_custom_target(robotnik_base_hw_sim_generate_messages_eus
 add_dependencies(robotnik_base_hw_sim_generate_messages robotnik_base_hw_sim_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_eus _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_eus _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_eus _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_eus _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_eus _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_eus _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -200,39 +200,39 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS robotnik_base_hw_sim_generate_messa
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_msg_lisp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg"
   "${MSG_I_FLAGS}"
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robotnik_base_hw_sim
 )
 
 ### Generating Services
 _generate_srv_lisp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_lisp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_lisp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_lisp(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/robotnik_base_hw_sim
@@ -250,17 +250,17 @@ add_custom_target(robotnik_base_hw_sim_generate_messages_lisp
 add_dependencies(robotnik_base_hw_sim_generate_messages robotnik_base_hw_sim_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_lisp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_lisp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_lisp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_lisp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_lisp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_lisp _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -273,39 +273,39 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS robotnik_base_hw_sim_generate_messa
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_msg_nodejs(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg"
   "${MSG_I_FLAGS}"
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/robotnik_base_hw_sim
 )
 
 ### Generating Services
 _generate_srv_nodejs(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_nodejs(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_nodejs(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_nodejs(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/robotnik_base_hw_sim
@@ -323,17 +323,17 @@ add_custom_target(robotnik_base_hw_sim_generate_messages_nodejs
 add_dependencies(robotnik_base_hw_sim_generate_messages robotnik_base_hw_sim_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_nodejs _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_nodejs _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_nodejs _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_nodejs _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_nodejs _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_nodejs _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -346,39 +346,39 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS robotnik_base_hw_sim_generate_messa
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_msg_py(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg"
   "${MSG_I_FLAGS}"
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robotnik_base_hw_sim
 )
 
 ### Generating Services
 _generate_srv_py(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv"
   "${MSG_I_FLAGS}"
   "/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Point.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Pose.msg;/opt/ros/noetic/share/geometry_msgs/cmake/../msg/Quaternion.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_py(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_py(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robotnik_base_hw_sim
 )
 _generate_srv_py(robotnik_base_hw_sim
-  "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/robotnik_base_hw_sim
@@ -396,17 +396,17 @@ add_custom_target(robotnik_base_hw_sim_generate_messages_py
 add_dependencies(robotnik_base_hw_sim_generate_messages robotnik_base_hw_sim_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_py _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_py _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_py _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_py _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_py _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv" NAME_WE)
 add_dependencies(robotnik_base_hw_sim_generate_messages_py _robotnik_base_hw_sim_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

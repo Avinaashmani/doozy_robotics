@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/share/gennodejs/ros/rb1_base_pad/srv/enable_disable_pad.js"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/share/gennodejs/ros/rb1_base_pad/srv/enable_disable_pad.js"
   "CMakeFiles/rb1_base_pad_generate_messages_nodejs"
 )
 

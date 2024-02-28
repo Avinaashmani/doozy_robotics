@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/share/robotnik_msgs/cmake/robotnik_msgs-msg-paths.cmake
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/share/robotnik_msgs/cmake/robotnik_msgs-msg-paths.cmake

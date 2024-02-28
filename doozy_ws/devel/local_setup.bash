@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/catkin_tools_prebuild/local_setup.bash
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/catkin_tools_prebuild/local_setup.bash

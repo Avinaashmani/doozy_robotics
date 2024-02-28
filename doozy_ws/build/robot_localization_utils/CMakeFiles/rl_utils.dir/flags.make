@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"robot_localization_utils\"
 
-CXX_INCLUDES = -I/home/avinaash/doozy_ws/src/robot_localization_utils/include -I/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/avinaash/doozy_robotics/doozy_ws/src/robot_localization_utils/include -I/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

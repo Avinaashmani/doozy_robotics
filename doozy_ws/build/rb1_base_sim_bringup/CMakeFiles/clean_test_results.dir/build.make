@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/rb1_base_sim/rb1_base_sim_bringup
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_sim/rb1_base_sim_bringup
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/rb1_base_sim_bringup
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_sim_bringup
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/rb1_base_sim_bringup
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/avinaash/doozy_ws/build/rb1_base_sim_bringup/test_results
+	/usr/bin/python3 /opt/ros/noetic/share/catkin/cmake/test/remove_test_results.py /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_sim_bringup/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/avinaash/doozy_ws/build/rb1_base_sim_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_ws/src/rb1_base_sim/rb1_base_sim_bringup /home/avinaash/doozy_ws/src/rb1_base_sim/rb1_base_sim_bringup /home/avinaash/doozy_ws/build/rb1_base_sim_bringup /home/avinaash/doozy_ws/build/rb1_base_sim_bringup /home/avinaash/doozy_ws/build/rb1_base_sim_bringup/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_sim_bringup && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_sim/rb1_base_sim_bringup /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_sim/rb1_base_sim_bringup /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_sim_bringup /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_sim_bringup /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_sim_bringup/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

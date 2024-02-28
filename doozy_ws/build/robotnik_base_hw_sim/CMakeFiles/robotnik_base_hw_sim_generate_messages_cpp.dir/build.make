@@ -43,75 +43,75 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/robotnik_base_hw_sim
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/robotnik_base_hw_sim
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim
 
 # Utility rule file for robotnik_base_hw_sim_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp.dir/progress.make
 
-CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickState.h
-CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h
-CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h
-CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h
-CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h
-CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h
+CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickState.h
+CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h
+CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h
+CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h
+CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h
+CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h
 
 
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickState.h: /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickState.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from robotnik_base_hw_sim/PickState.msg"
-	cd /home/avinaash/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg -Irobotnik_base_hw_sim:/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickState.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickState.h: /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickState.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from robotnik_base_hw_sim/PickState.msg"
+	cd /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg -Irobotnik_base_hw_sim:/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h: /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h: /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h: /opt/ros/noetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from robotnik_base_hw_sim/PickStates.msg"
-	cd /home/avinaash/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg -Irobotnik_base_hw_sim:/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h: /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h: /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickState.msg
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h: /opt/ros/noetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from robotnik_base_hw_sim/PickStates.msg"
+	cd /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg/PickStates.msg -Irobotnik_base_hw_sim:/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from robotnik_base_hw_sim/Pick.srv"
-	cd /home/avinaash/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv -Irobotnik_base_hw_sim:/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/share/geometry_msgs/msg/Point.msg
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/share/geometry_msgs/msg/Pose.msg
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/share/geometry_msgs/msg/Quaternion.msg
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from robotnik_base_hw_sim/Pick.srv"
+	cd /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Pick.srv -Irobotnik_base_hw_sim:/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h: /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from robotnik_base_hw_sim/Place.srv"
-	cd /home/avinaash/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv -Irobotnik_base_hw_sim:/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h: /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from robotnik_base_hw_sim/Place.srv"
+	cd /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/Place.srv -Irobotnik_base_hw_sim:/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h: /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from robotnik_base_hw_sim/SimplePick.srv"
-	cd /home/avinaash/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv -Irobotnik_base_hw_sim:/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h: /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from robotnik_base_hw_sim/SimplePick.srv"
+	cd /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePick.srv -Irobotnik_base_hw_sim:/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
 
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h: /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h: /opt/ros/noetic/share/gencpp/msg.h.template
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h: /opt/ros/noetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from robotnik_base_hw_sim/SimplePlace.srv"
-	cd /home/avinaash/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv -Irobotnik_base_hw_sim:/home/avinaash/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h: /opt/ros/noetic/lib/gencpp/gen_cpp.py
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h: /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h: /opt/ros/noetic/share/gencpp/msg.h.template
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h: /opt/ros/noetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating C++ code from robotnik_base_hw_sim/SimplePlace.srv"
+	cd /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim && /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/catkin_generated/env_cached.sh /usr/bin/python3 /opt/ros/noetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/srv/SimplePlace.srv -Irobotnik_base_hw_sim:/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim/msg -Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg -p robotnik_base_hw_sim -o /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim -e /opt/ros/noetic/share/gencpp/cmake/..
 
 robotnik_base_hw_sim_generate_messages_cpp: CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp
-robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickState.h
-robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h
-robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h
-robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h
-robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h
-robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h
+robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickState.h
+robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickStates.h
+robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Pick.h
+robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/Place.h
+robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePick.h
+robotnik_base_hw_sim_generate_messages_cpp: /home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/SimplePlace.h
 robotnik_base_hw_sim_generate_messages_cpp: CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp.dir/build.make
 
 .PHONY : robotnik_base_hw_sim_generate_messages_cpp
@@ -126,6 +126,6 @@ CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp.dir/clean
 
 CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp.dir/depend:
-	cd /home/avinaash/doozy_ws/build/robotnik_base_hw_sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_ws/src/robotnik_base_hw_sim /home/avinaash/doozy_ws/src/robotnik_base_hw_sim /home/avinaash/doozy_ws/build/robotnik_base_hw_sim /home/avinaash/doozy_ws/build/robotnik_base_hw_sim /home/avinaash/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robotnik_base_hw_sim_generate_messages_cpp.dir/depend
 

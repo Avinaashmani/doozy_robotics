@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/share/gennodejs/ros/robotnik_msgs/msg/QueryAlarm.js
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/share/gennodejs/ros/robotnik_msgs/msg/QueryAlarm.js

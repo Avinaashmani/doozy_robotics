@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
 # Source directory: /usr/src/googletest
-# Build directory: /home/avinaash/doozy_ws/build/rb1_base_sim_bringup/gtest
+# Build directory: /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_sim_bringup/gtest
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/robotnik_base_hw_sim/share/roseus/ros/robotnik_base_hw_sim/msg/PickStates.l
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/share/roseus/ros/robotnik_base_hw_sim/msg/PickStates.l

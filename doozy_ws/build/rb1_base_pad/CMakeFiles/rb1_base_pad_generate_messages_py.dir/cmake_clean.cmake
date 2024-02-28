@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/lib/python3/dist-packages/rb1_base_pad/srv/__init__.py"
-  "/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/lib/python3/dist-packages/rb1_base_pad/srv/_enable_disable_pad.py"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/lib/python3/dist-packages/rb1_base_pad/srv/__init__.py"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/lib/python3/dist-packages/rb1_base_pad/srv/_enable_disable_pad.py"
   "CMakeFiles/rb1_base_pad_generate_messages_py"
 )
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/robotnik_base_hw_sim
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/robotnik_base_hw_sim
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim
 
 # Utility rule file for rosgraph_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend:
-	cd /home/avinaash/doozy_ws/build/robotnik_base_hw_sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_ws/src/robotnik_base_hw_sim /home/avinaash/doozy_ws/src/robotnik_base_hw_sim /home/avinaash/doozy_ws/build/robotnik_base_hw_sim /home/avinaash/doozy_ws/build/robotnik_base_hw_sim /home/avinaash/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim /home/avinaash/doozy_robotics/doozy_ws/src/robotnik_base_hw_sim /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim /home/avinaash/doozy_robotics/doozy_ws/build/robotnik_base_hw_sim/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 

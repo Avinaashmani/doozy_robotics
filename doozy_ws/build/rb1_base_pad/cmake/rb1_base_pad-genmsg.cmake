@@ -2,7 +2,7 @@
 
 message(STATUS "rb1_base_pad: 0 messages, 1 services")
 
-set(MSG_I_FLAGS "-Irobotnik_msgs:/home/avinaash/doozy_ws/src/robotnik_msgs/msg;-Irobotnik_msgs:/home/avinaash/doozy_ws/devel/.private/robotnik_msgs/share/robotnik_msgs/msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Irobotnik_msgs:/home/avinaash/doozy_robotics/doozy_ws/src/robotnik_msgs/msg;-Irobotnik_msgs:/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_msgs/share/robotnik_msgs/msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg;-Iactionlib_msgs:/opt/ros/noetic/share/actionlib_msgs/cmake/../msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(rb1_base_pad_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
 add_custom_target(_rb1_base_pad_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "rb1_base_pad" "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "rb1_base_pad" "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" ""
 )
 
 #
@@ -31,7 +31,7 @@ add_custom_target(_rb1_base_pad_generate_messages_check_deps_${_filename}
 
 ### Generating Services
 _generate_srv_cpp(rb1_base_pad
-  "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/rb1_base_pad
@@ -49,7 +49,7 @@ add_custom_target(rb1_base_pad_generate_messages_cpp
 add_dependencies(rb1_base_pad_generate_messages rb1_base_pad_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
 add_dependencies(rb1_base_pad_generate_messages_cpp _rb1_base_pad_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -64,7 +64,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS rb1_base_pad_generate_messages_cpp)
 
 ### Generating Services
 _generate_srv_eus(rb1_base_pad
-  "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/rb1_base_pad
@@ -82,7 +82,7 @@ add_custom_target(rb1_base_pad_generate_messages_eus
 add_dependencies(rb1_base_pad_generate_messages rb1_base_pad_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
 add_dependencies(rb1_base_pad_generate_messages_eus _rb1_base_pad_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -97,7 +97,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS rb1_base_pad_generate_messages_eus)
 
 ### Generating Services
 _generate_srv_lisp(rb1_base_pad
-  "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/rb1_base_pad
@@ -115,7 +115,7 @@ add_custom_target(rb1_base_pad_generate_messages_lisp
 add_dependencies(rb1_base_pad_generate_messages rb1_base_pad_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
 add_dependencies(rb1_base_pad_generate_messages_lisp _rb1_base_pad_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -130,7 +130,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS rb1_base_pad_generate_messages_lisp
 
 ### Generating Services
 _generate_srv_nodejs(rb1_base_pad
-  "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/rb1_base_pad
@@ -148,7 +148,7 @@ add_custom_target(rb1_base_pad_generate_messages_nodejs
 add_dependencies(rb1_base_pad_generate_messages rb1_base_pad_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
 add_dependencies(rb1_base_pad_generate_messages_nodejs _rb1_base_pad_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -163,7 +163,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS rb1_base_pad_generate_messages_node
 
 ### Generating Services
 _generate_srv_py(rb1_base_pad
-  "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv"
+  "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/rb1_base_pad
@@ -181,7 +181,7 @@ add_custom_target(rb1_base_pad_generate_messages_py
 add_dependencies(rb1_base_pad_generate_messages rb1_base_pad_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
+get_filename_component(_filename "/home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad/srv/enable_disable_pad.srv" NAME_WE)
 add_dependencies(rb1_base_pad_generate_messages_py _rb1_base_pad_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

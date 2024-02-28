@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libhector_servo_plugin.pdb"
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libhector_servo_plugin.so"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libhector_servo_plugin.pdb"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libhector_servo_plugin.so"
   "CMakeFiles/hector_servo_plugin.dir/src/servo_plugin.cpp.o"
 )
 

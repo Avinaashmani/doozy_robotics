@@ -1,1 +1,1 @@
-/home/avinaash/doozy_ws/devel/.private/rb1_base_gazebo/share/rb1_base_gazebo/cmake/rb1_base_gazeboConfig-version.cmake
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_gazebo/share/rb1_base_gazebo/cmake/rb1_base_gazeboConfig-version.cmake

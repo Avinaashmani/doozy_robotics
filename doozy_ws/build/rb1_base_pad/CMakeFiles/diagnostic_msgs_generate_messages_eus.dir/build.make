@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad
+CMAKE_SOURCE_DIR = /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/avinaash/doozy_ws/build/rb1_base_pad
+CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad
 
 # Utility rule file for diagnostic_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/depend:
-	cd /home/avinaash/doozy_ws/build/rb1_base_pad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad /home/avinaash/doozy_ws/src/rb1_base_common/rb1_base_pad /home/avinaash/doozy_ws/build/rb1_base_pad /home/avinaash/doozy_ws/build/rb1_base_pad /home/avinaash/doozy_ws/build/rb1_base_pad/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad /home/avinaash/doozy_robotics/doozy_ws/src/rb1_base_common/rb1_base_pad /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad /home/avinaash/doozy_robotics/doozy_ws/build/rb1_base_pad/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/depend
 

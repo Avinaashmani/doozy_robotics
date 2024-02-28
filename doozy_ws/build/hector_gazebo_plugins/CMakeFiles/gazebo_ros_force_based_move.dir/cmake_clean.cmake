@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libgazebo_ros_force_based_move.pdb"
-  "/home/avinaash/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libgazebo_ros_force_based_move.so"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libgazebo_ros_force_based_move.pdb"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/hector_gazebo_plugins/lib/libgazebo_ros_force_based_move.so"
   "CMakeFiles/gazebo_ros_force_based_move.dir/src/gazebo_ros_force_based_move.cpp.o"
 )
 

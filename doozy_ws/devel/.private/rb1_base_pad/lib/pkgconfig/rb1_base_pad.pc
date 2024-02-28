@@ -1,8 +1,8 @@
-prefix=/home/avinaash/doozy_ws/devel/.private/rb1_base_pad
+prefix=/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad
 
 Name: rb1_base_pad
 Description: Description of rb1_base_pad
 Version: 1.12.0
-Cflags: -I/home/avinaash/doozy_ws/devel/.private/rb1_base_pad/include
+Cflags: -I/home/avinaash/doozy_robotics/doozy_ws/devel/.private/rb1_base_pad/include
 Libs: -L${prefix}/lib 
 Requires: robotnik_msgs roscpp sensor_msgs geometry_msgs message_runtime diagnostic_updater joy
