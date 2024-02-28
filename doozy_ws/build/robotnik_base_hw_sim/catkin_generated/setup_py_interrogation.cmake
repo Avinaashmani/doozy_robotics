@@ -1,7 +1,0 @@
-set(robotnik_base_hw_sim_SETUP_PY_SETUP_MODULE "distutils.core")
-set(robotnik_base_hw_sim_SETUP_PY_VERSION "2.3.0")
-set(robotnik_base_hw_sim_SETUP_PY_SCRIPTS "")
-set(robotnik_base_hw_sim_SETUP_PY_PACKAGES "robotnik_base_hw_sim")
-set(robotnik_base_hw_sim_SETUP_PY_PACKAGE_DIRS "src/robotnik_base_hw_sim")
-set(robotnik_base_hw_sim_SETUP_PY_MODULES "")
-set(robotnik_base_hw_sim_SETUP_PY_MODULE_DIRS "")

@@ -1,1 +1,0 @@
-/home/avinaash/doozy_robotics/doozy_ws/devel/.private/robotnik_base_hw_sim/include/robotnik_base_hw_sim/PickResponse.h
