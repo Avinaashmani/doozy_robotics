@@ -6,6 +6,7 @@ import rospy
 import math
 import time
 from sensor_msgs.msg import Range
+from geometry_msgs.msg import Twist
 from std_msgs.msg import Bool
 
 class UltrasonicSensor:
@@ -62,7 +63,9 @@ class UltrasonicSensor:
         rospy.Subscriber('/range_sensor/three', Range, self.call_back_us_3)
         rospy.Subscriber('/range_sensor/four', Range, self.call_back_us_4)
         rospy.Subscriber('/range_sensor/five', Range, self.call_back_us_5)
+        
         self.alignment_pub = rospy.Publisher('/fork_alignment', Bool, queue_size=self.Q_Size)
+        self.move_fork_pub = rospy.Publisher('/cmd_vel', Twist, queue_size=self.Q_Size)
 
     def filter_out(self, idx_no):
         
@@ -107,27 +110,27 @@ class UltrasonicSensor:
 
     def check_all_sensors(self):
         
-        if self.value_01 > 25.0 and self.value_01 < 35.0:
+        if self.value_01 > 35.0 :
             self.range_01 = True
         else:
             self.range_01 = False    
         
-        if self.value_02 > 35.0 and self.value_02 < 40.0:
+        if self.value_02 < 35.0 and self.value_02 > 30.0:
             self.range_02 = True
         else:
             self.range_02 = False
 
-        if self.value_03 > 25.0 and self.value_03 < 35.0:
+        if self.value_03 > 35.0:
             self.range_03 = True
         else:
             self.range_03 = False
 
-        if self.value_05 < 40.0 and self.value_05 > 30.0:
-            self.range_05 = True
-        else:
-            self.range_05 = False
+        #if self.value_05 < 40.0 and self.value_05 > 30.0:
+        #    self.range_05 = True
+        #else:
+        #    self.range_05 = False
 
-        if self.range_01 and self.range_02 and self.range_03 and self.range_05 is True:
+        if self.range_01 and self.range_02 and self.range_03 is True:
             return True
         else:
             return False
@@ -135,23 +138,19 @@ class UltrasonicSensor:
     def timer_check(self):
         if self.check_all_sensors() is True:
             start_time = time.time()
-            rospy.loginfo("Alinged..Starting 3 seconds Timer...")
             print(start_time - time.time())
             while time.time() - start_time < 3:
-                if self.check_all_sensors() is False:
-                    rospy.loginfo("Not aligned,...Restarting the Timer...")
-                    self.final_out = False                   
-                elif self.check_all_sensors() is True:
-                    self.final_out = True
-        else:
-            self.final_out = False
-        return self.final_out
-
-
+                if self.check_all_sensors() is True:
+                    self.final_out = True                   
+                elif self.check_all_sensors() is False:
+                    self.final_out = False
+                    break
+            return self.final_out
     
     def compute(self):
 
         is_aligned = Bool()
+        move_fork=Twist()
 
         self.value_01_current = self.filter_out(1)
         self.value_02_current = self.filter_out(2)
@@ -164,7 +163,7 @@ class UltrasonicSensor:
         print(self.value_02)
         print(self.value_03)
         #print(self.value_04)
-        print(self.value_05)
+        #print(self.value_05)
         print ("-----------")
 
         print ("-----------")
@@ -172,14 +171,18 @@ class UltrasonicSensor:
         print(self.range_02)
         print(self.range_03)
         #print(self.value_04)
-        print(self.range_05)
+        #print(self.range_05)
         print ("-----------")
         print("is_aligned ---> ", self.final_out)
 
         if self.timer_check() is True:
             is_aligned = True
+            move_fork.linear.x = 0.2
+            rospy.loginfo ("Fork is Aligned....")
         else:
             is_aligned = False
+            move_fork.linear.x = 0.0
+            rospy.loginfo ("Fork is Misaligned....")
         
         self.value_01_prev = self.value_01_current
         self.value_02_prev = self.value_02_current
@@ -188,6 +191,7 @@ class UltrasonicSensor:
         self.value_05_prev = self.value_05_current
 
         self.alignment_pub.publish(is_aligned)
+        self.move_fork_pub.publish(move_fork)
 
     def ros_spin(self):
         r = rospy.Rate(self.rate)
