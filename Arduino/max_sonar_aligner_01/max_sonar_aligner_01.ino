@@ -92,30 +92,30 @@ void loop()
 
 void read_sensor_1()
 {
-  sensor_reading_1 = (analogRead(sensor_1) * tuning_parameter)/10;
+  sensor_reading_1 = analogRead(sensor_1);
   return sensor_reading_1;
 }
 
 void read_sensor_2()
 {
-  sensor_reading_2 = (analogRead(sensor_2) * tuning_parameter)/10;
+  sensor_reading_2 = analogRead(sensor_2);
   return sensor_reading_2;
 }
 
 void read_sensor_3()
 {
-  sensor_reading_3 = (analogRead(sensor_3) * tuning_parameter)/10;
+  sensor_reading_3 = analogRead(sensor_3);
   return sensor_reading_3;
 }
 
 void read_sensor_4()
 {
-  sensor_reading_4 = (analogRead(sensor_4) * tuning_parameter)/10;
+  sensor_reading_4 = analogRead(sensor_4);
   return sensor_reading_4;
 }
 
 void read_sensor_5()
 {
-  sensor_reading_5 = (analogRead(sensor_5) * tuning_parameter)/10;
+  sensor_reading_5 = analogRead(sensor_5);
   return sensor_reading_5;
 }

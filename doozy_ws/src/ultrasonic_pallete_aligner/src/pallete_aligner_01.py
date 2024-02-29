@@ -115,7 +115,7 @@ class UltrasonicSensor:
         print(self.value_05)
         print ("-----------")
 
-        #print ("-----------")
+        #oprint ("-----------")
         #print(self.range_01)
         #print(self.range_02)
         #print(self.range_03)
