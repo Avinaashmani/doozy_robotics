@@ -111,17 +111,17 @@ class UltrasonicSensor:
         print(self.value_01)
         print(self.value_02)
         print(self.value_03)
-        print(self.value_04)
+        #print(self.value_04)
         print(self.value_05)
         print ("-----------")
 
-        #oprint ("-----------")
-        #print(self.range_01)
-        #print(self.range_02)
-        #print(self.range_03)
+        print ("-----------")
+        print(self.range_01)
+        print(self.range_02)
+        print(self.range_03)
         #print(self.value_04)
-        #print(self.range_05)
-        #print ("-----------")
+        print(self.range_05)
+        print ("-----------")
 
         if self.value_01 > 25.0 and self.value_01 < 35.0:
             self.range_01 = True

@@ -4,6 +4,7 @@
 
 import rospy
 import math
+import time
 from sensor_msgs.msg import Range
 from std_msgs.msg import Bool
 
@@ -28,6 +29,8 @@ class UltrasonicSensor:
         self.value_03 = 0.0
         self.value_04 = 0.0
         self.value_05 = 0.0
+
+        self.final_out = False
 
         self.is_aligned = False
 
@@ -102,35 +105,8 @@ class UltrasonicSensor:
                 self.value_05 = self.value_05
             return self.value_05 / self.tuning_parameter
 
-    def timer_check(self):
+    def check_all_sensors(self):
         
-    
-    def compute(self):
-
-        is_aligned = Bool()
-
-        self.value_01_current = self.filter_out(1)
-        self.value_02_current = self.filter_out(2)
-        self.value_03_current = self.filter_out(3)
-        self.value_04_current = self.filter_out(4)
-        self.value_05_current = self.filter_out(5)
-     
-        print ("-----------")
-        print(self.value_01)
-        print(self.value_02)
-        print(self.value_03)
-        print(self.value_04)
-        print(self.value_05)
-        print ("-----------")
-
-        #oprint ("-----------")
-        #print(self.range_01)
-        #print(self.range_02)
-        #print(self.range_03)
-        #print(self.value_04)
-        #print(self.range_05)
-        #print ("-----------")
-
         if self.value_01 > 25.0 and self.value_01 < 35.0:
             self.range_01 = True
         else:
@@ -151,13 +127,59 @@ class UltrasonicSensor:
         else:
             self.range_05 = False
 
-        while self.range_01 and self.range_02 and self.range_03 and self.range_05 is True:
+        if self.range_01 and self.range_02 and self.range_03 and self.range_05 is True:
+            return True
+        else:
+            return False
+
+    def timer_check(self):
+        if self.check_all_sensors() is True:
+            start_time = time.time()
+            rospy.loginfo("Alinged..Starting 3 seconds Timer...")
+            print(start_time - time.time())
+            while time.time() - start_time < 3:
+                if self.check_all_sensors() is False:
+                    rospy.loginfo("Not aligned,...Restarting the Timer...")
+                    self.final_out = False                   
+                elif self.check_all_sensors() is True:
+                    self.final_out = True
+        else:
+            self.final_out = False
+        return self.final_out
+
+
+    
+    def compute(self):
+
+        is_aligned = Bool()
+
+        self.value_01_current = self.filter_out(1)
+        self.value_02_current = self.filter_out(2)
+        self.value_03_current = self.filter_out(3)
+        self.value_04_current = self.filter_out(4)
+        self.value_05_current = self.filter_out(5)
+     
+        print ("-----------")
+        print(self.value_01)
+        print(self.value_02)
+        print(self.value_03)
+        #print(self.value_04)
+        print(self.value_05)
+        print ("-----------")
+
+        print ("-----------")
+        print(self.range_01)
+        print(self.range_02)
+        print(self.range_03)
+        #print(self.value_04)
+        print(self.range_05)
+        print ("-----------")
+        print("is_aligned ---> ", self.final_out)
+
+        if self.timer_check() is True:
             is_aligned = True
         else:
             is_aligned = False
-
-        
-        self.alignment_pub.publish(is_aligned)
         
         self.value_01_prev = self.value_01_current
         self.value_02_prev = self.value_02_current
@@ -165,8 +187,9 @@ class UltrasonicSensor:
         self.value_04_prev = self.value_04_current
         self.value_05_prev = self.value_05_current
 
-    def ros_spin(self):
+        self.alignment_pub.publish(is_aligned)
 
+    def ros_spin(self):
         r = rospy.Rate(self.rate)
         while not rospy.is_shutdown():
             self.compute()
