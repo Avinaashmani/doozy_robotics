@@ -7,9 +7,9 @@
 #include <sensor_msgs/Range.h>
 #include <std_msgs/Float32.h>
 
-#define sensor_1 A0
-#define sensor_2 A1
-#define sensor_3 A2
+#define sensor_1 A2
+#define sensor_2 A0
+#define sensor_3 A1
 
 sensor_msgs::Range sonar_1;
 sensor_msgs::Range sonar_2;
@@ -42,7 +42,6 @@ void setup()
    pinMode(sensor_1, INPUT);
    pinMode(sensor_2, INPUT);
    pinMode(sensor_3, INPUT);
-   
 }
 
 void loop() 
