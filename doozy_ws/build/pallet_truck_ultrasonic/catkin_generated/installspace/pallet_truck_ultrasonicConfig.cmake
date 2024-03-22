@@ -68,7 +68,7 @@ set(pallet_truck_ultrasonic_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(pallet_truck_ultrasonic_SOURCE_PREFIX /home/avinaash/doozy_robotics/doozy_ws/src/pallet_truck_ultrasonic)
-  set(pallet_truck_ultrasonic_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel/.private/pallet_truck_ultrasonic)
+  set(pallet_truck_ultrasonic_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel)
   set(pallet_truck_ultrasonic_INSTALL_PREFIX "")
   set(pallet_truck_ultrasonic_PREFIX ${pallet_truck_ultrasonic_DEVEL_PREFIX})
 else()

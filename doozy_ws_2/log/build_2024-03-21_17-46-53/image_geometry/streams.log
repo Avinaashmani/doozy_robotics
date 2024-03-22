@@ -1,0 +1,54 @@
+[0.702s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/image_geometry -- -j12 -l12
+[4.928s] [ 27%] Built target image_geometry
+[4.929s] [ 45%] Built target gtest_main
+[4.929s] [ 63%] Built target gtest
+[4.929s] [ 63%] Built target ament_cmake_python_copy_image_geometry
+[4.929s] [ 81%] Built target image_geometry-utest
+[4.930s] running egg_info
+[4.930s] writing image_geometry.egg-info/PKG-INFO
+[4.930s] writing dependency_links to image_geometry.egg-info/dependency_links.txt
+[4.930s] writing top-level names to image_geometry.egg-info/top_level.txt
+[4.930s] reading manifest file 'image_geometry.egg-info/SOURCES.txt'
+[4.931s] writing manifest file 'image_geometry.egg-info/SOURCES.txt'
+[4.931s] [ 81%] Built target ament_cmake_python_build_image_geometry_egg
+[4.936s] [100%] Built target image_geometry-utest-equi
+[5.031s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/image_geometry -- -j12 -l12
+[5.713s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/image_geometry
+[5.758s] -- Install configuration: ""
+[5.758s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[5.758s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[5.758s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/lib/python3.8/site-packages//image_geometry.egg-info
+[5.759s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/lib/python3.8/site-packages//image_geometry.egg-info/SOURCES.txt
+[5.759s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/lib/python3.8/site-packages//image_geometry.egg-info/top_level.txt
+[5.759s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/lib/python3.8/site-packages//image_geometry.egg-info/dependency_links.txt
+[5.759s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/lib/python3.8/site-packages//image_geometry.egg-info/PKG-INFO
+[5.759s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/lib/python3.8/site-packages/image_geometry
+[5.760s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py
+[5.760s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py
+[6.097s] Listing '/home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/lib/python3.8/site-packages/image_geometry'...
+[6.121s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/include/image_geometry
+[6.122s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/include/image_geometry/pinhole_camera_model.h
+[6.122s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/include/image_geometry/visibility_control.hpp
+[6.123s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/include/image_geometry/stereo_camera_model.h
+[6.123s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/lib/libimage_geometry.so
+[6.124s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/environment/library_path.sh
+[6.124s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/environment/library_path.dsv
+[6.125s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[6.125s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[6.125s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[6.126s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[6.126s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/environment/path.sh
+[6.126s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/environment/path.dsv
+[6.126s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/local_setup.bash
+[6.126s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/local_setup.sh
+[6.126s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/local_setup.zsh
+[6.126s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/local_setup.dsv
+[6.127s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/package.dsv
+[6.176s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[6.177s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_libraries-extras.cmake
+[6.177s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.177s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.177s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[6.178s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[6.178s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/image_geometry/share/image_geometry/package.xml
+[6.407s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/image_geometry

@@ -18,22 +18,22 @@ def main():
     box_2 = rospy.Publisher('/bounding_box/Two', BoundingBox, queue_size=10)        
     box_3 = rospy.Publisher('/bounding_box/Three', BoundingBox, queue_size=10)
 
-    box_one.pose.position.x = -1.87
-    box_one.pose.position.y = -1.50
+    box_one.pose.position.x = 1.35
+    box_one.pose.position.y = 1.61
     box_one.pose.position.z = 0.1
     box_one.dimensions.x = 0.4
     box_one.dimensions.y = 0.2
     box_one.dimensions.z = 0.2
 
-    box_two.pose.position.x = -1.87
-    box_two.pose.position.y = 2.44
+    box_two.pose.position.x = -1.31
+    box_two.pose.position.y = 1.03
     box_two.pose.position.z = 0.1
     box_two.dimensions.x = 0.4
     box_two.dimensions.y = 0.2
     box_two.dimensions.z = 0.2
 
-    box_three.pose.position.x = 2.50
-    box_three.pose.position.y = -1.41
+    box_three.pose.position.x = -1.22
+    box_three.pose.position.y = -2.15
     box_three.pose.position.z = 0.1
     box_three.dimensions.x = 0.4
     box_three.dimensions.y = 0.2
@@ -50,31 +50,31 @@ def main():
             t1.header.stamp = rospy.Time.now()
             t1.header.frame_id = 'map'
             t1.child_frame_id = 'pallet_01'
-            t1.transform.translation.x = -1.87
-            t1.transform.translation.y = -1.50
-            t1.transform.translation.z = 0.2
+            t1.transform.translation.x = 1.35
+            t1.transform.translation.y = 1.61
+            t1.transform.translation.z = 0.0
             t1.transform.rotation = Quaternion(0.0, 0.0, 0.0, 1.0)
             tf_broadcaster.sendTransform(t1)
 
             # Publish transform for pallet_02
             t2 = TransformStamped()
             t2.header.stamp = rospy.Time.now()
-            t2.header.frame_id = 'odom'
+            t2.header.frame_id = 'map'
             t2.child_frame_id = 'pallet_02'
-            t2.transform.translation.x = -1.87
-            t2.transform.translation.y = 2.44
-            t2.transform.translation.z = 0.1
+            t2.transform.translation.x = -1.31
+            t2.transform.translation.y = 1.03
+            t2.transform.translation.z = 0.0
             t2.transform.rotation = Quaternion(0.0, 0.0, 0.0, 1.0)
             tf_broadcaster.sendTransform(t2)
 
             # Publish transform for pallet_03
             t3 = TransformStamped()
             t3.header.stamp = rospy.Time.now()
-            t3.header.frame_id = 'odom'
-            t3.child_frame_id = 'pallet_03'
-            t3.transform.translation.x = 2.50
-            t3.transform.translation.y = -1.41
-            t3.transform.translation.z = 0.1
+            t3.header.frame_id = 'map'
+            t3.child_frame_id = 'charger'
+            t3.transform.translation.x = -1.22
+            t3.transform.translation.y = -2.15
+            t3.transform.translation.z = 0.0
             t3.transform.rotation = Quaternion(0.0, 0.0, 0.0, 1.0)
             tf_broadcaster.sendTransform(t3)
 

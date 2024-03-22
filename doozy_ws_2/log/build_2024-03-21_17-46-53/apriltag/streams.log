@@ -1,0 +1,57 @@
+[0.658s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/apriltag -- -j12 -l12
+[4.734s] [ 80%] Built target apriltag
+[4.735s] [ 85%] Built target opencv_demo
+[4.736s] [ 95%] Built target apriltag_python
+[4.736s] [100%] Built target apriltag_demo
+[4.919s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/apriltag -- -j12 -l12
+[6.636s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/apriltag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/apriltag
+[6.963s] -- Install configuration: "Release"
+[6.964s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/apriltag.h
+[6.965s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/apriltag_math.h
+[6.966s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/apriltag_pose.h
+[6.967s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/doubles.h
+[6.967s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/doubles_floats_impl.h
+[6.967s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/floats.h
+[6.967s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/g2d.h
+[6.968s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/getopt.h
+[6.968s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/homography.h
+[6.968s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/image_types.h
+[6.968s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/image_u8.h
+[6.968s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/image_u8x3.h
+[6.969s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/image_u8x4.h
+[6.969s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/matd.h
+[6.969s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/math_util.h
+[6.969s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/pam.h
+[6.970s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/pjpeg.h
+[6.970s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/pnm.h
+[6.970s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/postscript_utils.h
+[6.971s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/string_util.h
+[6.971s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/svd22.h
+[6.971s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/time_util.h
+[6.971s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/timeprofile.h
+[6.971s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/unionfind.h
+[6.972s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/workerpool.h
+[6.972s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/zarray.h
+[6.972s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/zhash.h
+[6.972s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/common/zmaxheap.h
+[6.972s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/tag16h5.h
+[6.972s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/tag25h9.h
+[6.972s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/tag36h10.h
+[6.973s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/tag36h11.h
+[6.973s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/tagCircle21h7.h
+[6.973s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/tagCircle49h12.h
+[6.973s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/tagCustom48h12.h
+[6.973s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/tagStandard41h12.h
+[6.974s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/include/apriltag/tagStandard52h13.h
+[6.974s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/lib/libapriltag.so.3.2.0
+[6.974s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/lib/libapriltag.so.3
+[6.992s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/lib/libapriltag.so
+[6.993s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/share/apriltag/cmake/apriltagTargets.cmake
+[6.994s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/share/apriltag/cmake/apriltagTargets-release.cmake
+[6.995s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/share/apriltag/cmake/apriltagConfig.cmake
+[6.995s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/share/apriltag/cmake/apriltagConfigVersion.cmake
+[6.995s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/lib/pkgconfig/apriltag.pc
+[6.995s] -- Up-to-date: /home/avinaash/.local/lib/python3.8/site-packages/apriltag.cpython-38-x86_64-linux-gnu.so
+[6.995s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/bin/opencv_demo
+[6.996s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/apriltag/bin/apriltag_demo
+[7.395s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/apriltag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/apriltag

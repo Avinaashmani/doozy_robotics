@@ -1,0 +1,58 @@
+[0.110s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/cv_bridge -- -j12 -l12
+[0.819s] [ 12%] Built target gtest_main
+[0.820s] [ 25%] Built target gtest
+[0.820s] [ 25%] Built target ament_cmake_python_copy_cv_bridge
+[0.821s] [ 43%] Built target cv_bridge
+[0.822s] [ 62%] Built target cv_bridge_boost
+[0.825s] [100%] Built target cv_bridge-utest
+[0.827s] running egg_info
+[0.827s] writing cv_bridge.egg-info/PKG-INFO
+[0.827s] writing dependency_links to cv_bridge.egg-info/dependency_links.txt
+[0.827s] writing top-level names to cv_bridge.egg-info/top_level.txt
+[0.831s] reading manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[0.832s] writing manifest file 'cv_bridge.egg-info/SOURCES.txt'
+[0.832s] [100%] Built target ament_cmake_python_build_cv_bridge_egg
+[0.839s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/cv_bridge -- -j12 -l12
+[0.990s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/cv_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/cv_bridge
+[1.015s] -- Install configuration: ""
+[1.015s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/environment/pythonpath.sh
+[1.015s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/environment/pythonpath.dsv
+[1.016s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info
+[1.016s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/SOURCES.txt
+[1.016s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/top_level.txt
+[1.016s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/dependency_links.txt
+[1.016s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages//cv_bridge.egg-info/PKG-INFO
+[1.017s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge
+[1.017s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/__init__.py
+[1.017s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/core.py
+[1.079s] Listing '/home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge'...
+[1.080s] Listing '/home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost'...
+[1.089s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/environment/library_path.sh
+[1.089s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/environment/library_path.dsv
+[1.089s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/include/cv_bridge
+[1.089s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/include/cv_bridge/rgb_colors.h
+[1.090s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/include/cv_bridge/cv_bridge.h
+[1.090s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/libcv_bridge.so
+[1.090s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/ament_index/resource_index/package_run_dependencies/cv_bridge
+[1.091s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/ament_index/resource_index/parent_prefix_path/cv_bridge
+[1.091s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.sh
+[1.091s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/environment/ament_prefix_path.dsv
+[1.092s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/environment/path.sh
+[1.092s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/environment/path.dsv
+[1.092s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/local_setup.bash
+[1.092s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/local_setup.sh
+[1.093s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/local_setup.zsh
+[1.093s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/local_setup.dsv
+[1.093s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/package.dsv
+[1.093s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/ament_index/resource_index/packages/cv_bridge
+[1.094s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/cmake/cv_bridge-extras.cmake
+[1.094s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.095s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.095s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/cmake/ament_cmake_export_libraries-extras.cmake
+[1.096s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig.cmake
+[1.096s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/cmake/cv_bridgeConfig-version.cmake
+[1.096s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/share/cv_bridge/package.xml
+[1.097s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/libcv_bridge.so
+[1.097s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/include/cv_bridge/cv_bridge_export.h
+[1.097s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/cv_bridge/lib/python3.8/site-packages/cv_bridge/boost/cv_bridge_boost.so
+[1.171s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/cv_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_automatic_parking:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/opencv_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/camera_calibration:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/cv_bridge

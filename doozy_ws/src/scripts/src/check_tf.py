@@ -10,12 +10,13 @@ def main():
     
     try:
     
-        tag_tf.waitForTransform('/odom', '/tag_0', rospy.Time(), rospy.Duration(1))
-        (trans, rot) = tag_tf.lookupTransform('/odom', '/tag_0', rospy.Time(0))
+        tag_tf.waitForTransform('/map', '/pallet_01', rospy.Time(), rospy.Duration(1))
+        (trans, rot) = tag_tf.lookupTransform('/map', '/pallet_03', rospy.Time(0))
         
         print(trans[0])
         print(trans[1])
-        print(trans[2])
+        print(rot[2])
+        print(rot[3])
     
     except (tf.ConnectivityException, tf.Exception, tf.LookupException):
     

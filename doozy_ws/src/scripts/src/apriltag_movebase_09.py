@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 import rospy
-import actionlib 
-
-from std_msgs.msg import Bool
+import actionlib
+from std_msgs.msg import Int32
 from geometry_msgs.msg import Twist
 from move_base_msgs.msg import MoveBaseAction, MoveBaseGoal
+from dolly_action_msgs.msg import amrDockAction, amrDockGoal
 
 class Move_To_Pallet:
 
@@ -13,68 +13,57 @@ class Move_To_Pallet:
 
         rospy.init_node('pallet_navi_01', anonymous=False)
         rospy.loginfo("Welcome, node has begun ... ")
-        
-        self.move_cmd = rospy.Publisher('/cmd_vel', Twist, queue_size=10.0)
-        self.fork_move = Twist()
 
-        self.is_alligned = False
+        self.move_cmd = rospy.Publisher('/cmd_vel', Twist, queue_size=10.0)
+        self.align_amr = actionlib.SimpleActionClient('amr_docking_srv', amrDockAction)
+        self.fork_move = Twist()
+        self.target_reached = False
+        self.is_aligned = False
+        self.pallet_idx = Int32()
 
     def move_to_pallet(self, pallet_id):
 
         rospy.loginfo("Moving to pallet %s", pallet_id)
-        rospy.Subscriber('/fork_is_docked', Bool, self.ultrasonic_align_callback)
 
-        pallet_coordinates = {'1': [-0.590, -1.42, 1.0, -0.053], 
-                          '2': [0.21, 2.48, 1.0, -0.016], 
-                          '3': [0.875, -1.40, -0.1, 1.0],
-                          '0': [0, 0, 0, 1.0]}
+        pallet_coordinates = {'1': [1.35, 0.007, -0.68, 0.73], 
+                              '2': [-1.31, 1.04, 0.70, 0.66], 
+                              '0': [-0.14, -2.04, 0.026, 0.99]}
 
         if pallet_id in pallet_coordinates:
             coordinates = pallet_coordinates[pallet_id]
 
-            goal = MoveBaseGoal()
-            goal.target_pose.header.frame_id = 'map'
-            goal.target_pose.header.stamp = rospy.Time.now()
+            # Move to the pallet using MoveBase
+            move_base_goal = MoveBaseGoal()
+            move_base_goal.target_pose.header.frame_id = 'map'
+            move_base_goal.target_pose.header.stamp = rospy.Time.now()
+            move_base_goal.target_pose.pose.position.x = coordinates[0]
+            move_base_goal.target_pose.pose.position.y = coordinates[1]
+            move_base_goal.target_pose.pose.orientation.z = coordinates[2]
+            move_base_goal.target_pose.pose.orientation.w = coordinates[3]
 
-            goal.target_pose.pose.position.x = coordinates[0]
-            goal.target_pose.pose.position.y = coordinates[1]
-
-            goal.target_pose.pose.orientation.z = coordinates[2]
-            goal.target_pose.pose.orientation.w = coordinates[3]
-
-            client = actionlib.SimpleActionClient('move_base', MoveBaseAction)
-            client.wait_for_server()
-            client.send_goal(goal)
-            client.wait_for_result()
+            move_base_client = actionlib.SimpleActionClient('move_base', MoveBaseAction)
+            move_base_client.wait_for_server()
+            move_base_client.send_goal(move_base_goal)
+            move_base_client.wait_for_result()
 
             rospy.loginfo("Reached pallet %s", pallet_id)
-
-            if pallet_id != '0':
-                while not rospy.is_shutdown():
-                    if self.is_alligned:
-                        self.fork_move.linear.x = 0.1
-                        self.move_cmd.publish(self.fork_move)
-                        rospy.sleep(0.1)  # Adjust the sleep duration as needed
-                    else:
-                        self.fork_move.linear.x = 0.0
-                        self.move_cmd.publish(self.fork_move)
-                        rospy.logwarn("Fork is not docked. Waiting for 3 seconds...")
-                        rospy.sleep(3)
-                        if not self.is_alligned:
-                            rospy.logwarn("Fork is still not docked after waiting.")
-                            break
+            return True
         else:
             rospy.logwarn("Pallet ID %s not found", pallet_id)
-
-    def ultrasonic_align_callback(self, msg):
-        self.is_alligned = msg.data
+            return False
 
     def main(self):
   
         while not rospy.is_shutdown():
-
             pallet_id = input('Enter the Pallet ID: ')
-            self.move_to_pallet(pallet_id)          
+            
+            if self.move_to_pallet(pallet_id) is True:
+                
+                align_goal = amrDockGoal()
+                align_goal.reached_point = True
+                self.align_amr.send_goal(align_goal)
+                self.align_amr.wait_for_result()  
+                  
     
 if __name__ == '__main__':
 
