@@ -86,7 +86,7 @@ class amrDockAction {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return 'f891164bd5fb0505c7630e5c3fea47c2';
+    return 'c63e924be9221d860beb0c4f5f1f2524';
   }
 
   static messageDefinition() {
@@ -141,7 +141,7 @@ class amrDockAction {
     ## Reached Coordinates ##
     
     bool reached_point
-    int32 pallet_idx
+    string pallet_idx
     
     ================================================================================
     MSG: dolly_action_msgs/amrDockActionResult

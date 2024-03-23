@@ -75,7 +75,8 @@ class amrDockActionGoal {
     let length = 0;
     length += std_msgs.msg.Header.getMessageSize(object.header);
     length += actionlib_msgs.msg.GoalID.getMessageSize(object.goal_id);
-    return length + 5;
+    length += amrDockGoal.getMessageSize(object.goal);
+    return length;
   }
 
   static datatype() {
@@ -85,7 +86,7 @@ class amrDockActionGoal {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return 'de2979218a3a3c6b0dd1f8e30c2fed06';
+    return 'dd8dbc31ecd0f136df71228b1ccec5c4';
   }
 
   static messageDefinition() {
@@ -132,7 +133,7 @@ class amrDockActionGoal {
     ## Reached Coordinates ##
     
     bool reached_point
-    int32 pallet_idx
+    string pallet_idx
     
     `;
   }

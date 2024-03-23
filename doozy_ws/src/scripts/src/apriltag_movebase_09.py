@@ -25,9 +25,9 @@ class Move_To_Pallet:
 
         rospy.loginfo("Moving to pallet %s", pallet_id)
 
-        pallet_coordinates = {'1': [1.35, 0.007, -0.68, 0.73], 
-                              '2': [-1.31, 1.04, 0.70, 0.66], 
-                              '0': [-0.14, -2.04, 0.026, 0.99]}
+        pallet_coordinates = {'1': [1.96, -0.27, 0.73, 0.68], 
+                            '2': [-0.53, -0.33, 0.43, 0.90], 
+                              '0': [-0.10, -2.00, 0.026, 0.99]}
 
         if pallet_id in pallet_coordinates:
             coordinates = pallet_coordinates[pallet_id]
@@ -59,8 +59,10 @@ class Move_To_Pallet:
             
             if self.move_to_pallet(pallet_id) is True:
                 
+                self.pallet_idx.data = int(pallet_id)
                 align_goal = amrDockGoal()
                 align_goal.reached_point = True
+                align_goal.pallet_idx = pallet_id
                 self.align_amr.send_goal(align_goal)
                 self.align_amr.wait_for_result()  
                   

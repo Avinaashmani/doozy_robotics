@@ -2,4 +2,4 @@
 ## Reached Coordinates ##
 
 bool reached_point
-int32 pallet_idx
+string pallet_idx

@@ -32,7 +32,7 @@ class amrDockGoal {
         this.pallet_idx = initObj.pallet_idx
       }
       else {
-        this.pallet_idx = 0;
+        this.pallet_idx = '';
       }
     }
   }
@@ -42,7 +42,7 @@ class amrDockGoal {
     // Serialize message field [reached_point]
     bufferOffset = _serializer.bool(obj.reached_point, buffer, bufferOffset);
     // Serialize message field [pallet_idx]
-    bufferOffset = _serializer.int32(obj.pallet_idx, buffer, bufferOffset);
+    bufferOffset = _serializer.string(obj.pallet_idx, buffer, bufferOffset);
     return bufferOffset;
   }
 
@@ -53,12 +53,14 @@ class amrDockGoal {
     // Deserialize message field [reached_point]
     data.reached_point = _deserializer.bool(buffer, bufferOffset);
     // Deserialize message field [pallet_idx]
-    data.pallet_idx = _deserializer.int32(buffer, bufferOffset);
+    data.pallet_idx = _deserializer.string(buffer, bufferOffset);
     return data;
   }
 
   static getMessageSize(object) {
-    return 5;
+    let length = 0;
+    length += _getByteLength(object.pallet_idx);
+    return length + 5;
   }
 
   static datatype() {
@@ -68,7 +70,7 @@ class amrDockGoal {
 
   static md5sum() {
     //Returns md5sum for a message object
-    return '43f04e9c3ca80aa3d24bcb32ea9ec9f1';
+    return '2830bc314db18f6470bab1f24c955ab8';
   }
 
   static messageDefinition() {
@@ -78,7 +80,7 @@ class amrDockGoal {
     ## Reached Coordinates ##
     
     bool reached_point
-    int32 pallet_idx
+    string pallet_idx
     
     `;
   }
@@ -100,7 +102,7 @@ class amrDockGoal {
       resolved.pallet_idx = msg.pallet_idx;
     }
     else {
-      resolved.pallet_idx = 0
+      resolved.pallet_idx = ''
     }
 
     return resolved;

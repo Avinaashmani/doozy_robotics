@@ -137,12 +137,12 @@ struct MD5Sum< ::dolly_action_msgs::amrDockActionGoal_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "de2979218a3a3c6b0dd1f8e30c2fed06";
+    return "dd8dbc31ecd0f136df71228b1ccec5c4";
   }
 
   static const char* value(const ::dolly_action_msgs::amrDockActionGoal_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0xde2979218a3a3c6bULL;
-  static const uint64_t static_value2 = 0x0dd1f8e30c2fed06ULL;
+  static const uint64_t static_value1 = 0xdd8dbc31ecd0f136ULL;
+  static const uint64_t static_value2 = 0xdf71228b1ccec5c4ULL;
 };
 
 template<class ContainerAllocator>
@@ -202,7 +202,7 @@ struct Definition< ::dolly_action_msgs::amrDockActionGoal_<ContainerAllocator> >
 "## Reached Coordinates ##\n"
 "\n"
 "bool reached_point\n"
-"int32 pallet_idx\n"
+"string pallet_idx\n"
 ;
   }
 

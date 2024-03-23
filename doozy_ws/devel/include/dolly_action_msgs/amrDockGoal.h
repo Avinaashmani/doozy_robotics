@@ -25,11 +25,11 @@ struct amrDockGoal_
 
   amrDockGoal_()
     : reached_point(false)
-    , pallet_idx(0)  {
+    , pallet_idx()  {
     }
   amrDockGoal_(const ContainerAllocator& _alloc)
     : reached_point(false)
-    , pallet_idx(0)  {
+    , pallet_idx(_alloc)  {
   (void)_alloc;
     }
 
@@ -38,7 +38,7 @@ struct amrDockGoal_
    typedef uint8_t _reached_point_type;
   _reached_point_type reached_point;
 
-   typedef int32_t _pallet_idx_type;
+   typedef std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> _pallet_idx_type;
   _pallet_idx_type pallet_idx;
 
 
@@ -104,12 +104,12 @@ struct IsMessage< ::dolly_action_msgs::amrDockGoal_<ContainerAllocator> const>
 
 template <class ContainerAllocator>
 struct IsFixedSize< ::dolly_action_msgs::amrDockGoal_<ContainerAllocator> >
-  : TrueType
+  : FalseType
   { };
 
 template <class ContainerAllocator>
 struct IsFixedSize< ::dolly_action_msgs::amrDockGoal_<ContainerAllocator> const>
-  : TrueType
+  : FalseType
   { };
 
 template <class ContainerAllocator>
@@ -128,12 +128,12 @@ struct MD5Sum< ::dolly_action_msgs::amrDockGoal_<ContainerAllocator> >
 {
   static const char* value()
   {
-    return "43f04e9c3ca80aa3d24bcb32ea9ec9f1";
+    return "2830bc314db18f6470bab1f24c955ab8";
   }
 
   static const char* value(const ::dolly_action_msgs::amrDockGoal_<ContainerAllocator>&) { return value(); }
-  static const uint64_t static_value1 = 0x43f04e9c3ca80aa3ULL;
-  static const uint64_t static_value2 = 0xd24bcb32ea9ec9f1ULL;
+  static const uint64_t static_value1 = 0x2830bc314db18f64ULL;
+  static const uint64_t static_value2 = 0x70bab1f24c955ab8ULL;
 };
 
 template<class ContainerAllocator>
@@ -156,7 +156,7 @@ struct Definition< ::dolly_action_msgs::amrDockGoal_<ContainerAllocator> >
 "## Reached Coordinates ##\n"
 "\n"
 "bool reached_point\n"
-"int32 pallet_idx\n"
+"string pallet_idx\n"
 ;
   }
 
@@ -198,7 +198,7 @@ struct Printer< ::dolly_action_msgs::amrDockGoal_<ContainerAllocator> >
     s << indent << "reached_point: ";
     Printer<uint8_t>::stream(s, indent + "  ", v.reached_point);
     s << indent << "pallet_idx: ";
-    Printer<int32_t>::stream(s, indent + "  ", v.pallet_idx);
+    Printer<std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>>::stream(s, indent + "  ", v.pallet_idx);
   }
 };
 
