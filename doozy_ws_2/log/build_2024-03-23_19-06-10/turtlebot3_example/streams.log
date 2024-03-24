@@ -1,0 +1,87 @@
+[16.206s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_example': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[18.248s] running egg_info
+[18.250s] creating ../../../build/turtlebot3_example/turtlebot3_example.egg-info
+[18.254s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[18.255s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[18.255s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[18.255s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[18.255s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[18.265s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[18.552s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[18.593s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[18.595s] running build
+[18.608s] running build_py
+[18.609s] creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build
+[18.609s] creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib
+[18.609s] creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example
+[18.610s] copying turtlebot3_example/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example
+[18.610s] creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[18.610s] copying turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[18.610s] copying turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[18.610s] copying turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection
+[18.611s] creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[18.611s] copying turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[18.611s] copying turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[18.611s] copying turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client
+[18.612s] creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[18.612s] copying turtlebot3_example/turtlebot3_position_control/main.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[18.612s] copying turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[18.612s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[18.612s] copying turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control
+[18.613s] creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[18.613s] copying turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[18.613s] copying turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[18.629s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[18.636s] copying turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server
+[18.636s] running install
+[18.649s] running install_lib
+[18.656s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example
+[18.672s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[18.673s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/main.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[18.674s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[18.720s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection
+[18.720s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[18.720s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/main.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[18.720s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[18.727s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_client/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client
+[18.729s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[18.738s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/main.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[18.738s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[18.739s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[18.739s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control
+[18.740s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example
+[18.740s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[18.741s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/main.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[18.741s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[18.741s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[18.741s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build/lib/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server
+[18.741s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/main.py to main.cpython-38.pyc
+[18.773s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/turtlebot3_obstacle_detection.py to turtlebot3_obstacle_detection.cpython-38.pyc
+[18.774s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_obstacle_detection/__init__.py to __init__.cpython-38.pyc
+[18.774s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/main.py to main.cpython-38.pyc
+[18.774s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/turtlebot3_patrol_client.py to turtlebot3_patrol_client.cpython-38.pyc
+[18.775s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_client/__init__.py to __init__.cpython-38.pyc
+[18.775s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/main.py to main.cpython-38.pyc
+[18.776s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/__init__.py to __init__.cpython-38.pyc
+[18.776s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_position_control.py to turtlebot3_position_control.cpython-38.pyc
+[18.776s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_position_control/turtlebot3_path.py to turtlebot3_path.cpython-38.pyc
+[18.777s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/__init__.py to __init__.cpython-38.pyc
+[18.777s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/main.py to main.cpython-38.pyc
+[18.794s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/__init__.py to __init__.cpython-38.pyc
+[18.809s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_patrol_server.py to turtlebot3_patrol_server.cpython-38.pyc
+[18.812s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example/turtlebot3_patrol_server/turtlebot3_path.py to turtlebot3_path.cpython-38.pyc
+[18.812s] running install_data
+[18.812s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/ament_index
+[18.812s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/ament_index/resource_index
+[18.813s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/ament_index/resource_index/packages
+[18.813s] copying resource/turtlebot3_example -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/ament_index/resource_index/packages
+[18.814s] copying package.xml -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example
+[18.814s] running install_egg_info
+[18.838s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info
+[18.839s] running install_scripts
+[19.085s] Installing turtlebot3_obstacle_detection script to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/turtlebot3_example
+[19.086s] Installing turtlebot3_patrol_client script to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/turtlebot3_example
+[19.096s] Installing turtlebot3_patrol_server script to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/turtlebot3_example
+[19.096s] Installing turtlebot3_position_control script to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/turtlebot3_example
+[19.097s] writing list of installed files to '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/install.log'
+[19.602s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_example' returned '0': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/install.log --single-version-externally-managed install_data

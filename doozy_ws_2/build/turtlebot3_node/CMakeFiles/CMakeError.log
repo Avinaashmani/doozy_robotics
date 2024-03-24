@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_dce09/fast && /usr/bin/make -f CMakeFiles/cmTC_dce09.dir/build.make CMakeFiles/cmTC_dce09.dir/build
+Run Build Command(s):/usr/bin/make cmTC_1bd1c/fast && /usr/bin/make -f CMakeFiles/cmTC_1bd1c.dir/build.make CMakeFiles/cmTC_1bd1c.dir/build
 make[1]: Entering directory '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_dce09.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_dce09.dir/src.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_dce09
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dce09.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_dce09.dir/src.c.o  -o cmTC_dce09 
-/usr/bin/ld: CMakeFiles/cmTC_dce09.dir/src.c.o: in function `main':
+Building C object CMakeFiles/cmTC_1bd1c.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_1bd1c.dir/src.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_1bd1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bd1c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_1bd1c.dir/src.c.o  -o cmTC_1bd1c 
+/usr/bin/ld: CMakeFiles/cmTC_1bd1c.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_dce09.dir/build.make:87: cmTC_dce09] Error 1
+make[1]: *** [CMakeFiles/cmTC_1bd1c.dir/build.make:87: cmTC_1bd1c] Error 1
 make[1]: Leaving directory '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_dce09/fast] Error 2
+make: *** [Makefile:121: cmTC_1bd1c/fast] Error 2
 
 
 Source file was:
@@ -41,18 +41,18 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_841da/fast && /usr/bin/make -f CMakeFiles/cmTC_841da.dir/build.make CMakeFiles/cmTC_841da.dir/build
+Run Build Command(s):/usr/bin/make cmTC_8affb/fast && /usr/bin/make -f CMakeFiles/cmTC_8affb.dir/build.make CMakeFiles/cmTC_8affb.dir/build
 make[1]: Entering directory '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_841da.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_841da.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_841da
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_841da.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_841da.dir/CheckFunctionExists.c.o  -o cmTC_841da  -lpthreads 
+Building C object CMakeFiles/cmTC_8affb.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8affb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8affb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8affb.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8affb.dir/CheckFunctionExists.c.o  -o cmTC_8affb  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_841da.dir/build.make:87: cmTC_841da] Error 1
+make[1]: *** [CMakeFiles/cmTC_8affb.dir/build.make:87: cmTC_8affb] Error 1
 make[1]: Leaving directory '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_841da/fast] Error 2
+make: *** [Makefile:121: cmTC_8affb/fast] Error 2
 
 
 

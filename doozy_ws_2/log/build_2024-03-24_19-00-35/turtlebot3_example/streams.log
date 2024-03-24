@@ -1,0 +1,24 @@
+[11.030s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_example': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[12.895s] running egg_info
+[12.904s] writing ../../../build/turtlebot3_example/turtlebot3_example.egg-info/PKG-INFO
+[12.905s] writing dependency_links to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/dependency_links.txt
+[12.907s] writing entry points to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/entry_points.txt
+[12.909s] writing requirements to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/requires.txt
+[12.910s] writing top-level names to ../../../build/turtlebot3_example/turtlebot3_example.egg-info/top_level.txt
+[13.095s] reading manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[13.105s] writing manifest file '../../../build/turtlebot3_example/turtlebot3_example.egg-info/SOURCES.txt'
+[13.106s] running build
+[13.107s] running build_py
+[13.111s] running install
+[13.115s] running install_lib
+[13.133s] running install_data
+[13.133s] running install_egg_info
+[13.162s] removing '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info' (and everything under it)
+[13.162s] Copying ../../../build/turtlebot3_example/turtlebot3_example.egg-info to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages/turtlebot3_example-2.1.4-py3.8.egg-info
+[13.165s] running install_scripts
+[13.315s] Installing turtlebot3_obstacle_detection script to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/turtlebot3_example
+[13.316s] Installing turtlebot3_patrol_client script to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/turtlebot3_example
+[13.317s] Installing turtlebot3_patrol_server script to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/turtlebot3_example
+[13.317s] Installing turtlebot3_position_control script to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/turtlebot3_example
+[13.317s] writing list of installed files to '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/install.log'
+[13.660s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_example' returned '0': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/install.log --single-version-externally-managed install_data

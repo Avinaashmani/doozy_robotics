@@ -1,5 +1,8 @@
 [console_scripts]
+dock_to_dolly = pallet_docker_02.dock_with_dolly_cli:main
+dock_to_dolly2 = pallet_docker_02.dock_with_dolly_cli_02:main
 get_pallet_tf = pallet_docker_02.pid_controller_01:main
+pallet_navi = pallet_docker_02.moved_to_position_srv:main
 pallet_navi_01 = pallet_docker_02.pallet_navi_01:main
 pallet_navi_02 = pallet_docker_02.pallet_navi_02:main
 pallet_navi_03 = pallet_docker_02.pallet_navi_03:main

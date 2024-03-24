@@ -25,9 +25,12 @@ setup(
             'pallet_navi_02 = pallet_docker_02.pallet_navi_02:main',
             'pallet_navi_03 = pallet_docker_02.pallet_navi_03:main',
             'pallet_navi_04 = pallet_docker_02.pallet_navi_04:main',
+            'pallet_navi = pallet_docker_02.moved_to_position_srv:main', 
             'tb3_cam_node = pallet_docker_02.pallet_detect_01:main',
             'tf_broadcaster = pallet_docker_02.pallet_navi_dock_01:main',
             'get_pallet_tf = pallet_docker_02.pid_controller_01:main',
+            'dock_to_dolly = pallet_docker_02.dock_with_dolly_cli:main',
+            'dock_to_dolly2 = pallet_docker_02.dock_with_dolly_cli_02:main',
         ],
     },
 )
