@@ -20,7 +20,7 @@ class DollyDocker(Node):
         self.speed = Twist()
 
         self.move_tug = Twist()
-        self.dolly_frame = "dolly_01"
+        self.dolly_frame = "dolly_02"
         self.tb3_frame = "base_link"
         self.base_frame = "map"
 
@@ -38,40 +38,40 @@ class DollyDocker(Node):
 
             self.update_transforms(tb3_transform, dolly_transform)
 
-            distance = sqrt(pow(self.dolly_trans_x - self.tb3_trans_x, 2) + pow(self.dolly_trans_y - self.tb3_trans_y, 2))
+            distance = math.fabs(sqrt(pow(self.dolly_trans_x - self.tb3_trans_x, 2) + pow(self.dolly_trans_y - self.tb3_trans_y, 2)))
             angle_difference = self.dolly_angle_z - self.tb3_angle_z
             distance_error = atan2(self.dolly_trans_y - self.tb3_trans_y, self.dolly_trans_x - self.tb3_trans_x)
-            
+            # #self.get_logger().info(f"Distance Error {distance_error}") 
 
-            #self.get_logger().info(f"Distance Error {distance_error}") 
+            # right_max_orient = np.rad2deg(pi/3)
+            # #self.get_logger().info(f"Right Quadrent {right_max_orient}")
 
-            right_max_orient = np.rad2deg(pi/3)
-            #self.get_logger().info(f"Right Quadrent {right_max_orient}")
-
-            left_max_orient = np.rad2deg(2*pi/3)
-            #self.get_logger().info(f"Left Quadrent {left_max_orient}")
+            # left_max_orient = np.rad2deg(2*pi/3)
+            # #self.get_logger().info(f"Left Quadrent {left_max_orient}")
 
             angle_abs_error = math.fabs(angle_difference)
-            if distance > 0.5:
+            if distance > 0.7:
 
                 self.get_logger().info(f"Distance {distance}")
                 self.get_logger().info(f"Angle Difference {angle_difference}")
+                self.get_logger().info(f"Angle Difference {distance_error}")
 
-                if angle_abs_error > 0.2:
+                if angle_difference > 0.2:
      
-                    if angle_abs_error > 0.04 and angle_abs_error < 6.9:
+                    if angle_difference > 0.06 or angle_difference > 1.0:
 
                         self.move_tug.angular.z = -0.2
+                        self.cmd_pub.publish(self.move_tug)
                 
-                    elif math.fabs(angle_difference) < 0.04 :
+                    elif angle_difference < 0.06 or angle_difference < 1.0:
                         self.move_tug.angular.z = 0.2
-                
-                    self.cmd_pub.publish(self.move_tug)
+                        self.cmd_pub.publish(self.move_tug)
+
                 else:
                     self.move_tug.angular.z = 0.0
                     self.cmd_pub.publish(self.move_tug) 
                 
-                self.move_tug.linear.x = -0.05
+                self.move_tug.linear.x = 0.05
                 self.cmd_pub.publish(self.move_tug)
             else:
 
