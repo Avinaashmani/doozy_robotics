@@ -106,6 +106,8 @@ class RobotController(Node):
             start_docking.reached_point = True
             start_docking.idx_no = user_input
             self.client.send_goal(start_docking)
+            send_goal_future = self.client.send_goal_async(start_docking, self.feedback_callback)
+            send_goal_future.add_done_callback(self.get_done_cb)
 
             rclpy.shutdown()
             return True
@@ -122,7 +124,10 @@ class RobotController(Node):
             rclpy.shutdown()
             return False
              
-    
+    def get_done_cb(self, future):
+        pass
+    def feedback_callback(self, fb_msg):
+        pass
     # def dock_to_dolly(self):
 
     #     prev_dist = 0.0
