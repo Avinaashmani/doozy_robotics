@@ -1,14 +1,12 @@
 import rclpy
 import math
-import numpy as np
-from math import radians, copysign, sqrt, pow, pi, atan2
+from math import sqrt, pow, atan2
 from rclpy.node import Node
 from rclpy.time import Time
-from rclpy.duration import Duration
+from rclpy.action import ActionServer
 import tf2_ros
-from geometry_msgs.msg import TransformStamped, PoseStamped, Twist
-from std_msgs.msg import String, Bool, Int16
-
+from geometry_msgs.msg import Twist
+from doozy_actions.action import DollyDock
 class DollyDocker(Node):
 
     def __init__(self):
@@ -27,30 +25,26 @@ class DollyDocker(Node):
         self.reached_goal = False
 
         self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', qos_profile=10)
-        self.cmd_pub = 
-        self.create_timer(0.1, self.tf_callback)
 
-    def tf_callback(self):
+        self.action_server = ActionServer(self, DollyDock, 'dock_with_dolly', self.tf_callback)
+        
+        #self.create_timer(0.1, self.tf_callback)
+
+    def tf_callback(self, action_handle):
+        idx_no = action_handle.idx_no
+        dolly_frame = f'dolly_{idx_no}'
 
         try:
         
             tb3_transform = self.tf_buffer.lookup_transform(self.base_frame, self.tb3_frame, Time())
-            dolly_transform = self.tf_buffer.lookup_transform(self.base_frame, self.dolly_frame, Time())
+            dolly_transform = self.tf_buffer.lookup_transform(self.base_frame, dolly_frame, Time())
 
             self.update_transforms(tb3_transform, dolly_transform)
 
             distance = math.fabs(sqrt(pow(self.dolly_trans_x - self.tb3_trans_x, 2) + pow(self.dolly_trans_y - self.tb3_trans_y, 2)))
             angle_difference = self.dolly_angle_z - self.tb3_angle_z
             distance_error = atan2(self.dolly_trans_y - self.tb3_trans_y, self.dolly_trans_x - self.tb3_trans_x)
-            # #self.get_logger().info(f"Distance Error {distance_error}") 
 
-            # right_max_orient = np.rad2deg(pi/3)
-            # #self.get_logger().info(f"Right Quadrent {right_max_orient}")
-
-            # left_max_orient = np.rad2deg(2*pi/3)
-            # #self.get_logger().info(f"Left Quadrent {left_max_orient}")
-
-            angle_abs_error = math.fabs(angle_difference)
             if distance > 0.7:
 
                 self.get_logger().info(f"Distance {distance}")
@@ -80,9 +74,9 @@ class DollyDocker(Node):
                 self.move_tug.linear.x = 0.0
                 self.move_tug.angular.z = 0.0
                 self.cmd_pub.publish(self.move_tug)
-
+                result = DollyDock.Result() 
+                result.docked_to_dolly = True
                 
-            
         except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException) as e:
             self.get_logger().warn("LookupException: {0}".format(str(e)))
 
@@ -122,7 +116,6 @@ class DollyDocker(Node):
         yaw_z = math.atan2(t3, t4)
 
         return yaw_z
-
 
 def main():
     rclpy.init()

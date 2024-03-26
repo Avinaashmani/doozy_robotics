@@ -27,6 +27,8 @@ class DollyDocker(Node):
         self.reached_goal = False
 
         self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', qos_profile=10)
+
+        
         self.create_timer(0.1, self.tf_callback)
 
     def tf_callback(self):
