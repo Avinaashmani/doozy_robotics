@@ -105,7 +105,7 @@ class PalletTF(Node):
         sick_tf.header.stamp = Time().to_msg()
         sick_tf.transform.translation.x = msg.point.z
         sick_tf.transform.translation.y = msg.point.x
-        sick_tf.transform.translation.z = 0.0
+        #sick_tf.transform.translation.z = 0.0
         sick_tf.transform.rotation.z = 0.0
         sick_tf.transform.rotation.w = 1.0
 

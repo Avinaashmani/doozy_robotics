@@ -55,7 +55,7 @@ class Dolly_Identify(Node):
 
             self.sick_mini_t.right_corners.x = rightCorner_x
             self.sick_mini_t.right_corners.y = rightCorner_y
-            self.sick_mini_t.right_corners.z = rightCorner_z
+            self.sick_mini_t.right_corners.z = float(rightCorner_z)
             
             self.sick_mini_t.header.stamp = self.get_clock().now().to_msg()
             self.sick_mini_t.header.frame_id = 'map'

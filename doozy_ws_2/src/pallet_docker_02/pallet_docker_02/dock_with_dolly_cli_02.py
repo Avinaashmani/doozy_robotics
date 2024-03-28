@@ -33,9 +33,9 @@ class DollyDocker(Node):
 
         self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', qos_profile=10)
 
-        #self.action_server = ActionServer(self, DollyDock, 'dock_with_dolly', self.tf_callback)
+        self.action_server = ActionServer(self, DollyDock, 'dock_with_dolly', self.tf_callback)
         self.tf_timer = None
-        self.create_timer(0.1, self.tf_callback)
+        #self.create_timer(0.1, self.tf_callback)
 
     def tf_callback(self):
 
