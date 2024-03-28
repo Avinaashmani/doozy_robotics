@@ -1,0 +1,193 @@
+[1.229s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini -- -j12 -l12
+[1.268s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.308s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.309s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.492s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[1.528s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.529s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.753s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.844s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.912s] -- Found rclpy: 1.9.3 (/opt/ros/galactic/share/rclpy/cmake)
+[1.915s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.933s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.065s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.261s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[2.632s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.803s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.843s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.843s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[2.877s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.877s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[2.877s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[2.969s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.972s] -- Added test 'lint_cmake' to check CMake code style
+[2.973s] -- Added test 'xmllint' to check XML markup files
+[2.981s] -- Configuring done
+[3.065s] -- Generating done
+[3.072s] -- Build files have been written to: /home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini
+[3.108s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.122s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.419s] [35m[1mScanning dependencies of target sick_visionary_t_mini__rosidl_generator_c[0m
+[3.438s] [  9%] [32mBuilding C object CMakeFiles/sick_visionary_t_mini__rosidl_generator_c.dir/rosidl_generator_c/sick_visionary_t_mini/msg/detail/sick_t_mini__functions.c.o[0m
+[3.441s] [  9%] Built target sick_visionary_t_mini__cpp
+[3.457s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.457s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.457s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.503s] [ 22%] [32m[1mLinking C shared library libsick_visionary_t_mini__rosidl_generator_c.so[0m
+[3.558s] [ 22%] Built target sick_visionary_t_mini__rosidl_generator_c
+[3.574s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.574s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.730s] [35m[1mScanning dependencies of target sick_visionary_t_mini__rosidl_typesupport_cpp[0m
+[3.752s] [ 32%] [32mBuilding CXX object CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sick_visionary_t_mini/msg/sick_t_mini__type_support.cpp.o[0m
+[3.768s] [35m[1mScanning dependencies of target sick_visionary_t_mini__rosidl_typesupport_introspection_cpp[0m
+[3.769s] [35m[1mScanning dependencies of target sick_visionary_t_mini__rosidl_typesupport_fastrtps_cpp[0m
+[3.786s] [ 35%] [32mBuilding CXX object CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sick_visionary_t_mini/msg/detail/sick_t_mini__type_support.cpp.o[0m
+[3.788s] [ 38%] [32mBuilding CXX object CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sick_visionary_t_mini/msg/detail/dds_fastrtps/sick_t_mini__type_support.cpp.o[0m
+[3.845s] [35m[1mScanning dependencies of target sick_visionary_t_mini__rosidl_typesupport_c[0m
+[3.863s] [ 41%] [32mBuilding CXX object CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_c.dir/rosidl_typesupport_c/sick_visionary_t_mini/msg/sick_t_mini__type_support.cpp.o[0m
+[3.896s] [35m[1mScanning dependencies of target sick_visionary_t_mini__rosidl_typesupport_introspection_c[0m
+[3.912s] [ 45%] [32m[1mLinking CXX shared library libsick_visionary_t_mini__rosidl_typesupport_c.so[0m
+[3.920s] [ 48%] [32mBuilding C object CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sick_visionary_t_mini/msg/detail/sick_t_mini__type_support.c.o[0m
+[3.971s] [ 51%] [32m[1mLinking C shared library libsick_visionary_t_mini__rosidl_typesupport_introspection_c.so[0m
+[3.974s] [ 51%] Built target sick_visionary_t_mini__rosidl_typesupport_c
+[4.020s] [ 51%] Built target sick_visionary_t_mini__rosidl_typesupport_introspection_c
+[4.170s] [ 54%] [32m[1mLinking CXX shared library libsick_visionary_t_mini__rosidl_typesupport_cpp.so[0m
+[4.182s] [ 58%] [32m[1mLinking CXX shared library libsick_visionary_t_mini__rosidl_typesupport_introspection_cpp.so[0m
+[4.230s] [ 58%] Built target sick_visionary_t_mini__rosidl_typesupport_cpp
+[4.274s] [ 58%] Built target sick_visionary_t_mini__rosidl_typesupport_introspection_cpp
+[4.351s] [ 61%] [32m[1mLinking CXX shared library libsick_visionary_t_mini__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.474s] [ 61%] Built target sick_visionary_t_mini__rosidl_typesupport_fastrtps_cpp
+[4.488s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.784s] [35m[1mScanning dependencies of target sick_visionary_t_mini__rosidl_typesupport_fastrtps_c[0m
+[4.804s] [ 67%] [32mBuilding CXX object CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sick_visionary_t_mini/msg/detail/sick_t_mini__type_support_c.cpp.o[0m
+[5.270s] [ 70%] [32m[1mLinking CXX shared library libsick_visionary_t_mini__rosidl_typesupport_fastrtps_c.so[0m
+[5.389s] [ 70%] Built target sick_visionary_t_mini__rosidl_typesupport_fastrtps_c
+[5.418s] [ 70%] Built target sick_visionary_t_mini
+[5.448s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.966s] [ 74%] Built target sick_visionary_t_mini__py
+[5.982s] [35m[1mScanning dependencies of target sick_visionary_t_mini__python[0m
+[6.003s] [ 77%] [32mBuilding C object CMakeFiles/sick_visionary_t_mini__python.dir/rosidl_generator_py/sick_visionary_t_mini/msg/_sick_t_mini_s.c.o[0m
+[6.146s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/sick_visionary_t_mini/libsick_visionary_t_mini__python.so[0m
+[6.209s] [ 80%] Built target sick_visionary_t_mini__python
+[6.224s] [35m[1mScanning dependencies of target sick_visionary_t_mini__rosidl_typesupport_introspection_c__pyext[0m
+[6.225s] [35m[1mScanning dependencies of target sick_visionary_t_mini__rosidl_typesupport_c__pyext[0m
+[6.225s] [35m[1mScanning dependencies of target sick_visionary_t_mini__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.247s] [ 87%] [32mBuilding C object CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/sick_visionary_t_mini/_sick_visionary_t_mini_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.247s] [ 87%] [32mBuilding C object CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/sick_visionary_t_mini/_sick_visionary_t_mini_s.ep.rosidl_typesupport_c.c.o[0m
+[6.252s] [ 90%] [32mBuilding C object CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/sick_visionary_t_mini/_sick_visionary_t_mini_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.359s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/sick_visionary_t_mini/sick_visionary_t_mini_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.359s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/sick_visionary_t_mini/sick_visionary_t_mini_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.368s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/sick_visionary_t_mini/sick_visionary_t_mini_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[6.414s] [100%] Built target sick_visionary_t_mini__rosidl_typesupport_c__pyext
+[6.414s] [100%] Built target sick_visionary_t_mini__rosidl_typesupport_introspection_c__pyext
+[6.469s] [100%] Built target sick_visionary_t_mini__rosidl_typesupport_fastrtps_c__pyext
+[6.485s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini -- -j12 -l12
+[6.558s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini
+[6.571s] -- Install configuration: ""
+[6.572s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/ament_index/resource_index/rosidl_interfaces/sick_visionary_t_mini
+[6.572s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini
+[6.572s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg
+[6.572s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/rosidl_generator_c__visibility_control.h
+[6.572s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail
+[6.572s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__type_support.h
+[6.573s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__struct.h
+[6.573s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__functions.c
+[6.573s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__functions.h
+[6.573s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/sick_t_mini.h
+[6.573s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/environment/library_path.sh
+[6.574s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/environment/library_path.dsv
+[6.574s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_generator_c.so
+[6.575s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_generator_c.so" to ""
+[6.575s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini
+[6.575s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg
+[6.575s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail
+[6.575s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__rosidl_typesupport_fastrtps_c.h
+[6.576s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.576s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_fastrtps_c.so
+[6.576s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_fastrtps_c.so" to ""
+[6.577s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini
+[6.577s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg
+[6.577s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.577s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail
+[6.577s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__rosidl_typesupport_fastrtps_cpp.hpp
+[6.577s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/dds_fastrtps
+[6.577s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_fastrtps_cpp.so
+[6.578s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.578s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini
+[6.578s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg
+[6.578s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.579s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail
+[6.579s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__type_support.c
+[6.579s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__rosidl_typesupport_introspection_c.h
+[6.579s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_introspection_c.so
+[6.580s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_introspection_c.so" to ""
+[6.580s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_c.so
+[6.580s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_c.so" to ""
+[6.581s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini
+[6.581s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg
+[6.581s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail
+[6.581s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__builder.hpp
+[6.582s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__struct.hpp
+[6.582s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__traits.hpp
+[6.582s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/sick_t_mini.hpp
+[6.582s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini
+[6.582s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg
+[6.582s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail
+[6.582s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__type_support.cpp
+[6.582s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/include/sick_visionary_t_mini/msg/detail/sick_t_mini__rosidl_typesupport_introspection_cpp.hpp
+[6.582s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_introspection_cpp.so
+[6.583s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_introspection_cpp.so" to ""
+[6.583s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_cpp.so
+[6.584s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__rosidl_typesupport_cpp.so" to ""
+[6.584s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/environment/pythonpath.sh
+[6.584s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/environment/pythonpath.dsv
+[6.585s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/__init__.py
+[6.631s] Compiling '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/__init__.py'...
+[6.636s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/msg
+[6.636s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/msg/_sick_t_mini.py
+[6.636s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/msg/_sick_t_mini_s.c
+[6.636s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/msg/__init__.py
+[6.637s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/sick_visionary_t_mini_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[6.638s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/sick_visionary_t_mini_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.638s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/sick_visionary_t_mini_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[6.639s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/sick_visionary_t_mini_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.640s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/sick_visionary_t_mini_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[6.641s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages/sick_visionary_t_mini/sick_visionary_t_mini_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[6.641s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__python.so
+[6.642s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/libsick_visionary_t_mini__python.so" to ""
+[6.642s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/msg/SickTMini.idl
+[6.642s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/msg/SickTMini.msg
+[6.643s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/ament_index/resource_index/package_run_dependencies/sick_visionary_t_mini
+[6.643s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/ament_index/resource_index/parent_prefix_path/sick_visionary_t_mini
+[6.643s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/environment/ament_prefix_path.sh
+[6.643s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/environment/ament_prefix_path.dsv
+[6.644s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/environment/path.sh
+[6.644s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/environment/path.dsv
+[6.644s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/local_setup.bash
+[6.644s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/local_setup.sh
+[6.644s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/local_setup.zsh
+[6.644s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/local_setup.dsv
+[6.645s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.dsv
+[6.645s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/ament_index/resource_index/packages/sick_visionary_t_mini
+[6.645s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_generator_cExport.cmake
+[6.645s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_generator_cExport-noconfig.cmake
+[6.646s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_typesupport_introspection_cExport.cmake
+[6.646s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.646s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_typesupport_cExport.cmake
+[6.647s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_typesupport_cExport-noconfig.cmake
+[6.647s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_generator_cppExport.cmake
+[6.647s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_typesupport_introspection_cppExport.cmake
+[6.647s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.648s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_typesupport_cppExport.cmake
+[6.648s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_mini__rosidl_typesupport_cppExport-noconfig.cmake
+[6.648s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/rosidl_cmake-extras.cmake
+[6.649s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.649s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/ament_cmake_export_libraries-extras.cmake
+[6.649s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/ament_cmake_export_targets-extras.cmake
+[6.649s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.649s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.649s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.649s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_miniConfig.cmake
+[6.649s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/cmake/sick_visionary_t_miniConfig-version.cmake
+[6.649s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.xml
+[6.652s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini

@@ -55,9 +55,7 @@ class ConnectToChargingDockNavigator(Node):
   
       # Initialize the class using the constructor
       super().__init__('connect_to_charging_dock_navigator')
-    
-      # Create a publisher
-      # This node publishes the desired linear and angular velocity of the robot
+
       self.publisher_cmd_vel = self.create_publisher(
         Twist,
         '/cmd_vel',
@@ -99,15 +97,6 @@ class ConnectToChargingDockNavigator(Node):
       # Wait for navigation to fully activate. Use this line if autostart is set to true.
       navigator.waitUntilNav2Active()
 
-      # If desired, you can change or load the map as well
-      # navigator.changeMap('/path/to/map.yaml')
-
-      # You may use the navigator to clear or obtain costmaps
-      # navigator.clearAllCostmaps()  # also have clearLocalCostmap() and clearGlobalCostmap()
-      # global_costmap = navigator.getGlobalCostmap()
-      # local_costmap = navigator.getLocalCostmap()
-
-      # Set the robot's goal pose
       goal_pose = PoseStamped()
       goal_pose.header.frame_id = 'map'
       goal_pose.header.stamp = navigator.get_clock().now().to_msg()

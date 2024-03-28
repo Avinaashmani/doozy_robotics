@@ -18,7 +18,7 @@ class DollyDocker(Node):
         self.speed = Twist()
 
         self.move_tug = Twist()
-        self.dolly_frame = "dolly_02"
+        self.dolly_frame = "sick_visionary_t_mini"
         self.tb3_frame = "base_link"
         self.base_frame = "map"
 
@@ -26,56 +26,85 @@ class DollyDocker(Node):
 
         self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', qos_profile=10)
 
-        self.action_server = ActionServer(self, DollyDock, 'dock_with_dolly', self.tf_callback)
+        #self.action_server = ActionServer(self, DollyDock, 'dock_with_dolly', self.tf_callback)
         
-        #self.create_timer(0.1, self.tf_callback)
+        self.create_timer(0.1, self.tf_callback)
 
-    def tf_callback(self, action_handle):
-        idx_no = action_handle.idx_no
-        dolly_frame = f'dolly_{idx_no}'
+    def tf_callback(self):
 
         try:
         
             tb3_transform = self.tf_buffer.lookup_transform(self.base_frame, self.tb3_frame, Time())
-            dolly_transform = self.tf_buffer.lookup_transform(self.base_frame, dolly_frame, Time())
+            dolly_transform = self.tf_buffer.lookup_transform(self.base_frame, 'sick_visionary_t_mini', Time())
 
             self.update_transforms(tb3_transform, dolly_transform)
 
             distance = math.fabs(sqrt(pow(self.dolly_trans_x - self.tb3_trans_x, 2) + pow(self.dolly_trans_y - self.tb3_trans_y, 2)))
             angle_difference = self.dolly_angle_z - self.tb3_angle_z
             distance_error = atan2(self.dolly_trans_y - self.tb3_trans_y, self.dolly_trans_x - self.tb3_trans_x)
+            yaw_angle_error = atan2(self.dolly_trans_y - self.tb3_trans_y, self.dolly_trans_x - self.tb3_trans_x) - self.tb3_angle_z
 
-            if distance > 0.7:
+            # if distance > 0.2:
 
-                self.get_logger().info(f"Distance {distance}")
-                self.get_logger().info(f"Angle Difference {angle_difference}")
-                self.get_logger().info(f"Angle Difference {distance_error}")
+            #     print(f"Distance {distance}")
+            #     print(f"Angle Path Error {distance_error}")
+            #     print(f"Angle Difference {angle_difference}")
 
-                if angle_difference > 0.2:
+            #     self.move_tug.linear.x = 0.08
+
+            #     if abs(angle_difference) > 0.02:
+            #         self.move_tug.linear.x = 0.0
      
-                    if angle_difference > 0.06 or angle_difference > 1.0:
+            #         if angle_difference > 0.0:
 
-                        self.move_tug.angular.z = -0.2
-                        self.cmd_pub.publish(self.move_tug)
+            #             self.move_tug.angular.z = 0.2
+            #             self.cmd_pub.publish(self.move_tug)
                 
-                    elif angle_difference < 0.06 or angle_difference < 1.0:
-                        self.move_tug.angular.z = 0.2
-                        self.cmd_pub.publish(self.move_tug)
+            #         elif angle_difference < 0.0:
+            #             self.move_tug.angular.z = -0.2
+            #             self.cmd_pub.publish(self.move_tug)
 
+            #     else:
+            #         self.move_tug.linear.x = 0.03
+            #         self.cmd_pub.publish(self.move_tug) 
+            # else:
+
+            #     self.get_logger().info("Docking Completed....")
+            #     self.move_tug.linear.x = 0.0
+            #     self.move_tug.angular.z = 0.0
+            #     self.cmd_pub.publish(self.move_tug)
+            
+            if distance > 0.2:
+                print("---------------")
+                #print(distance)
+                #print(distance_error)
+                print(yaw_angle_error)
+                print("---------------")
+
+                if abs(yaw_angle_error) > 0.15:
+                    
+                    # if distance_error > 0.0 :
+                    #     self.move_tug.angular.z = 0.1
+                    # elif distance_error < 0.0:
+                    #     self.move_tug.angular.z = -0.1
+
+                    if abs(angle_difference) > 0.1:
+                        if yaw_angle_error > 0.0:
+                            self.move_tug.angular.z = 0.1
+                        else:
+                            self.move_tug.angular.z = -0.1
+                        self.cmd_pub.publish(self.move_tug)
                 else:
-                    self.move_tug.angular.z = 0.0
-                    self.cmd_pub.publish(self.move_tug) 
-                
-                self.move_tug.linear.x = 0.05
+                    self.move_tug.linear.x = 0.05
                 self.cmd_pub.publish(self.move_tug)
             else:
-
-                self.get_logger().info("Docking Completed....")
+                print("Goal Reached")
+                self.cmd_pub.publish(self.move_tug)
                 self.move_tug.linear.x = 0.0
                 self.move_tug.angular.z = 0.0
-                self.cmd_pub.publish(self.move_tug)
-                result = DollyDock.Result() 
-                result.docked_to_dolly = True
+                    
+            
+
                 
         except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException) as e:
             self.get_logger().warn("LookupException: {0}".format(str(e)))

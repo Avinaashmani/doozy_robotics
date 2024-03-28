@@ -1,0 +1,1007 @@
+[0.635s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.637s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3ecc341910>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3ecc341910>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3ecc341df0>)
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.126s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.126s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/avinaash/doozy_robotics/doozy_ws_2'
+[1.126s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.127s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.162s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.163s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.164s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.165s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.166s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/doozy_actions) by extensions ['ignore', 'ignore_ament_install']
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/doozy_actions) by extension 'ignore'
+[1.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/doozy_actions) by extension 'ignore_ament_install'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/doozy_actions) by extensions ['colcon_pkg']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/doozy_actions) by extension 'colcon_pkg'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/doozy_actions) by extensions ['colcon_meta']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/doozy_actions) by extension 'colcon_meta'
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/doozy_actions) by extensions ['ros']
+[1.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/doozy_actions) by extension 'ros'
+[1.173s] DEBUG:colcon.colcon_core.package_identification:Package 'src/doozy_actions' with type 'ros.ament_cmake' and name 'doozy_actions'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['ignore', 'ignore_ament_install']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ignore'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ignore_ament_install'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['colcon_pkg']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'colcon_pkg'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['colcon_meta']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'colcon_meta'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['ros']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'ros'
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['cmake', 'python']
+[1.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'cmake'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'python'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extensions ['python_setup_py']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/msg) by extension 'python_setup_py'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pallet_docker_02) by extensions ['ignore', 'ignore_ament_install']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pallet_docker_02) by extension 'ignore'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pallet_docker_02) by extension 'ignore_ament_install'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pallet_docker_02) by extensions ['colcon_pkg']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pallet_docker_02) by extension 'colcon_pkg'
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pallet_docker_02) by extensions ['colcon_meta']
+[1.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/pallet_docker_02) by extension 'colcon_meta'
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pallet_docker_02) by extensions ['ros']
+[1.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/pallet_docker_02) by extension 'ros'
+[1.177s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pallet_docker_02' with type 'ros.ament_python' and name 'pallet_docker_02'
+[1.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_visionary_t_mini) by extensions ['ignore', 'ignore_ament_install']
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_visionary_t_mini) by extension 'ignore'
+[1.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_visionary_t_mini) by extension 'ignore_ament_install'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_visionary_t_mini) by extensions ['colcon_pkg']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_visionary_t_mini) by extension 'colcon_pkg'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_visionary_t_mini) by extensions ['colcon_meta']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_visionary_t_mini) by extension 'colcon_meta'
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_visionary_t_mini) by extensions ['ros']
+[1.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/sick_visionary_t_mini) by extension 'ros'
+[1.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sick_visionary_t_mini' with type 'ros.ament_cmake' and name 'sick_visionary_t_mini'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore'
+[1.183s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore_ament_install'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_pkg']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_pkg'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_meta']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_meta'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ros']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ros'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['cmake', 'python']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'cmake'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['python_setup_py']
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python_setup_py'
+[1.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extensions ['ros']
+[1.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3) by extension 'ros'
+[1.186s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3' with type 'ros.ament_cmake' and name 'turtlebot3'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ignore'
+[1.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ignore_ament_install'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_pkg']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'colcon_pkg'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_meta']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'colcon_meta'
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extensions ['ros']
+[1.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_bringup) by extension 'ros'
+[1.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[1.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'ignore'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'ignore_ament_install'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_pkg']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_pkg'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_meta']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_meta'
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extensions ['ros']
+[1.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_cartographer) by extension 'ros'
+[1.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_cartographer' with type 'ros.ament_cmake' and name 'turtlebot3_cartographer'
+[1.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ignore'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ignore_ament_install'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['colcon_pkg']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'colcon_pkg'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['colcon_meta']
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'colcon_meta'
+[1.193s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extensions ['ros']
+[1.194s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_description) by extension 'ros'
+[1.195s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['ignore', 'ignore_ament_install']
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ignore'
+[1.196s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ignore_ament_install'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['colcon_pkg']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'colcon_pkg'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['colcon_meta']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'colcon_meta'
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extensions ['ros']
+[1.197s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_example) by extension 'ros'
+[1.200s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_example' with type 'ros.ament_python' and name 'turtlebot3_example'
+[1.200s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ignore'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ignore_ament_install'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_pkg']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_pkg'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_meta']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_meta'
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extensions ['ros']
+[1.201s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_navigation2) by extension 'ros'
+[1.202s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_navigation2'
+[1.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['ignore', 'ignore_ament_install']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ignore'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ignore_ament_install'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['colcon_pkg']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'colcon_pkg'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['colcon_meta']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'colcon_meta'
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extensions ['ros']
+[1.203s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_node) by extension 'ros'
+[1.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_node' with type 'ros.ament_cmake' and name 'turtlebot3_node'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ignore'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ignore_ament_install'
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_pkg']
+[1.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'colcon_pkg'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_meta']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'colcon_meta'
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extensions ['ros']
+[1.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3/turtlebot3_teleop) by extension 'ros'
+[1.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3/turtlebot3_teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[1.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'cmake'
+[1.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['python_setup_py']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python_setup_py'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[1.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[1.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[1.213s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[1.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[1.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[1.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[1.219s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[1.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extensions ['ignore', 'ignore_ament_install']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extension 'ignore'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extension 'ignore_ament_install'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extensions ['colcon_pkg']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extension 'colcon_pkg'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extensions ['colcon_meta']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extension 'colcon_meta'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extensions ['ros']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extension 'ros'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extensions ['cmake', 'python']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extension 'cmake'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extension 'python'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extensions ['python_setup_py']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(worlds ) by extension 'python_setup_py'
+[1.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.330s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.335s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/avinaash/doozy_robotics/doozy_ws_2/install
+[1.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 391 installed packages in /opt/ros/galactic
+[1.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'doozy_actions' build argument 'cmake_args' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'doozy_actions' build argument 'cmake_target' from command line to 'None'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'doozy_actions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'doozy_actions' build argument 'cmake_clean_cache' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'doozy_actions' build argument 'cmake_clean_first' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'doozy_actions' build argument 'cmake_force_configure' from command line to 'False'
+[1.588s] Level 5:colcon.colcon_core.verb:set package 'doozy_actions' build argument 'ament_cmake_args' from command line to 'None'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'doozy_actions' build argument 'catkin_cmake_args' from command line to 'None'
+[1.589s] Level 5:colcon.colcon_core.verb:set package 'doozy_actions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.589s] DEBUG:colcon.colcon_core.verb:Building package 'doozy_actions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions', 'symlink_install': False, 'test_result_base': None}
+[1.590s] Level 5:colcon.colcon_core.verb:set package 'pallet_docker_02' build argument 'cmake_args' from command line to 'None'
+[1.590s] Level 5:colcon.colcon_core.verb:set package 'pallet_docker_02' build argument 'cmake_target' from command line to 'None'
+[1.590s] Level 5:colcon.colcon_core.verb:set package 'pallet_docker_02' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.590s] Level 5:colcon.colcon_core.verb:set package 'pallet_docker_02' build argument 'cmake_clean_cache' from command line to 'False'
+[1.590s] Level 5:colcon.colcon_core.verb:set package 'pallet_docker_02' build argument 'cmake_clean_first' from command line to 'False'
+[1.590s] Level 5:colcon.colcon_core.verb:set package 'pallet_docker_02' build argument 'cmake_force_configure' from command line to 'False'
+[1.590s] Level 5:colcon.colcon_core.verb:set package 'pallet_docker_02' build argument 'ament_cmake_args' from command line to 'None'
+[1.590s] Level 5:colcon.colcon_core.verb:set package 'pallet_docker_02' build argument 'catkin_cmake_args' from command line to 'None'
+[1.590s] Level 5:colcon.colcon_core.verb:set package 'pallet_docker_02' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.590s] DEBUG:colcon.colcon_core.verb:Building package 'pallet_docker_02' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/pallet_docker_02', 'symlink_install': False, 'test_result_base': None}
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'sick_visionary_t_mini' build argument 'cmake_args' from command line to 'None'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'sick_visionary_t_mini' build argument 'cmake_target' from command line to 'None'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'sick_visionary_t_mini' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'sick_visionary_t_mini' build argument 'cmake_clean_cache' from command line to 'False'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'sick_visionary_t_mini' build argument 'cmake_clean_first' from command line to 'False'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'sick_visionary_t_mini' build argument 'cmake_force_configure' from command line to 'False'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'sick_visionary_t_mini' build argument 'ament_cmake_args' from command line to 'None'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'sick_visionary_t_mini' build argument 'catkin_cmake_args' from command line to 'None'
+[1.591s] Level 5:colcon.colcon_core.verb:set package 'sick_visionary_t_mini' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.592s] DEBUG:colcon.colcon_core.verb:Building package 'sick_visionary_t_mini' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/sick_visionary_t_mini', 'symlink_install': False, 'test_result_base': None}
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_args' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_target' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[1.592s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.593s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.593s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_cartographer', 'symlink_install': False, 'test_result_base': None}
+[1.593s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_args' from command line to 'None'
+[1.594s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target' from command line to 'None'
+[1.594s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.594s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.594s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.594s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.594s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.594s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.594s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.594s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_description', 'symlink_install': False, 'test_result_base': None}
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.597s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_example', 'symlink_install': False, 'test_result_base': None}
+[1.597s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.598s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.598s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': False, 'test_result_base': None}
+[1.600s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.601s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.601s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_args' from command line to 'None'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target' from command line to 'None'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.602s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.602s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_navigation2', 'symlink_install': False, 'test_result_base': None}
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_args' from command line to 'None'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target' from command line to 'None'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.603s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.604s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.604s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_node', 'symlink_install': False, 'test_result_base': None}
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_args' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.605s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.606s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.606s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_args' from command line to 'None'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target' from command line to 'None'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.607s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.608s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[1.610s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.611s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_args' from command line to 'None'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target' from command line to 'None'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_cache' from command line to 'False'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_first' from command line to 'False'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_force_configure' from command line to 'False'
+[1.612s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'ament_cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_cmake_args' from command line to 'None'
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.613s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3', 'merge_install': False, 'path': '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3', 'symlink_install': False, 'test_result_base': None}
+[1.614s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.619s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.620s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_description' with build type 'ament_cmake'
+[1.620s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_description'
+[1.627s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.629s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.652s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_node' with build type 'ament_cmake'
+[1.652s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_node'
+[1.653s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.653s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.672s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_cartographer' with build type 'ament_cmake'
+[1.673s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_cartographer'
+[1.677s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.678s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.695s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_example' with build type 'ament_python'
+[1.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'ament_prefix_path')
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.ps1'
+[1.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.dsv'
+[1.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.sh'
+[1.706s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.719s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[1.720s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3_simulations/turtlebot3_fake_node'
+[1.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.742s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[1.744s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3_simulations/turtlebot3_gazebo'
+[1.747s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.747s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.765s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_navigation2' with build type 'ament_cmake'
+[1.765s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_navigation2'
+[1.767s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.769s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.785s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_teleop' with build type 'ament_python'
+[1.787s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'ament_prefix_path')
+[1.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.ps1'
+[1.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.dsv'
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.sh'
+[1.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.820s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions' with build type 'ament_cmake'
+[1.822s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions'
+[1.825s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.847s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/pallet_docker_02' with build type 'ament_python'
+[1.848s] Level 1:colcon.colcon_core.shell:create_environment_hook('pallet_docker_02', 'ament_prefix_path')
+[1.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/hook/ament_prefix_path.ps1'
+[1.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/hook/ament_prefix_path.dsv'
+[1.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/hook/ament_prefix_path.sh'
+[1.859s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.859s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.874s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/sick_visionary_t_mini' with build type 'ament_cmake'
+[1.875s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/sick_visionary_t_mini'
+[1.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.877s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_description -- -j12 -l12
+[1.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node -- -j12 -l12
+[1.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_cartographer -- -j12 -l12
+[2.694s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_example'
+[2.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.729s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_fake_node -- -j12 -l12
+[2.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_gazebo -- -j12 -l12
+[2.755s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_navigation2 -- -j12 -l12
+[3.518s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_teleop'
+[3.519s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.519s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions -- -j12 -l12
+[4.342s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/pallet_docker_02'
+[4.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini -- -j12 -l12
+[4.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_description -- -j12 -l12
+[4.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node -- -j12 -l12
+[4.422s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_cartographer -- -j12 -l12
+[4.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_fake_node -- -j12 -l12
+[4.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_gazebo -- -j12 -l12
+[4.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_navigation2 -- -j12 -l12
+[4.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions -- -j12 -l12
+[4.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_description
+[4.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_cartographer
+[4.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_fake_node
+[4.810s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_navigation2
+[4.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_gazebo
+[4.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node
+[4.918s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[4.935s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description' for CMake module files
+[4.937s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description' for CMake config files
+[4.938s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[4.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[4.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[4.946s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[4.950s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/bin'
+[4.951s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[4.951s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/lib/python3.8/site-packages'
+[4.952s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/bin'
+[4.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[4.957s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[4.972s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[4.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[4.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[4.981s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[5.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_cartographer)
+[5.033s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer' for CMake module files
+[5.034s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer' for CMake config files
+[5.039s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'cmake_prefix_path')
+[5.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.ps1'
+[5.050s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.dsv'
+[5.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.sh'
+[5.052s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/bin'
+[5.052s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/lib/pkgconfig/turtlebot3_cartographer.pc'
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/lib/python3.8/site-packages'
+[5.053s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/bin'
+[5.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_description
+[5.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.ps1'
+[5.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv'
+[5.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.sh'
+[5.066s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.bash'
+[5.069s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.zsh'
+[5.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/colcon-core/packages/turtlebot3_cartographer)
+[5.089s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[5.090s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node' for CMake module files
+[5.091s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node' for CMake config files
+[5.092s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[5.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[5.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[5.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/lib'
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/bin'
+[5.101s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[5.105s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[5.107s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/bin'
+[5.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_cartographer
+[5.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[5.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_fake_node
+[5.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[5.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[5.122s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[5.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[5.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[5.132s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[5.135s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2' for CMake module files
+[5.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_navigation2
+[5.141s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2' for CMake config files
+[5.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[5.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[5.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[5.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[5.149s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/bin'
+[5.149s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/lib/pkgconfig/turtlebot3_navigation2.pc'
+[5.149s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/lib/python3.8/site-packages'
+[5.150s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/bin'
+[5.153s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.ps1'
+[5.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv'
+[5.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.sh'
+[5.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.bash'
+[5.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.zsh'
+[5.162s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/colcon-core/packages/turtlebot3_navigation2)
+[5.187s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions
+[5.209s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[5.212s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo' for CMake module files
+[5.213s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo' for CMake config files
+[5.216s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[5.217s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[5.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_gazebo
+[5.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[5.224s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[5.226s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/lib'
+[5.226s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/bin'
+[5.228s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[5.229s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[5.230s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/bin'
+[5.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[5.235s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[5.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[5.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[5.240s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[5.241s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[5.293s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_node)
+[5.296s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node' for CMake module files
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node' for CMake config files
+[5.299s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_node', 'cmake_prefix_path')
+[5.301s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.ps1'
+[5.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node
+[5.305s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.dsv'
+[5.306s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.sh'
+[5.317s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/lib'
+[5.317s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/bin'
+[5.317s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/lib/pkgconfig/turtlebot3_node.pc'
+[5.318s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/lib/python3.8/site-packages'
+[5.318s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/bin'
+[5.319s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.ps1'
+[5.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.dsv'
+[5.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.sh'
+[5.328s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.bash'
+[5.330s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.zsh'
+[5.334s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/colcon-core/packages/turtlebot3_node)
+[5.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[5.372s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description' for CMake module files
+[5.375s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description' for CMake config files
+[5.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[5.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[5.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[5.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[5.383s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/bin'
+[5.387s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[5.389s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/lib/python3.8/site-packages'
+[5.390s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/bin'
+[5.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[5.393s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[5.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[5.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[5.403s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[5.404s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[5.416s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_cartographer)
+[5.417s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer' for CMake module files
+[5.418s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer' for CMake config files
+[5.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'cmake_prefix_path')
+[5.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.ps1'
+[5.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.dsv'
+[5.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.sh'
+[5.428s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/bin'
+[5.429s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/lib/pkgconfig/turtlebot3_cartographer.pc'
+[5.430s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/lib/python3.8/site-packages'
+[5.431s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/bin'
+[5.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.ps1'
+[5.434s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv'
+[5.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.sh'
+[5.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.bash'
+[5.440s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.zsh'
+[5.442s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer/share/colcon-core/packages/turtlebot3_cartographer)
+[5.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[5.452s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node' for CMake module files
+[5.456s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node' for CMake config files
+[5.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[5.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[5.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[5.461s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[5.463s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/lib'
+[5.463s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/bin'
+[5.463s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[5.464s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/lib/python3.8/site-packages'
+[5.464s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/bin'
+[5.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[5.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[5.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[5.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[5.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[5.490s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[5.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[5.513s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2' for CMake module files
+[5.516s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2' for CMake config files
+[5.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[5.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[5.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[5.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[5.532s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/bin'
+[5.532s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/lib/pkgconfig/turtlebot3_navigation2.pc'
+[5.533s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/lib/python3.8/site-packages'
+[5.534s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/bin'
+[5.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.ps1'
+[5.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv'
+[5.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.sh'
+[5.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.bash'
+[5.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.zsh'
+[5.550s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2/share/colcon-core/packages/turtlebot3_navigation2)
+[5.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(doozy_actions)
+[5.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions
+[5.563s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions' for CMake module files
+[5.566s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions' for CMake config files
+[5.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('doozy_actions', 'cmake_prefix_path')
+[5.570s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/cmake_prefix_path.ps1'
+[5.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/cmake_prefix_path.dsv'
+[5.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/cmake_prefix_path.sh'
+[5.574s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib'
+[5.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('doozy_actions', 'ld_library_path_lib')
+[5.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/ld_library_path_lib.ps1'
+[5.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/ld_library_path_lib.dsv'
+[5.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/ld_library_path_lib.sh'
+[5.581s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/bin'
+[5.581s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/pkgconfig/doozy_actions.pc'
+[5.582s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages'
+[5.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('doozy_actions', 'pythonpath')
+[5.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/pythonpath.ps1'
+[5.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/pythonpath.dsv'
+[5.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/pythonpath.sh'
+[5.596s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/bin'
+[5.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.ps1'
+[5.604s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.dsv'
+[5.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.sh'
+[5.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.bash'
+[5.612s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.zsh'
+[5.618s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/colcon-core/packages/doozy_actions)
+[5.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini -- -j12 -l12
+[5.674s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[5.678s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo' for CMake module files
+[5.681s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo' for CMake config files
+[5.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[5.688s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[5.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[5.703s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[5.704s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/lib'
+[5.705s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/bin'
+[5.705s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[5.706s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[5.708s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/bin'
+[5.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[5.719s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[5.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[5.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[5.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[5.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[5.747s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[5.749s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3_simulations/turtlebot3_simulations'
+[5.752s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.752s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.786s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_node)
+[5.789s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node' for CMake module files
+[5.791s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node' for CMake config files
+[5.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_node', 'cmake_prefix_path')
+[5.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.ps1'
+[5.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.dsv'
+[5.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/hook/cmake_prefix_path.sh'
+[5.803s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/lib'
+[5.803s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/bin'
+[5.804s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/lib/pkgconfig/turtlebot3_node.pc'
+[5.807s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/lib/python3.8/site-packages'
+[5.812s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/bin'
+[5.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.ps1'
+[5.817s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.dsv'
+[5.818s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.sh'
+[5.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.bash'
+[5.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.zsh'
+[5.828s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/colcon-core/packages/turtlebot3_node)
+[5.830s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_bringup' with build type 'ament_cmake'
+[5.831s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_bringup'
+[5.832s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.832s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_simulations -- -j12 -l12
+[5.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_bringup -- -j12 -l12
+[5.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(doozy_actions)
+[5.959s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions' for CMake module files
+[5.963s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions' for CMake config files
+[5.964s] Level 1:colcon.colcon_core.shell:create_environment_hook('doozy_actions', 'cmake_prefix_path')
+[5.966s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/cmake_prefix_path.ps1'
+[5.970s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/cmake_prefix_path.dsv'
+[5.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/cmake_prefix_path.sh'
+[5.973s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib'
+[5.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('doozy_actions', 'ld_library_path_lib')
+[5.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/ld_library_path_lib.ps1'
+[5.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/ld_library_path_lib.dsv'
+[5.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/ld_library_path_lib.sh'
+[5.981s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/bin'
+[5.982s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/pkgconfig/doozy_actions.pc'
+[5.984s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages'
+[5.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('doozy_actions', 'pythonpath')
+[5.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/pythonpath.ps1'
+[5.989s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/pythonpath.dsv'
+[5.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/hook/pythonpath.sh'
+[5.994s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/bin'
+[5.995s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.ps1'
+[5.998s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.dsv'
+[6.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.sh'
+[6.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.bash'
+[6.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.zsh'
+[6.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/colcon-core/packages/doozy_actions)
+[6.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini
+[6.077s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_simulations -- -j12 -l12
+[6.135s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_bringup -- -j12 -l12
+[6.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_simulations
+[6.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_bringup': CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_bringup
+[6.258s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[6.261s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations' for CMake module files
+[6.264s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations' for CMake config files
+[6.265s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_simulations
+[6.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[6.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[6.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[6.270s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[6.274s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/bin'
+[6.274s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[6.275s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[6.275s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/bin'
+[6.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[6.289s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[6.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[6.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[6.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[6.311s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[6.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_bringup)
+[6.339s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup' for CMake module files
+[6.341s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup' for CMake config files
+[6.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_bringup', 'cmake_prefix_path')
+[6.344s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.ps1'
+[6.346s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.dsv'
+[6.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.sh'
+[6.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_bringup' returned '0': CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_bringup
+[6.351s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/bin'
+[6.352s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc'
+[6.354s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/lib/python3.8/site-packages'
+[6.354s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/bin'
+[6.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/package.ps1'
+[6.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv'
+[6.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/package.sh'
+[6.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/package.bash'
+[6.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/package.zsh'
+[6.361s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/colcon-core/packages/turtlebot3_bringup)
+[6.379s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sick_visionary_t_mini)
+[6.382s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini' for CMake module files
+[6.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini
+[6.388s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini' for CMake config files
+[6.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('sick_visionary_t_mini', 'cmake_prefix_path')
+[6.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/cmake_prefix_path.ps1'
+[6.391s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/cmake_prefix_path.dsv'
+[6.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/cmake_prefix_path.sh'
+[6.393s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib'
+[6.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('sick_visionary_t_mini', 'ld_library_path_lib')
+[6.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/ld_library_path_lib.ps1'
+[6.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/ld_library_path_lib.dsv'
+[6.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/ld_library_path_lib.sh'
+[6.401s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/bin'
+[6.401s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/pkgconfig/sick_visionary_t_mini.pc'
+[6.402s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages'
+[6.402s] Level 1:colcon.colcon_core.shell:create_environment_hook('sick_visionary_t_mini', 'pythonpath')
+[6.402s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/pythonpath.ps1'
+[6.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/pythonpath.dsv'
+[6.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/pythonpath.sh'
+[6.409s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/bin'
+[6.412s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.ps1'
+[6.417s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.dsv'
+[6.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.sh'
+[6.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.bash'
+[6.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.zsh'
+[6.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/colcon-core/packages/sick_visionary_t_mini)
+[6.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[6.453s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations' for CMake module files
+[6.454s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations' for CMake config files
+[6.455s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[6.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[6.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[6.457s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[6.458s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/bin'
+[6.458s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[6.459s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/lib/python3.8/site-packages'
+[6.460s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/bin'
+[6.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[6.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[6.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[6.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[6.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[6.471s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[6.477s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_bringup)
+[6.478s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup' for CMake module files
+[6.481s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup' for CMake config files
+[6.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_bringup', 'cmake_prefix_path')
+[6.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.ps1'
+[6.487s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.dsv'
+[6.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/hook/cmake_prefix_path.sh'
+[6.490s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/bin'
+[6.490s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/lib/pkgconfig/turtlebot3_bringup.pc'
+[6.491s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/lib/python3.8/site-packages'
+[6.492s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/bin'
+[6.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/package.ps1'
+[6.498s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv'
+[6.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/package.sh'
+[6.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/package.bash'
+[6.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/turtlebot3_bringup/package.zsh'
+[6.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup/share/colcon-core/packages/turtlebot3_bringup)
+[6.637s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sick_visionary_t_mini)
+[6.643s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini' for CMake module files
+[6.648s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini' for CMake config files
+[6.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('sick_visionary_t_mini', 'cmake_prefix_path')
+[6.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/cmake_prefix_path.ps1'
+[6.651s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/cmake_prefix_path.dsv'
+[6.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/cmake_prefix_path.sh'
+[6.662s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib'
+[6.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('sick_visionary_t_mini', 'ld_library_path_lib')
+[6.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/ld_library_path_lib.ps1'
+[6.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/ld_library_path_lib.dsv'
+[6.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/ld_library_path_lib.sh'
+[6.670s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/bin'
+[6.672s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/pkgconfig/sick_visionary_t_mini.pc'
+[6.674s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/lib/python3.8/site-packages'
+[6.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('sick_visionary_t_mini', 'pythonpath')
+[6.676s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/pythonpath.ps1'
+[6.678s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/pythonpath.dsv'
+[6.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/hook/pythonpath.sh'
+[6.681s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/bin'
+[6.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.ps1'
+[6.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.dsv'
+[6.690s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.sh'
+[6.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.bash'
+[6.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/sick_visionary_t_mini/package.zsh'
+[6.695s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini/share/colcon-core/packages/sick_visionary_t_mini)
+[7.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_example': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[7.091s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/pallet_docker_02': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pallet_docker_02 build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/install.log --single-version-externally-managed install_data
+[7.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_teleop/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_teleop/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[8.013s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example' for CMake module files
+[8.017s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example' for CMake config files
+[8.021s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib'
+[8.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_example' returned '0': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_example build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_example/install.log --single-version-externally-managed install_data
+[8.024s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/bin'
+[8.024s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/pkgconfig/turtlebot3_example.pc'
+[8.025s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/lib/python3.8/site-packages'
+[8.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'pythonpath')
+[8.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.ps1'
+[8.029s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.dsv'
+[8.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.sh'
+[8.034s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/bin'
+[8.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_example)
+[8.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/package.ps1'
+[8.037s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/package.dsv'
+[8.044s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/package.sh'
+[8.045s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/package.bash'
+[8.047s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/turtlebot3_example/package.zsh'
+[8.052s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example/share/colcon-core/packages/turtlebot3_example)
+[8.101s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop' for CMake module files
+[8.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_teleop/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/turtlebot3_teleop build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_teleop/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_teleop/install.log --single-version-externally-managed install_data
+[8.104s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop' for CMake config files
+[8.105s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/lib'
+[8.105s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/bin'
+[8.105s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/lib/pkgconfig/turtlebot3_teleop.pc'
+[8.107s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/lib/python3.8/site-packages'
+[8.107s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'pythonpath')
+[8.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.ps1'
+[8.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.dsv'
+[8.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.sh'
+[8.115s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/bin'
+[8.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_teleop)
+[8.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/package.ps1'
+[8.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/package.dsv'
+[8.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/package.sh'
+[8.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/package.bash'
+[8.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/turtlebot3_teleop/package.zsh'
+[8.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop/share/colcon-core/packages/turtlebot3_teleop)
+[8.121s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3' with build type 'ament_cmake'
+[8.122s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3'
+[8.122s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.122s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.145s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02' for CMake module files
+[8.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/pallet_docker_02' returned '0': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pallet_docker_02 build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/install.log --single-version-externally-managed install_data
+[8.150s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02' for CMake config files
+[8.151s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib'
+[8.151s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/bin'
+[8.152s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pkgconfig/pallet_docker_02.pc'
+[8.152s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages'
+[8.152s] Level 1:colcon.colcon_core.shell:create_environment_hook('pallet_docker_02', 'pythonpath')
+[8.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/hook/pythonpath.ps1'
+[8.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/hook/pythonpath.dsv'
+[8.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/hook/pythonpath.sh'
+[8.160s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/bin'
+[8.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pallet_docker_02)
+[8.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/package.ps1'
+[8.161s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/package.dsv'
+[8.161s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/package.sh'
+[8.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/package.bash'
+[8.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02/package.zsh'
+[8.163s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/colcon-core/packages/pallet_docker_02)
+[8.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3': AMENT_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/opt/ros/galactic CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3 -- -j12 -l12
+[8.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/opt/ros/galactic CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3 -- -j12 -l12
+[8.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3': AMENT_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/opt/ros/galactic CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3
+[8.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3)
+[8.391s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3' for CMake module files
+[8.393s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3' for CMake config files
+[8.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3', 'cmake_prefix_path')
+[8.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.ps1'
+[8.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.dsv'
+[8.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.sh'
+[8.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3' returned '0': AMENT_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/opt/ros/galactic CMAKE_PREFIX_PATH=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_bringup:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_navigation2:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_description:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_cartographer:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_simulations:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_gazebo:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_fake_node:/home/avinaash/doozy_robotics/doozy_ws_2/install/sick_visionary_t_mini:/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3
+[8.409s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/bin'
+[8.409s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/lib/pkgconfig/turtlebot3.pc'
+[8.409s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/lib/python3.8/site-packages'
+[8.410s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/bin'
+[8.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/package.ps1'
+[8.415s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/package.dsv'
+[8.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/package.sh'
+[8.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/package.bash'
+[8.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/package.zsh'
+[8.421s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/colcon-core/packages/turtlebot3)
+[8.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3)
+[8.500s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3' for CMake module files
+[8.501s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3' for CMake config files
+[8.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3', 'cmake_prefix_path')
+[8.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.ps1'
+[8.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.dsv'
+[8.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/hook/cmake_prefix_path.sh'
+[8.504s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/bin'
+[8.504s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/lib/pkgconfig/turtlebot3.pc'
+[8.505s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/lib/python3.8/site-packages'
+[8.505s] Level 1:colcon.colcon_core.environment:checking '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/bin'
+[8.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/package.ps1'
+[8.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/package.dsv'
+[8.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/package.sh'
+[8.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/package.bash'
+[8.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/turtlebot3/package.zsh'
+[8.516s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3/share/colcon-core/packages/turtlebot3)
+[8.516s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.517s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.531s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.532s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.532s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.566s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.566s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avinaash/doozy_robotics/doozy_ws_2/install/local_setup.ps1'
+[8.568s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/avinaash/doozy_robotics/doozy_ws_2/install/_local_setup_util_ps1.py'
+[8.572s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avinaash/doozy_robotics/doozy_ws_2/install/setup.ps1'
+[8.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avinaash/doozy_robotics/doozy_ws_2/install/local_setup.sh'
+[8.579s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/avinaash/doozy_robotics/doozy_ws_2/install/_local_setup_util_sh.py'
+[8.582s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avinaash/doozy_robotics/doozy_ws_2/install/setup.sh'
+[8.588s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avinaash/doozy_robotics/doozy_ws_2/install/local_setup.bash'
+[8.591s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avinaash/doozy_robotics/doozy_ws_2/install/setup.bash'
+[8.596s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/avinaash/doozy_robotics/doozy_ws_2/install/local_setup.zsh'
+[8.596s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/avinaash/doozy_robotics/doozy_ws_2/install/setup.zsh'

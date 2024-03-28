@@ -5,11 +5,13 @@ import tf2_ros
 import math
 from rclpy.node import Node
 from rclpy.clock import Clock 
-from math import radians, copysign, sqrt, pow, pi, atan2
 from rclpy.qos import QoSHistoryPolicy, QoSProfile, QoSReliabilityPolicy
+from rclpy.action import ActionClient
 from std_msgs.msg import String, Bool
 from geometry_msgs.msg import PoseStamped, Twist
 from nav2_simple_commander.robot_navigator import BasicNavigator, TaskResult
+
+from doozy_actions.action import DollyDock
 
 class RobotController(Node):
     def __init__(self):
@@ -17,6 +19,8 @@ class RobotController(Node):
         self.navigator = BasicNavigator()
 
         self.initial_pose = PoseStamped()
+        self.client = ActionClient(self, DollyDock, 'go_to_goal_client')
+
         self.qos_profile = QoSProfile(
             reliability=QoSReliabilityPolicy.BEST_EFFORT,
             history=QoSHistoryPolicy.KEEP_LAST,
@@ -45,6 +49,9 @@ class RobotController(Node):
         self.kd_angle = 0.05
 
     def start(self):
+        
+        start_docking = DollyDock.Goal()
+
         self.initial_pose.header.frame_id = 'map'
         self.initial_pose.header.stamp = self.navigator.get_clock().now().to_msg()
         self.initial_pose.pose.position.x = 1.0
@@ -91,17 +98,43 @@ class RobotController(Node):
                 print("Invalid input. Please enter a valid goal ID or 'exit'.")
 
         result = self.navigator.getResult()
+        
         if result == TaskResult.SUCCEEDED:
             print('Goal succeeded!')
+
+            self.client.wait_for_server()
+            start_docking.reached_point = True
+            start_docking.idx_no = user_input
+            self.client.send_goal(start_docking)
+            send_goal_future = self.client.send_goal_async(start_docking, self.feedback_callback)
+            send_goal_future.add_done_callback(self.get_done_cb)
+
+            rclpy.shutdown()
+            return True
         elif result == TaskResult.CANCELED:
             print('Goal was canceled!')
+            rclpy.shutdown()
+            return False
         elif result == TaskResult.FAILED:
             print('Goal failed!')
+            rclpy.shutdown()
+            return False
         else:
             print('Goal has an invalid return status!')
+            rclpy.shutdown()
+            return False
+             
+    def get_done_cb(self, future):
+        goal_handle = future.result()
+        if not goal_handle.accepted:
+            self.get_logger().info('Goal Rejected.... ')
+            return
+        self.get_logger("Goal Accepted... ")
+        self._get_results_future = goal_handle.get_results_async()
+        
 
-        rclpy.shutdown()
-    
+    def feedback_callback(self, fb_msg):
+        pass
     # def dock_to_dolly(self):
 
     #     prev_dist = 0.0
@@ -183,7 +216,6 @@ class RobotController(Node):
 
     #     except Exception as e:
     #         self.get_logger(f"Docking EXCEPTIONS {e}")
-
 
     def euler_from_quaternion(x, y, z, w):
 

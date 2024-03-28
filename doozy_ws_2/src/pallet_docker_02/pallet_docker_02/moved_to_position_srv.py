@@ -125,7 +125,14 @@ class RobotController(Node):
             return False
              
     def get_done_cb(self, future):
-        pass
+        goal_handle = future.result()
+        if not goal_handle.accepted:
+            self.get_logger().info('Goal Rejected.... ')
+            return
+        self.get_logger("Goal Accepted... ")
+        self._get_results_future = goal_handle.get_results_async()
+        
+
     def feedback_callback(self, fb_msg):
         pass
     # def dock_to_dolly(self):

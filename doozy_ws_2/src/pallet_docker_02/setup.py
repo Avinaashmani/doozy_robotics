@@ -31,6 +31,7 @@ setup(
             'get_pallet_tf = pallet_docker_02.pid_controller_01:main',
             'dock_to_dolly = pallet_docker_02.dock_with_dolly_cli:main',
             'dock_to_dolly2 = pallet_docker_02.dock_with_dolly_cli_02:main',
+            'sick_visionary_t_mini = pallet_docker_02.sick_mini_t:main',
         ],
     },
 )
