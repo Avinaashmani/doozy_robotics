@@ -10,6 +10,7 @@ from rclpy.action import ActionClient
 from std_msgs.msg import String, Bool
 from geometry_msgs.msg import PoseStamped, Twist
 from nav2_simple_commander.robot_navigator import BasicNavigator, TaskResult
+from sick_visionary_t_mini.msg import SickTMini
 
 from doozy_actions.action import DollyDock
 
@@ -34,7 +35,11 @@ class RobotController(Node):
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
 
         self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', qos_profile=10)
-        #self.timer = self.create_timer(1.0, self.print_positions)
+        self.create_subscription(SickTMini, '/sick_vision_t_mini/one', self.sick_callback, 10)
+
+        self.dolly_present = False
+        self.camera_status = ''
+
         self.now = Clock().now()
 
         self.docked_flag = False
@@ -71,10 +76,10 @@ class RobotController(Node):
         for i, pose in enumerate(self.goal_poses):
             pose.header.frame_id = 'map'
             pose.header.stamp = self.navigator.get_clock().now().to_msg()
-            pose.pose.position.x = [-0.00800, 0.28, 0.0][i]
-            pose.pose.position.y = [2.0, 1.26, 0.0][i]
-            pose.pose.orientation.z = [-0.70, 0.993132, 0.0][i]
-            pose.pose.orientation.w = [0.70, 0.117004, 0.0][i]
+            pose.pose.position.x = [-0.67, -0.60, -1.53][i]
+            pose.pose.position.y = [0.27, -0.11, 1.60][i]
+            pose.pose.orientation.z = [-0.15, -0.033, -0.69][i]
+            pose.pose.orientation.w = [0.99, 0.99, 0.76][i]
 
         self.current_goal_index = 0
         self.navigator.goToPose(self.goal_poses[self.current_goal_index])
@@ -216,6 +221,13 @@ class RobotController(Node):
 
     #     except Exception as e:
     #         self.get_logger(f"Docking EXCEPTIONS {e}")
+    
+    def sick_callback(self, msg):
+        self.dolly_present = msg.dolly_found
+        self.camera_status = msg.status_of_camera
+
+        print(f"PRESENCE OF DOLLY: {self.dolly_present}")
+        print(f"STATUS OF CAMERA: {self.camera_status}")
 
     def euler_from_quaternion(x, y, z, w):
 
