@@ -173,11 +173,11 @@ inline const char * name<doozy_actions::action::DollyDock_Feedback>()
 
 template<>
 struct has_fixed_size<doozy_actions::action::DollyDock_Feedback>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct has_bounded_size<doozy_actions::action::DollyDock_Feedback>
-  : std::integral_constant<bool, true> {};
+  : std::integral_constant<bool, false> {};
 
 template<>
 struct is_message<doozy_actions::action::DollyDock_Feedback>

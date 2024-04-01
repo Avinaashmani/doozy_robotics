@@ -54,6 +54,9 @@ CMAKE_BINARY_DIR = /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions
 include CMakeFiles/doozy_actions.dir/progress.make
 
 CMakeFiles/doozy_actions: /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions/action/DollyDock.action
+CMakeFiles/doozy_actions: /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions/msg/Docking.msg
+CMakeFiles/doozy_actions: /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions/msg/Diagnostics.msg
+CMakeFiles/doozy_actions: /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions/msg/Navigation.msg
 CMakeFiles/doozy_actions: /opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/doozy_actions: /opt/ros/galactic/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/doozy_actions: /opt/ros/galactic/share/action_msgs/msg/GoalStatusArray.idl

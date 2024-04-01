@@ -317,21 +317,21 @@ class DollyDock_Feedback(metaclass=Metaclass_DollyDock_Feedback):
     ]
 
     _fields_and_field_types = {
-        'distance_to_dolly': 'double',
-        'angle_to_dolly': 'double',
+        'distance_to_dolly': 'string',
+        'angle_to_dolly': 'string',
     }
 
     SLOT_TYPES = (
-        rosidl_parser.definition.BasicType('double'),  # noqa: E501
-        rosidl_parser.definition.BasicType('double'),  # noqa: E501
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
+        rosidl_parser.definition.UnboundedString(),  # noqa: E501
     )
 
     def __init__(self, **kwargs):
         assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
             'Invalid arguments passed to constructor: %s' % \
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
-        self.distance_to_dolly = kwargs.get('distance_to_dolly', float())
-        self.angle_to_dolly = kwargs.get('angle_to_dolly', float())
+        self.distance_to_dolly = kwargs.get('distance_to_dolly', str())
+        self.angle_to_dolly = kwargs.get('angle_to_dolly', str())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -382,8 +382,8 @@ class DollyDock_Feedback(metaclass=Metaclass_DollyDock_Feedback):
     def distance_to_dolly(self, value):
         if __debug__:
             assert \
-                isinstance(value, float), \
-                "The 'distance_to_dolly' field must be of type 'float'"
+                isinstance(value, str), \
+                "The 'distance_to_dolly' field must be of type 'str'"
         self._distance_to_dolly = value
 
     @property
@@ -395,8 +395,8 @@ class DollyDock_Feedback(metaclass=Metaclass_DollyDock_Feedback):
     def angle_to_dolly(self, value):
         if __debug__:
             assert \
-                isinstance(value, float), \
-                "The 'angle_to_dolly' field must be of type 'float'"
+                isinstance(value, str), \
+                "The 'angle_to_dolly' field must be of type 'str'"
         self._angle_to_dolly = value
 
 

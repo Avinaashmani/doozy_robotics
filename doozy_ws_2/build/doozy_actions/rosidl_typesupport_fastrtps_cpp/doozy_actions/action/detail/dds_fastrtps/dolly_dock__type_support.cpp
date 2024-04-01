@@ -463,17 +463,13 @@ get_serialized_size(
   (void)wchar_size;
 
   // Member: distance_to_dolly
-  {
-    size_t item_size = sizeof(ros_message.distance_to_dolly);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.distance_to_dolly.size() + 1);
   // Member: angle_to_dolly
-  {
-    size_t item_size = sizeof(ros_message.angle_to_dolly);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.angle_to_dolly.size() + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -497,16 +493,24 @@ max_serialized_size_DollyDock_Feedback(
   {
     size_t array_size = 1;
 
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+    full_bounded = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   // Member: angle_to_dolly
   {
     size_t array_size = 1;
 
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+    full_bounded = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   return current_alignment - initial_alignment;

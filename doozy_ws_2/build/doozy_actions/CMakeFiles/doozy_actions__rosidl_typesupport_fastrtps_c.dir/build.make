@@ -66,6 +66,9 @@ rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typ
 rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h: /opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__rosidl_typesupport_fastrtps_c.h.em
 rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h: /opt/ros/galactic/share/rosidl_typesupport_fastrtps_c/resource/srv__type_support_c.cpp.em
 rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/doozy_actions/action/DollyDock.idl
+rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/doozy_actions/msg/Docking.idl
+rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/doozy_actions/msg/Diagnostics.idl
+rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h: rosidl_adapter/doozy_actions/msg/Navigation.idl
 rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h: /opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl
 rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h: /opt/ros/galactic/share/action_msgs/msg/GoalStatus.idl
 rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h: /opt/ros/galactic/share/action_msgs/msg/GoalStatusArray.idl
@@ -78,6 +81,24 @@ rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typ
 
 rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__rosidl_typesupport_fastrtps_c.h: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__rosidl_typesupport_fastrtps_c.h
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp
 
 CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.o: CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/flags.make
 CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp
@@ -92,14 +113,59 @@ CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_f
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp -o CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.s
 
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o: CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp
+
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp > CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.i
+
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp -o CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.s
+
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o: CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp
+
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp > CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.i
+
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp -o CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.s
+
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o: CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/flags.make
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp
+
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp > CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.i
+
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp -o CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.s
+
 # Object files for target doozy_actions__rosidl_typesupport_fastrtps_c
 doozy_actions__rosidl_typesupport_fastrtps_c_OBJECTS = \
-"CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.o"
+"CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.o" \
+"CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o" \
+"CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o" \
+"CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o"
 
 # External object files for target doozy_actions__rosidl_typesupport_fastrtps_c
 doozy_actions__rosidl_typesupport_fastrtps_c_EXTERNAL_OBJECTS =
 
 libdoozy_actions__rosidl_typesupport_fastrtps_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.o
+libdoozy_actions__rosidl_typesupport_fastrtps_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o
+libdoozy_actions__rosidl_typesupport_fastrtps_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o
+libdoozy_actions__rosidl_typesupport_fastrtps_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o
 libdoozy_actions__rosidl_typesupport_fastrtps_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make
 libdoozy_actions__rosidl_typesupport_fastrtps_c.so: /opt/ros/galactic/lib/librosidl_typesupport_fastrtps_c.so
 libdoozy_actions__rosidl_typesupport_fastrtps_c.so: /opt/ros/galactic/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
@@ -142,7 +208,7 @@ libdoozy_actions__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/li
 libdoozy_actions__rosidl_typesupport_fastrtps_c.so: /usr/lib/x86_64-linux-gnu/libcrypto.so
 libdoozy_actions__rosidl_typesupport_fastrtps_c.so: /opt/ros/galactic/lib/libfastcdr.so.1.0.20
 libdoozy_actions__rosidl_typesupport_fastrtps_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library libdoozy_actions__rosidl_typesupport_fastrtps_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libdoozy_actions__rosidl_typesupport_fastrtps_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -156,6 +222,12 @@ CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/clean:
 
 CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h
 CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__rosidl_typesupport_fastrtps_c.h
+CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/depend: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp
 	cd /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/depend
 

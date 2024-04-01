@@ -60,11 +60,17 @@ typedef struct doozy_actions__action__DollyDock_Result__Sequence
 
 // Constants defined in the message
 
+// Include directives for member types
+// Member 'distance_to_dolly'
+// Member 'angle_to_dolly'
+// already included above
+// #include "rosidl_runtime_c/string.h"
+
 // Struct defined in action/DollyDock in the package doozy_actions.
 typedef struct doozy_actions__action__DollyDock_Feedback
 {
-  double distance_to_dolly;
-  double angle_to_dolly;
+  rosidl_runtime_c__String distance_to_dolly;
+  rosidl_runtime_c__String angle_to_dolly;
 } doozy_actions__action__DollyDock_Feedback;
 
 // Struct for a sequence of doozy_actions__action__DollyDock_Feedback.

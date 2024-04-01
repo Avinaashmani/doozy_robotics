@@ -402,6 +402,87 @@ rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.s:
 	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.s
 .PHONY : rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.s
 
+rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.o: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o
+
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.o
+
+# target to build an object file
+rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o
+
+rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.i: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.i
+
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.i
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.i
+
+rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.s: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.s
+
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.s
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.s
+
+rosidl_generator_c/doozy_actions/msg/detail/docking__functions.o: rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o
+
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/docking__functions.o
+
+# target to build an object file
+rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o
+
+rosidl_generator_c/doozy_actions/msg/detail/docking__functions.i: rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.i
+
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/docking__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.i
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.i
+
+rosidl_generator_c/doozy_actions/msg/detail/docking__functions.s: rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.s
+
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/docking__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.s
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.s
+
+rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.o: rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o
+
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.o
+
+# target to build an object file
+rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o
+
+rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.i: rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.i
+
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.i
+
+# target to preprocess a source file
+rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.i
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.i
+
+rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.s: rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.s
+
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.s
+
+# target to generate assembly for a file
+rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.s
+.PHONY : rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.s
+
 rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_c.o: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_c.c.o
 
 .PHONY : rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_c.o
@@ -510,6 +591,87 @@ rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c.s:
 	$(MAKE) -f CMakeFiles/doozy_actions__python.dir/build.make CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c.s
 .PHONY : rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c.s
 
+rosidl_generator_py/doozy_actions/msg/_diagnostics_s.o: rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o
+
+.PHONY : rosidl_generator_py/doozy_actions/msg/_diagnostics_s.o
+
+# target to build an object file
+rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__python.dir/build.make CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o
+.PHONY : rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o
+
+rosidl_generator_py/doozy_actions/msg/_diagnostics_s.i: rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.i
+
+.PHONY : rosidl_generator_py/doozy_actions/msg/_diagnostics_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__python.dir/build.make CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.i
+.PHONY : rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.i
+
+rosidl_generator_py/doozy_actions/msg/_diagnostics_s.s: rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.s
+
+.PHONY : rosidl_generator_py/doozy_actions/msg/_diagnostics_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__python.dir/build.make CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.s
+.PHONY : rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.s
+
+rosidl_generator_py/doozy_actions/msg/_docking_s.o: rosidl_generator_py/doozy_actions/msg/_docking_s.c.o
+
+.PHONY : rosidl_generator_py/doozy_actions/msg/_docking_s.o
+
+# target to build an object file
+rosidl_generator_py/doozy_actions/msg/_docking_s.c.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__python.dir/build.make CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.o
+.PHONY : rosidl_generator_py/doozy_actions/msg/_docking_s.c.o
+
+rosidl_generator_py/doozy_actions/msg/_docking_s.i: rosidl_generator_py/doozy_actions/msg/_docking_s.c.i
+
+.PHONY : rosidl_generator_py/doozy_actions/msg/_docking_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/doozy_actions/msg/_docking_s.c.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__python.dir/build.make CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.i
+.PHONY : rosidl_generator_py/doozy_actions/msg/_docking_s.c.i
+
+rosidl_generator_py/doozy_actions/msg/_docking_s.s: rosidl_generator_py/doozy_actions/msg/_docking_s.c.s
+
+.PHONY : rosidl_generator_py/doozy_actions/msg/_docking_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/doozy_actions/msg/_docking_s.c.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__python.dir/build.make CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.s
+.PHONY : rosidl_generator_py/doozy_actions/msg/_docking_s.c.s
+
+rosidl_generator_py/doozy_actions/msg/_navigation_s.o: rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o
+
+.PHONY : rosidl_generator_py/doozy_actions/msg/_navigation_s.o
+
+# target to build an object file
+rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__python.dir/build.make CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o
+.PHONY : rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o
+
+rosidl_generator_py/doozy_actions/msg/_navigation_s.i: rosidl_generator_py/doozy_actions/msg/_navigation_s.c.i
+
+.PHONY : rosidl_generator_py/doozy_actions/msg/_navigation_s.i
+
+# target to preprocess a source file
+rosidl_generator_py/doozy_actions/msg/_navigation_s.c.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__python.dir/build.make CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.i
+.PHONY : rosidl_generator_py/doozy_actions/msg/_navigation_s.c.i
+
+rosidl_generator_py/doozy_actions/msg/_navigation_s.s: rosidl_generator_py/doozy_actions/msg/_navigation_s.c.s
+
+.PHONY : rosidl_generator_py/doozy_actions/msg/_navigation_s.s
+
+# target to generate assembly for a file
+rosidl_generator_py/doozy_actions/msg/_navigation_s.c.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__python.dir/build.make CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.s
+.PHONY : rosidl_generator_py/doozy_actions/msg/_navigation_s.c.s
+
 rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.o: rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.o
@@ -536,6 +698,87 @@ rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.s: rosidl_typ
 rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.cpp.s
 .PHONY : rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.cpp.s
+
+rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.o: rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.o
+
+rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.i: rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.i
+
+rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.s: rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.s
+
+rosidl_typesupport_c/doozy_actions/msg/docking__type_support.o: rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/docking__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.o
+
+rosidl_typesupport_c/doozy_actions/msg/docking__type_support.i: rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/docking__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.i
+
+rosidl_typesupport_c/doozy_actions/msg/docking__type_support.s: rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/docking__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.s
+
+rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.o: rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.o
+
+# target to build an object file
+rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.o
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.o
+
+rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.i: rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.i
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.i
+
+rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.s: rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.s
+.PHONY : rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.s
 
 rosidl_typesupport_cpp/doozy_actions/action/dolly_dock__type_support.o: rosidl_typesupport_cpp/doozy_actions/action/dolly_dock__type_support.cpp.o
 
@@ -564,6 +807,87 @@ rosidl_typesupport_cpp/doozy_actions/action/dolly_dock__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/action/dolly_dock__type_support.cpp.s
 .PHONY : rosidl_typesupport_cpp/doozy_actions/action/dolly_dock__type_support.cpp.s
 
+rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.o: rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.o
+
+rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.i: rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.i
+
+rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.s: rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.s
+
+rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.o: rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.o
+
+rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.i: rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.i
+
+rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.s: rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.s
+
+rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.o: rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.o
+
+# target to build an object file
+rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.o
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.o
+
+rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.i: rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.i
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.i
+
+rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.s: rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.s
+.PHONY : rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.s
+
 rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.o: rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.o
 
 .PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.o
@@ -590,6 +914,87 @@ rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_suppo
 rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.s:
 	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.o: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.i: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.s: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.o: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.i: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.s: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.s
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.o: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.i: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.i
+
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.s: rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.s
 
 rosidl_typesupport_fastrtps_cpp/doozy_actions/action/detail/dds_fastrtps/dolly_dock__type_support.o: rosidl_typesupport_fastrtps_cpp/doozy_actions/action/detail/dds_fastrtps/dolly_dock__type_support.cpp.o
 
@@ -618,6 +1023,87 @@ rosidl_typesupport_fastrtps_cpp/doozy_actions/action/detail/dds_fastrtps/dolly_d
 	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/action/detail/dds_fastrtps/dolly_dock__type_support.cpp.s
 .PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/action/detail/dds_fastrtps/dolly_dock__type_support.cpp.s
 
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.o: rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.i: rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.s: rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.o: rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.i: rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.s: rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.s
+
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.o: rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.o
+
+# target to build an object file
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.o
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.o
+
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.i: rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.i
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.i
+
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.s: rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.s
+.PHONY : rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.s
+
 rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.o: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.o
 
 .PHONY : rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.o
@@ -645,6 +1131,87 @@ rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_
 	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.s
 .PHONY : rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.s
 
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.o: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.i: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.i
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.s: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.s
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.o: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.i: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.i
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.s: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.s
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.o: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o
+
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.i: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.i
+
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.i
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.i
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.s: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.s
+
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.s
+.PHONY : rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.s
+
 rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.o: rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.cpp.o
 
 .PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.o
@@ -671,6 +1238,87 @@ rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__typ
 rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.cpp.s:
 	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.cpp.s
 .PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.o: rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.i: rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.s: rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.o: rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.i: rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.s: rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.s
+
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.o: rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.o
+
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.o
+
+# target to build an object file
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.o:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.o
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.o
+
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.i: rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.i
+
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.i
+
+# target to preprocess a source file
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.i:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.i
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.i
+
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.s: rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.s
+
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.s
+
+# target to generate assembly for a file
+rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.s:
+	$(MAKE) -f CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/build.make CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.s
+.PHONY : rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.s
 
 # Help Target
 help:
@@ -704,6 +1352,15 @@ help:
 	@echo "... rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.o"
 	@echo "... rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.i"
 	@echo "... rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.s"
+	@echo "... rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.o"
+	@echo "... rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.i"
+	@echo "... rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.s"
+	@echo "... rosidl_generator_c/doozy_actions/msg/detail/docking__functions.o"
+	@echo "... rosidl_generator_c/doozy_actions/msg/detail/docking__functions.i"
+	@echo "... rosidl_generator_c/doozy_actions/msg/detail/docking__functions.s"
+	@echo "... rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.o"
+	@echo "... rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.i"
+	@echo "... rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.s"
 	@echo "... rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_c.o"
 	@echo "... rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_c.i"
 	@echo "... rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_c.s"
@@ -716,24 +1373,87 @@ help:
 	@echo "... rosidl_generator_py/doozy_actions/action/_dolly_dock_s.o"
 	@echo "... rosidl_generator_py/doozy_actions/action/_dolly_dock_s.i"
 	@echo "... rosidl_generator_py/doozy_actions/action/_dolly_dock_s.s"
+	@echo "... rosidl_generator_py/doozy_actions/msg/_diagnostics_s.o"
+	@echo "... rosidl_generator_py/doozy_actions/msg/_diagnostics_s.i"
+	@echo "... rosidl_generator_py/doozy_actions/msg/_diagnostics_s.s"
+	@echo "... rosidl_generator_py/doozy_actions/msg/_docking_s.o"
+	@echo "... rosidl_generator_py/doozy_actions/msg/_docking_s.i"
+	@echo "... rosidl_generator_py/doozy_actions/msg/_docking_s.s"
+	@echo "... rosidl_generator_py/doozy_actions/msg/_navigation_s.o"
+	@echo "... rosidl_generator_py/doozy_actions/msg/_navigation_s.i"
+	@echo "... rosidl_generator_py/doozy_actions/msg/_navigation_s.s"
 	@echo "... rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.o"
 	@echo "... rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.i"
 	@echo "... rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.s"
+	@echo "... rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.o"
+	@echo "... rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.i"
+	@echo "... rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.s"
+	@echo "... rosidl_typesupport_c/doozy_actions/msg/docking__type_support.o"
+	@echo "... rosidl_typesupport_c/doozy_actions/msg/docking__type_support.i"
+	@echo "... rosidl_typesupport_c/doozy_actions/msg/docking__type_support.s"
+	@echo "... rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.o"
+	@echo "... rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.i"
+	@echo "... rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.s"
 	@echo "... rosidl_typesupport_cpp/doozy_actions/action/dolly_dock__type_support.o"
 	@echo "... rosidl_typesupport_cpp/doozy_actions/action/dolly_dock__type_support.i"
 	@echo "... rosidl_typesupport_cpp/doozy_actions/action/dolly_dock__type_support.s"
+	@echo "... rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.o"
+	@echo "... rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.i"
+	@echo "... rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.s"
+	@echo "... rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.o"
+	@echo "... rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.i"
+	@echo "... rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.s"
+	@echo "... rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.o"
+	@echo "... rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.i"
+	@echo "... rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.s"
 	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.o"
 	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.i"
 	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.s"
+	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.o"
+	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.i"
+	@echo "... rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.s"
 	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/action/detail/dds_fastrtps/dolly_dock__type_support.o"
 	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/action/detail/dds_fastrtps/dolly_dock__type_support.i"
 	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/action/detail/dds_fastrtps/dolly_dock__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.s"
+	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.o"
+	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.i"
+	@echo "... rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.s"
 	@echo "... rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.o"
 	@echo "... rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.i"
 	@echo "... rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.s"
+	@echo "... rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.o"
+	@echo "... rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.i"
+	@echo "... rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.s"
 	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.o"
 	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.i"
 	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.s"
+	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.o"
+	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.i"
+	@echo "... rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.s"
 .PHONY : help
 
 

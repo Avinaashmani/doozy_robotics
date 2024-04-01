@@ -415,6 +415,10 @@ extern "C"
 {
 #endif
 
+// already included above
+// #include "rosidl_runtime_c/string.h"  // angle_to_dolly, distance_to_dolly
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"  // angle_to_dolly, distance_to_dolly
 
 // forward declare type support functions
 
@@ -432,12 +436,30 @@ static bool _DollyDock_Feedback__cdr_serialize(
   const _DollyDock_Feedback__ros_msg_type * ros_message = static_cast<const _DollyDock_Feedback__ros_msg_type *>(untyped_ros_message);
   // Field name: distance_to_dolly
   {
-    cdr << ros_message->distance_to_dolly;
+    const rosidl_runtime_c__String * str = &ros_message->distance_to_dolly;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
   }
 
   // Field name: angle_to_dolly
   {
-    cdr << ros_message->angle_to_dolly;
+    const rosidl_runtime_c__String * str = &ros_message->angle_to_dolly;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
   }
 
   return true;
@@ -454,12 +476,34 @@ static bool _DollyDock_Feedback__cdr_deserialize(
   _DollyDock_Feedback__ros_msg_type * ros_message = static_cast<_DollyDock_Feedback__ros_msg_type *>(untyped_ros_message);
   // Field name: distance_to_dolly
   {
-    cdr >> ros_message->distance_to_dolly;
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->distance_to_dolly.data) {
+      rosidl_runtime_c__String__init(&ros_message->distance_to_dolly);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->distance_to_dolly,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'distance_to_dolly'\n");
+      return false;
+    }
   }
 
   // Field name: angle_to_dolly
   {
-    cdr >> ros_message->angle_to_dolly;
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->angle_to_dolly.data) {
+      rosidl_runtime_c__String__init(&ros_message->angle_to_dolly);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->angle_to_dolly,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'angle_to_dolly'\n");
+      return false;
+    }
   }
 
   return true;
@@ -480,17 +524,13 @@ size_t get_serialized_size_doozy_actions__action__DollyDock_Feedback(
   (void)wchar_size;
 
   // field.name distance_to_dolly
-  {
-    size_t item_size = sizeof(ros_message->distance_to_dolly);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->distance_to_dolly.size + 1);
   // field.name angle_to_dolly
-  {
-    size_t item_size = sizeof(ros_message->angle_to_dolly);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->angle_to_dolly.size + 1);
 
   return current_alignment - initial_alignment;
 }
@@ -519,15 +559,23 @@ size_t max_serialized_size_doozy_actions__action__DollyDock_Feedback(
   {
     size_t array_size = 1;
 
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+    full_bounded = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
   // member: angle_to_dolly
   {
     size_t array_size = 1;
 
-    current_alignment += array_size * sizeof(uint64_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+    full_bounded = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
   }
 
   return current_alignment - initial_alignment;

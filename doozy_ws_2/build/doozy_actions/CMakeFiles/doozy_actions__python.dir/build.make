@@ -70,14 +70,59 @@ CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/action/_d
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c -o CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c.s
 
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.o: CMakeFiles/doozy_actions__python.dir/flags.make
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.o: rosidl_generator_py/doozy_actions/msg/_docking_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_docking_s.c
+
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_docking_s.c > CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.i
+
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_docking_s.c -o CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.s
+
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o: CMakeFiles/doozy_actions__python.dir/flags.make
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o: rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c
+
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c > CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.i
+
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c -o CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.s
+
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o: CMakeFiles/doozy_actions__python.dir/flags.make
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o: rosidl_generator_py/doozy_actions/msg/_navigation_s.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_navigation_s.c
+
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_navigation_s.c > CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.i
+
+CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_navigation_s.c -o CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.s
+
 # Object files for target doozy_actions__python
 doozy_actions__python_OBJECTS = \
-"CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c.o"
+"CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c.o" \
+"CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.o" \
+"CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o" \
+"CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o"
 
 # External object files for target doozy_actions__python
 doozy_actions__python_EXTERNAL_OBJECTS =
 
 rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c.o
+rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.o
+rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o
+rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o
 rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: CMakeFiles/doozy_actions__python.dir/build.make
 rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: libdoozy_actions__rosidl_generator_c.so
 rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
@@ -108,7 +153,7 @@ rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: /opt/ros/galactic
 rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: /opt/ros/galactic/lib/librcpputils.so
 rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: /opt/ros/galactic/lib/librcutils.so
 rosidl_generator_py/doozy_actions/libdoozy_actions__python.so: CMakeFiles/doozy_actions__python.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library rosidl_generator_py/doozy_actions/libdoozy_actions__python.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library rosidl_generator_py/doozy_actions/libdoozy_actions__python.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doozy_actions__python.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

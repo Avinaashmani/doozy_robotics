@@ -259,6 +259,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/doozy_actions/msg" TYPE DIRECTORY FILES "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/" REGEX "/[^/]*\\.py$")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/doozy_actions/doozy_actions_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/python3.8/site-packages/doozy_actions/doozy_actions_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so")
     file(RPATH_CHECK
@@ -355,7 +359,31 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doozy_actions/msg" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions/msg/Docking.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doozy_actions/msg" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions/msg/Diagnostics.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doozy_actions/msg" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions/msg/Navigation.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doozy_actions/action" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions/action/DollyDock.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doozy_actions/msg" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions/msg/Docking.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doozy_actions/msg" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions/msg/Diagnostics.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/doozy_actions/msg" TYPE FILE FILES "/home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions/msg/Navigation.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

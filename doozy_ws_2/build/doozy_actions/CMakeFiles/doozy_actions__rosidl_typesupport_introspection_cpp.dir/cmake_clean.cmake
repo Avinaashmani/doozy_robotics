@@ -1,9 +1,18 @@
 file(REMOVE_RECURSE
   "CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.cpp.o"
+  "CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.o"
+  "CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.o"
+  "CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.o"
   "libdoozy_actions__rosidl_typesupport_introspection_cpp.pdb"
   "libdoozy_actions__rosidl_typesupport_introspection_cpp.so"
   "rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_cpp.hpp"
   "rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -279,39 +279,40 @@ struct DollyDock_Feedback_
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->distance_to_dolly = 0.0;
-      this->angle_to_dolly = 0.0;
+      this->distance_to_dolly = "";
+      this->angle_to_dolly = "";
     }
   }
 
   explicit DollyDock_Feedback_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+  : distance_to_dolly(_alloc),
+    angle_to_dolly(_alloc)
   {
-    (void)_alloc;
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
     {
-      this->distance_to_dolly = 0.0;
-      this->angle_to_dolly = 0.0;
+      this->distance_to_dolly = "";
+      this->angle_to_dolly = "";
     }
   }
 
   // field types and members
   using _distance_to_dolly_type =
-    double;
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _distance_to_dolly_type distance_to_dolly;
   using _angle_to_dolly_type =
-    double;
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _angle_to_dolly_type angle_to_dolly;
 
   // setters for named parameter idiom
   Type & set__distance_to_dolly(
-    const double & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
     this->distance_to_dolly = _arg;
     return *this;
   }
   Type & set__angle_to_dolly(
-    const double & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
   {
     this->angle_to_dolly = _arg;
     return *this;

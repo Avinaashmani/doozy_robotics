@@ -1,0 +1,20 @@
+[1.327s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions -- -j12 -l12
+[1.915s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.918s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.919s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.921s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.923s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.923s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.095s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.272s] CMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[2.272s]   rosidl_generate_interfaces() the passed file 'action/DollyDock.action'
+[2.273s]   doesn't exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[2.273s]   '/home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions'
+[2.273s] Call Stack (most recent call first):
+[2.273s]   CMakeLists.txt:27 (rosidl_generate_interfaces)
+[2.275s] 
+[2.279s] 
+[2.280s] -- Configuring incomplete, errors occurred!
+[2.282s] See also "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles/CMakeOutput.log".
+[2.312s] make: *** [Makefile:748: cmake_check_build_system] Error 1
+[2.498s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions -- -j12 -l12

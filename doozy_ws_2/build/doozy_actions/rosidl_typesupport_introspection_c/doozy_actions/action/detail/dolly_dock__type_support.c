@@ -203,6 +203,12 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
 // #include "doozy_actions/action/detail/dolly_dock__struct.h"
 
 
+// Include directives for member types
+// Member `distance_to_dolly`
+// Member `angle_to_dolly`
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 #ifdef __cplusplus
 extern "C"
 {
@@ -225,7 +231,7 @@ void DollyDock_Feedback__rosidl_typesupport_introspection_c__DollyDock_Feedback_
 static rosidl_typesupport_introspection_c__MessageMember DollyDock_Feedback__rosidl_typesupport_introspection_c__DollyDock_Feedback_message_member_array[2] = {
   {
     "distance_to_dolly",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array
@@ -240,7 +246,7 @@ static rosidl_typesupport_introspection_c__MessageMember DollyDock_Feedback__ros
   },
   {
     "angle_to_dolly",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
     0,  // upper bound of string
     NULL,  // members of sub message
     false,  // is array

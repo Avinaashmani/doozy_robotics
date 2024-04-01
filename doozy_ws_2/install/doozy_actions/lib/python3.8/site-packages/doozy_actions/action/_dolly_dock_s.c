@@ -241,6 +241,11 @@ PyObject * doozy_actions__action__dolly_dock__result__convert_to_py(void * raw_r
 // already included above
 // #include "doozy_actions/action/detail/dolly_dock__functions.h"
 
+// already included above
+// #include "rosidl_runtime_c/string.h"
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 
 ROSIDL_GENERATOR_C_EXPORT
 bool doozy_actions__action__dolly_dock__feedback__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -280,8 +285,14 @@ bool doozy_actions__action__dolly_dock__feedback__convert_from_py(PyObject * _py
     if (!field) {
       return false;
     }
-    assert(PyFloat_Check(field));
-    ros_message->distance_to_dolly = PyFloat_AS_DOUBLE(field);
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->distance_to_dolly, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
   {  // angle_to_dolly
@@ -289,8 +300,14 @@ bool doozy_actions__action__dolly_dock__feedback__convert_from_py(PyObject * _py
     if (!field) {
       return false;
     }
-    assert(PyFloat_Check(field));
-    ros_message->angle_to_dolly = PyFloat_AS_DOUBLE(field);
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->angle_to_dolly, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
     Py_DECREF(field);
   }
 
@@ -317,7 +334,13 @@ PyObject * doozy_actions__action__dolly_dock__feedback__convert_to_py(void * raw
   doozy_actions__action__DollyDock_Feedback * ros_message = (doozy_actions__action__DollyDock_Feedback *)raw_ros_message;
   {  // distance_to_dolly
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->distance_to_dolly);
+    field = PyUnicode_DecodeUTF8(
+      ros_message->distance_to_dolly.data,
+      strlen(ros_message->distance_to_dolly.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
     {
       int rc = PyObject_SetAttrString(_pymessage, "distance_to_dolly", field);
       Py_DECREF(field);
@@ -328,7 +351,13 @@ PyObject * doozy_actions__action__dolly_dock__feedback__convert_to_py(void * raw
   }
   {  // angle_to_dolly
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->angle_to_dolly);
+    field = PyUnicode_DecodeUTF8(
+      ros_message->angle_to_dolly.data,
+      strlen(ros_message->angle_to_dolly.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
     {
       int rc = PyObject_SetAttrString(_pymessage, "angle_to_dolly", field);
       Py_DECREF(field);

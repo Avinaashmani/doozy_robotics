@@ -57,8 +57,15 @@ doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_action
 doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_introspection_c.c
 doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_c.c
 doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/action/_dolly_dock.py
+doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_docking.py
+doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_diagnostics.py
+doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_navigation.py
 doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/action/__init__.py
+doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/msg/__init__.py
 doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c
+doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_docking_s.c
+doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c
+doozy_actions__py/CMakeFiles/doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_navigation_s.c
 
 
 rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/lib/rosidl_generator_py/rosidl_generator_py
@@ -75,6 +82,9 @@ rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtp
 rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/doozy_actions/action/DollyDock.idl
+rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/doozy_actions/msg/Docking.idl
+rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/doozy_actions/msg/Diagnostics.idl
+rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/doozy_actions/msg/Navigation.idl
 rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/galactic/share/action_msgs/msg/GoalStatusArray.idl
@@ -94,19 +104,47 @@ rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_c.c: ro
 rosidl_generator_py/doozy_actions/action/_dolly_dock.py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/doozy_actions/action/_dolly_dock.py
 
+rosidl_generator_py/doozy_actions/msg/_docking.py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/doozy_actions/msg/_docking.py
+
+rosidl_generator_py/doozy_actions/msg/_diagnostics.py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/doozy_actions/msg/_diagnostics.py
+
+rosidl_generator_py/doozy_actions/msg/_navigation.py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/doozy_actions/msg/_navigation.py
+
 rosidl_generator_py/doozy_actions/action/__init__.py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/doozy_actions/action/__init__.py
 
+rosidl_generator_py/doozy_actions/msg/__init__.py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/doozy_actions/msg/__init__.py
+
 rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c
+
+rosidl_generator_py/doozy_actions/msg/_docking_s.c: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/doozy_actions/msg/_docking_s.c
+
+rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c
+
+rosidl_generator_py/doozy_actions/msg/_navigation_s.c: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/doozy_actions/msg/_navigation_s.c
 
 doozy_actions__py: doozy_actions__py/CMakeFiles/doozy_actions__py
 doozy_actions__py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c
 doozy_actions__py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_introspection_c.c
 doozy_actions__py: rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_c.c
 doozy_actions__py: rosidl_generator_py/doozy_actions/action/_dolly_dock.py
+doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_docking.py
+doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_diagnostics.py
+doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_navigation.py
 doozy_actions__py: rosidl_generator_py/doozy_actions/action/__init__.py
+doozy_actions__py: rosidl_generator_py/doozy_actions/msg/__init__.py
 doozy_actions__py: rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c
+doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_docking_s.c
+doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c
+doozy_actions__py: rosidl_generator_py/doozy_actions/msg/_navigation_s.c
 doozy_actions__py: doozy_actions__py/CMakeFiles/doozy_actions__py.dir/build.make
 
 .PHONY : doozy_actions__py

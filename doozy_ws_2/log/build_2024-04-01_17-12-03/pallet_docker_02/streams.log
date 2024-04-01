@@ -1,0 +1,37 @@
+[12.937s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/pallet_docker_02': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pallet_docker_02 build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/install.log --single-version-externally-managed install_data
+[14.634s] running egg_info
+[14.640s] writing ../../build/pallet_docker_02/pallet_docker_02.egg-info/PKG-INFO
+[14.641s] writing dependency_links to ../../build/pallet_docker_02/pallet_docker_02.egg-info/dependency_links.txt
+[14.642s] writing entry points to ../../build/pallet_docker_02/pallet_docker_02.egg-info/entry_points.txt
+[14.642s] writing requirements to ../../build/pallet_docker_02/pallet_docker_02.egg-info/requires.txt
+[14.643s] writing top-level names to ../../build/pallet_docker_02/pallet_docker_02.egg-info/top_level.txt
+[14.854s] reading manifest file '../../build/pallet_docker_02/pallet_docker_02.egg-info/SOURCES.txt'
+[14.856s] writing manifest file '../../build/pallet_docker_02/pallet_docker_02.egg-info/SOURCES.txt'
+[14.857s] running build
+[14.857s] running build_py
+[14.859s] running install
+[14.866s] running install_lib
+[14.885s] running install_data
+[14.887s] running install_egg_info
+[14.911s] removing '/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02-0.0.0-py3.8.egg-info' (and everything under it)
+[14.911s] Copying ../../build/pallet_docker_02/pallet_docker_02.egg-info to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02-0.0.0-py3.8.egg-info
+[14.919s] running install_scripts
+[15.041s] Installing CLIENT script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.044s] Installing DOCK_to_DOLLY script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.045s] Installing NAV_to_POSITION script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.046s] Installing SERVER script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.048s] Installing client_01 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.051s] Installing dock_to_dolly script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.057s] Installing dock_to_dolly2 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.058s] Installing get_pallet_tf script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.059s] Installing pallet_navi script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.060s] Installing pallet_navi_01 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.060s] Installing pallet_navi_02 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.061s] Installing pallet_navi_03 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.061s] Installing pallet_navi_04 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.062s] Installing server_01 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.063s] Installing sick_visionary_t_mini script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.063s] Installing tb3_cam_node script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.063s] Installing tf_broadcaster script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[15.065s] writing list of installed files to '/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/install.log'
+[15.458s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/pallet_docker_02' returned '0': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pallet_docker_02 build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/install.log --single-version-externally-managed install_data

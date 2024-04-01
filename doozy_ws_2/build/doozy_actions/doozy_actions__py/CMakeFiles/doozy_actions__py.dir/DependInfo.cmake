@@ -10,6 +10,13 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/action/__init__.py" "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/action/_dolly_dock.py" "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c" "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/__init__.py" "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_diagnostics.py" "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c" "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_docking.py" "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_docking_s.c" "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_navigation.py" "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/msg/_navigation_s.c" "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

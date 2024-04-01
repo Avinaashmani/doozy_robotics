@@ -456,6 +456,12 @@ doozy_actions__action__DollyDock_Result__Sequence__copy(
 }
 
 
+// Include directives for member types
+// Member `distance_to_dolly`
+// Member `angle_to_dolly`
+// already included above
+// #include "rosidl_runtime_c/string_functions.h"
+
 bool
 doozy_actions__action__DollyDock_Feedback__init(doozy_actions__action__DollyDock_Feedback * msg)
 {
@@ -463,7 +469,15 @@ doozy_actions__action__DollyDock_Feedback__init(doozy_actions__action__DollyDock
     return false;
   }
   // distance_to_dolly
+  if (!rosidl_runtime_c__String__init(&msg->distance_to_dolly)) {
+    doozy_actions__action__DollyDock_Feedback__fini(msg);
+    return false;
+  }
   // angle_to_dolly
+  if (!rosidl_runtime_c__String__init(&msg->angle_to_dolly)) {
+    doozy_actions__action__DollyDock_Feedback__fini(msg);
+    return false;
+  }
   return true;
 }
 
@@ -474,7 +488,9 @@ doozy_actions__action__DollyDock_Feedback__fini(doozy_actions__action__DollyDock
     return;
   }
   // distance_to_dolly
+  rosidl_runtime_c__String__fini(&msg->distance_to_dolly);
   // angle_to_dolly
+  rosidl_runtime_c__String__fini(&msg->angle_to_dolly);
 }
 
 bool
@@ -484,11 +500,15 @@ doozy_actions__action__DollyDock_Feedback__are_equal(const doozy_actions__action
     return false;
   }
   // distance_to_dolly
-  if (lhs->distance_to_dolly != rhs->distance_to_dolly) {
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->distance_to_dolly), &(rhs->distance_to_dolly)))
+  {
     return false;
   }
   // angle_to_dolly
-  if (lhs->angle_to_dolly != rhs->angle_to_dolly) {
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->angle_to_dolly), &(rhs->angle_to_dolly)))
+  {
     return false;
   }
   return true;
@@ -503,9 +523,17 @@ doozy_actions__action__DollyDock_Feedback__copy(
     return false;
   }
   // distance_to_dolly
-  output->distance_to_dolly = input->distance_to_dolly;
+  if (!rosidl_runtime_c__String__copy(
+      &(input->distance_to_dolly), &(output->distance_to_dolly)))
+  {
+    return false;
+  }
   // angle_to_dolly
-  output->angle_to_dolly = input->angle_to_dolly;
+  if (!rosidl_runtime_c__String__copy(
+      &(input->angle_to_dolly), &(output->angle_to_dolly)))
+  {
+    return false;
+  }
   return true;
 }
 

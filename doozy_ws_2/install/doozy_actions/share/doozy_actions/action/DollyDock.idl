@@ -14,9 +14,9 @@ module doozy_actions {
       boolean docked_to_dolly;
     };
     struct DollyDock_Feedback {
-      double distance_to_dolly;
+      string distance_to_dolly;
 
-      double angle_to_dolly;
+      string angle_to_dolly;
     };
   };
 };

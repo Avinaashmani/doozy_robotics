@@ -66,6 +66,9 @@ rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosid
 rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h: rosidl_adapter/doozy_actions/action/DollyDock.idl
+rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h: rosidl_adapter/doozy_actions/msg/Docking.idl
+rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h: rosidl_adapter/doozy_actions/msg/Diagnostics.idl
+rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h: rosidl_adapter/doozy_actions/msg/Navigation.idl
 rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl
 rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/action_msgs/msg/GoalStatus.idl
 rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h: /opt/ros/galactic/share/action_msgs/msg/GoalStatusArray.idl
@@ -76,8 +79,26 @@ rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosid
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3 /opt/ros/galactic/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_introspection_c.h
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c
+
+rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c
 
 CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.o: CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.o: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c
@@ -92,14 +113,59 @@ CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c -o CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.s
 
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o: CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c
+
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c > CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.i
+
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c -o CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.s
+
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o: CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c
+
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c > CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.i
+
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c -o CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.s
+
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o: CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c
+
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c > CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.i
+
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c -o CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.s
+
 # Object files for target doozy_actions__rosidl_typesupport_introspection_c
 doozy_actions__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.o"
+"CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.o" \
+"CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o" \
+"CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o" \
+"CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o"
 
 # External object files for target doozy_actions__rosidl_typesupport_introspection_c
 doozy_actions__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libdoozy_actions__rosidl_typesupport_introspection_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.o
+libdoozy_actions__rosidl_typesupport_introspection_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o
+libdoozy_actions__rosidl_typesupport_introspection_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o
+libdoozy_actions__rosidl_typesupport_introspection_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o
 libdoozy_actions__rosidl_typesupport_introspection_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/build.make
 libdoozy_actions__rosidl_typesupport_introspection_c.so: libdoozy_actions__rosidl_generator_c.so
 libdoozy_actions__rosidl_typesupport_introspection_c.so: /opt/ros/galactic/lib/libaction_msgs__rosidl_typesupport_c.so
@@ -125,7 +191,7 @@ libdoozy_actions__rosidl_typesupport_introspection_c.so: /opt/ros/galactic/lib/l
 libdoozy_actions__rosidl_typesupport_introspection_c.so: /opt/ros/galactic/lib/librosidl_runtime_c.so
 libdoozy_actions__rosidl_typesupport_introspection_c.so: /opt/ros/galactic/lib/librcutils.so
 libdoozy_actions__rosidl_typesupport_introspection_c.so: CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libdoozy_actions__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libdoozy_actions__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,7 +204,13 @@ CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/clean:
 .PHONY : CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/clean
 
 CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__rosidl_typesupport_introspection_c.h
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_introspection_c.h
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__rosidl_typesupport_introspection_c.h
 CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c
+CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c
 	cd /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/depend
 

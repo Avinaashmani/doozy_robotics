@@ -3,7 +3,10 @@
   "output_dir": "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_typesupport_cpp/doozy_actions",
   "template_dir": "/opt/ros/galactic/share/rosidl_typesupport_cpp/resource",
   "idl_tuples": [
-    "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions:action/DollyDock.idl"
+    "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions:action/DollyDock.idl",
+    "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions:msg/Docking.idl",
+    "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions:msg/Diagnostics.idl",
+    "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions:msg/Navigation.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl",
@@ -22,6 +25,9 @@
     "/opt/ros/galactic/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/galactic/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
     "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions/action/DollyDock.idl",
+    "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions/msg/Docking.idl",
+    "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions/msg/Diagnostics.idl",
+    "/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_adapter/doozy_actions/msg/Navigation.idl",
     "/opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/galactic/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/galactic/share/action_msgs/msg/GoalStatusArray.idl",

@@ -57,6 +57,18 @@ CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/action/dolly_d
 CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/action/detail/dolly_dock__builder.hpp
 CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/action/detail/dolly_dock__struct.hpp
 CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/action/detail/dolly_dock__traits.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/docking.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/docking__builder.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/docking__struct.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/docking__traits.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/diagnostics.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__builder.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__struct.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__traits.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/navigation.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/navigation__builder.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/navigation__struct.hpp
+CMakeFiles/doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/navigation__traits.hpp
 
 
 rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: /opt/ros/galactic/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -75,6 +87,9 @@ rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: /opt/ros/galactic/shar
 rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: /opt/ros/galactic/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: rosidl_adapter/doozy_actions/action/DollyDock.idl
+rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: rosidl_adapter/doozy_actions/msg/Docking.idl
+rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: rosidl_adapter/doozy_actions/msg/Diagnostics.idl
+rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: rosidl_adapter/doozy_actions/msg/Navigation.idl
 rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: /opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: /opt/ros/galactic/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp: /opt/ros/galactic/share/action_msgs/msg/GoalStatusArray.idl
@@ -94,11 +109,59 @@ rosidl_generator_cpp/doozy_actions/action/detail/dolly_dock__struct.hpp: rosidl_
 rosidl_generator_cpp/doozy_actions/action/detail/dolly_dock__traits.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/action/detail/dolly_dock__traits.hpp
 
+rosidl_generator_cpp/doozy_actions/msg/docking.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/docking.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/detail/docking__builder.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/detail/docking__builder.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/detail/docking__struct.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/detail/docking__struct.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/detail/docking__traits.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/detail/docking__traits.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/diagnostics.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/diagnostics.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__builder.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__builder.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__struct.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__struct.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__traits.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__traits.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/navigation.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/navigation.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/detail/navigation__builder.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/detail/navigation__builder.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/detail/navigation__struct.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/detail/navigation__struct.hpp
+
+rosidl_generator_cpp/doozy_actions/msg/detail/navigation__traits.hpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/doozy_actions/msg/detail/navigation__traits.hpp
+
 doozy_actions__cpp: CMakeFiles/doozy_actions__cpp
 doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/action/dolly_dock.hpp
 doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/action/detail/dolly_dock__builder.hpp
 doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/action/detail/dolly_dock__struct.hpp
 doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/action/detail/dolly_dock__traits.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/docking.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/docking__builder.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/docking__struct.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/docking__traits.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/diagnostics.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__builder.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__struct.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/diagnostics__traits.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/navigation.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/navigation__builder.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/navigation__struct.hpp
+doozy_actions__cpp: rosidl_generator_cpp/doozy_actions/msg/detail/navigation__traits.hpp
 doozy_actions__cpp: CMakeFiles/doozy_actions__cpp.dir/build.make
 
 .PHONY : doozy_actions__cpp

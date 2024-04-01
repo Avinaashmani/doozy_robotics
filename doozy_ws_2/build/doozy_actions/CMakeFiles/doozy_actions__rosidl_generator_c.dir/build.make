@@ -71,6 +71,9 @@ rosidl_generator_c/doozy_actions/action/dolly_dock.h: /opt/ros/galactic/share/ro
 rosidl_generator_c/doozy_actions/action/dolly_dock.h: /opt/ros/galactic/share/rosidl_generator_c/resource/msg__type_support.h.em
 rosidl_generator_c/doozy_actions/action/dolly_dock.h: /opt/ros/galactic/share/rosidl_generator_c/resource/srv__type_support.h.em
 rosidl_generator_c/doozy_actions/action/dolly_dock.h: rosidl_adapter/doozy_actions/action/DollyDock.idl
+rosidl_generator_c/doozy_actions/action/dolly_dock.h: rosidl_adapter/doozy_actions/msg/Docking.idl
+rosidl_generator_c/doozy_actions/action/dolly_dock.h: rosidl_adapter/doozy_actions/msg/Diagnostics.idl
+rosidl_generator_c/doozy_actions/action/dolly_dock.h: rosidl_adapter/doozy_actions/msg/Navigation.idl
 rosidl_generator_c/doozy_actions/action/dolly_dock.h: /opt/ros/galactic/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_c/doozy_actions/action/dolly_dock.h: /opt/ros/galactic/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_c/doozy_actions/action/dolly_dock.h: /opt/ros/galactic/share/action_msgs/msg/GoalStatusArray.idl
@@ -90,8 +93,53 @@ rosidl_generator_c/doozy_actions/action/detail/dolly_dock__struct.h: rosidl_gene
 rosidl_generator_c/doozy_actions/action/detail/dolly_dock__type_support.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/action/detail/dolly_dock__type_support.h
 
+rosidl_generator_c/doozy_actions/msg/docking.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/docking.h
+
+rosidl_generator_c/doozy_actions/msg/detail/docking__functions.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/docking__functions.h
+
+rosidl_generator_c/doozy_actions/msg/detail/docking__struct.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/docking__struct.h
+
+rosidl_generator_c/doozy_actions/msg/detail/docking__type_support.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/docking__type_support.h
+
+rosidl_generator_c/doozy_actions/msg/diagnostics.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/diagnostics.h
+
+rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.h
+
+rosidl_generator_c/doozy_actions/msg/detail/diagnostics__struct.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/diagnostics__struct.h
+
+rosidl_generator_c/doozy_actions/msg/detail/diagnostics__type_support.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/diagnostics__type_support.h
+
+rosidl_generator_c/doozy_actions/msg/navigation.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/navigation.h
+
+rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.h
+
+rosidl_generator_c/doozy_actions/msg/detail/navigation__struct.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/navigation__struct.h
+
+rosidl_generator_c/doozy_actions/msg/detail/navigation__type_support.h: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/navigation__type_support.h
+
 rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c: rosidl_generator_c/doozy_actions/action/dolly_dock.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c
+
+rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c
+
+rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c
+
+rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c: rosidl_generator_c/doozy_actions/action/dolly_dock.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c
 
 CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.o: CMakeFiles/doozy_actions__rosidl_generator_c.dir/flags.make
 CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.o: rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c
@@ -106,14 +154,59 @@ CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_action
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c -o CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.s
 
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o: CMakeFiles/doozy_actions__rosidl_generator_c.dir/flags.make
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c
+
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c > CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.i
+
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c -o CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.s
+
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o: CMakeFiles/doozy_actions__rosidl_generator_c.dir/flags.make
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c
+
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c > CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.i
+
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c -o CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.s
+
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o: CMakeFiles/doozy_actions__rosidl_generator_c.dir/flags.make
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o   -c /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c
+
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c > CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.i
+
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c -o CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.s
+
 # Object files for target doozy_actions__rosidl_generator_c
 doozy_actions__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.o"
+"CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.o" \
+"CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o" \
+"CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o" \
+"CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o"
 
 # External object files for target doozy_actions__rosidl_generator_c
 doozy_actions__rosidl_generator_c_EXTERNAL_OBJECTS =
 
 libdoozy_actions__rosidl_generator_c.so: CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.o
+libdoozy_actions__rosidl_generator_c.so: CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o
+libdoozy_actions__rosidl_generator_c.so: CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o
+libdoozy_actions__rosidl_generator_c.so: CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o
 libdoozy_actions__rosidl_generator_c.so: CMakeFiles/doozy_actions__rosidl_generator_c.dir/build.make
 libdoozy_actions__rosidl_generator_c.so: /opt/ros/galactic/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
 libdoozy_actions__rosidl_generator_c.so: /opt/ros/galactic/lib/libaction_msgs__rosidl_typesupport_c.so
@@ -138,7 +231,7 @@ libdoozy_actions__rosidl_generator_c.so: /opt/ros/galactic/lib/librosidl_runtime
 libdoozy_actions__rosidl_generator_c.so: /opt/ros/galactic/lib/librcpputils.so
 libdoozy_actions__rosidl_generator_c.so: /opt/ros/galactic/lib/librcutils.so
 libdoozy_actions__rosidl_generator_c.so: CMakeFiles/doozy_actions__rosidl_generator_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libdoozy_actions__rosidl_generator_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C shared library libdoozy_actions__rosidl_generator_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/doozy_actions__rosidl_generator_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,7 +247,22 @@ CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/dooz
 CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.h
 CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/action/detail/dolly_dock__struct.h
 CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/action/detail/dolly_dock__type_support.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/docking.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/docking__functions.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/docking__struct.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/docking__type_support.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/diagnostics.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__struct.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__type_support.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/navigation.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/navigation__struct.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/navigation__type_support.h
 CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend: rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c
 	cd /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions/CMakeFiles/doozy_actions__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doozy_actions__rosidl_generator_c.dir/depend
 

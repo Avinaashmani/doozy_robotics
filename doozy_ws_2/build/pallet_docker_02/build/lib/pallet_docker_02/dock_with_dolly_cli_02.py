@@ -33,11 +33,11 @@ class DollyDocker(Node):
 
         self.cmd_pub = self.create_publisher(Twist, '/cmd_vel', qos_profile=10)
 
-        #self.action_server = ActionServer(self, DollyDock, 'dock_with_dolly', self.tf_callback)
+        self.action_server = ActionServer(self, DollyDock, 'dock_with_dolly', self.tf_callback)
         self.tf_timer = None
-        self.create_timer(0.1, self.tf_callback)
+        #self.create_timer(0.1, self.tf_callback)
 
-    def tf_callback(self):
+    def tf_callback(self, goal_handle):
 
         try:
         
@@ -50,70 +50,37 @@ class DollyDocker(Node):
             angle_difference = self.dolly_angle_z - self.tb3_angle_z
             distance_error = atan2(self.dolly_trans_y - self.tb3_trans_y, self.dolly_trans_x - self.tb3_trans_x)
             yaw_angle_error = atan2(self.dolly_trans_y - self.tb3_trans_y, self.dolly_trans_x - self.tb3_trans_x) - self.tb3_angle_z
-
-            # if distance > 0.2:
-
-            #     print(f"Distance {distance}")
-            #     print(f"Angle Path Error {distance_error}")
-            #     print(f"Angle Difference {angle_difference}")
-
-            #     self.move_tug.linear.x = 0.08
-
-            #     if abs(angle_difference) > 0.02:
-            #         self.move_tug.linear.x = 0.0
-     
-            #         if angle_difference > 0.0:
-
-            #             self.move_tug.angular.z = 0.2
-            #             self.cmd_pub.publish(self.move_tug)
-                
-            #         elif angle_difference < 0.0:
-            #             self.move_tug.angular.z = -0.2
-            #             self.cmd_pub.publish(self.move_tug)
-
-            #     else:
-            #         self.move_tug.linear.x = 0.03
-            #         self.cmd_pub.publish(self.move_tug) 
-            # else:
-
-            #     self.get_logger().info("Docking Completed....")
-            #     self.move_tug.linear.x = 0.0
-            #     self.move_tug.angular.z = 0.0
-            #     self.cmd_pub.publish(self.move_tug)
             
-            if distance > 0.2:
-                print("---------------")
-                #print(distance)
-                #print(distance_error)
-                print(yaw_angle_error)
-                print("---------------")
+            if goal_handle.reached_point: 
 
-                self.docked.data = False
-                self.pub.publish(self.docked)
+                if distance > 0.2:
+                    print("---------------")
+                    #print(distance)
+                    #print(distance_error)
+                    print(yaw_angle_error)
+                    print("---------------")
 
-                if abs(yaw_angle_error) > 0.15:
-                    
-                    # if distance_error > 0.0 :
-                    #     self.move_tug.angular.z = 0.1
-                    # elif distance_error < 0.0:
-                    #     self.move_tug.angular.z = -0.1
+                    self.docked.data = False
+                    self.pub.publish(self.docked)
 
-                    if abs(angle_difference) > 0.1:
-                        if yaw_angle_error > 0.0:
-                            self.move_tug.angular.z = 0.1
-                        else:
-                            self.move_tug.angular.z = -0.1
-                        self.cmd_pub.publish(self.move_tug)
+                    if abs(yaw_angle_error) > 0.15:
+
+                        if abs(angle_difference) > 0.1:
+                            if yaw_angle_error > 0.0:
+                                self.move_tug.angular.z = 0.1
+                            else:
+                                self.move_tug.angular.z = -0.1
+                                self.cmd_pub.publish(self.move_tug)
+                    else:
+                        self.move_tug.linear.x = 0.05
+                    self.cmd_pub.publish(self.move_tug)
                 else:
-                    self.move_tug.linear.x = 0.05
-                self.cmd_pub.publish(self.move_tug)
-            else:
-                print("Goal Reached")
-                self.docked.data = True
-                self.pub.publish(self.docked)
-                self.cmd_pub.publish(self.move_tug)
-                self.move_tug.linear.x = 0.0
-                self.move_tug.angular.z = 0.0
+                    print("Goal Reached")
+                    self.docked.data = True
+                    self.pub.publish(self.docked)
+                    self.cmd_pub.publish(self.move_tug)
+                    self.move_tug.linear.x = 0.0
+                    self.move_tug.angular.z = 0.0
                 
                 self.tf_timer = self.create_timer(3, self.stop_tf_timer)
                 

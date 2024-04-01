@@ -16,3 +16,30 @@ CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_action
 CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.o: rosidl_generator_c/doozy_actions/action/detail/dolly_dock__struct.h
 CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.o: rosidl_generator_c/doozy_actions/msg/rosidl_generator_c__visibility_control.h
 
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/primitives_sequence.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/string.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/string_functions.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/diagnostics__struct.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o: rosidl_generator_c/doozy_actions/msg/rosidl_generator_c__visibility_control.h
+
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/primitives_sequence.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/string.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/string_functions.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/docking__functions.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/docking__struct.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o: rosidl_generator_c/doozy_actions/msg/rosidl_generator_c__visibility_control.h
+
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/primitives_sequence.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/string.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/string_functions.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o: /opt/ros/galactic/include/rosidl_runtime_c/visibility_control.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o: rosidl_generator_c/doozy_actions/msg/detail/navigation__struct.h
+CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o: rosidl_generator_c/doozy_actions/msg/rosidl_generator_c__visibility_control.h
+

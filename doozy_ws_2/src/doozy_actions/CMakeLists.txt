@@ -26,5 +26,8 @@ find_package(rosidl_default_generators REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/DollyDock.action"
+  "msg/Docking.msg"
+  "msg/Diagnostics.msg"
+  "msg/Navigation.msg"
 )
 ament_package()
