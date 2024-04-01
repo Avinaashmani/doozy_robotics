@@ -1,0 +1,34 @@
+[13.373s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/pallet_docker_02': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pallet_docker_02 build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/install.log --single-version-externally-managed install_data
+[14.579s] Traceback (most recent call last):
+[14.585s]   File "/usr/lib/python3.8/genericpath.py", line 19, in exists
+[14.585s]     os.stat(path)
+[14.585s] FileNotFoundError: [Errno 2] No such file or directory: '/home/avinaash/.local/lib/python3.8/site-packages/pandas-2.0.3.dist-info/namespace_packages.txt'
+[14.586s] 
+[14.586s] During handling of the above exception, another exception occurred:
+[14.586s] 
+[14.586s] Traceback (most recent call last):
+[14.588s]   File "setup.py", line 1, in <module>
+[14.590s]     from setuptools import setup
+[14.592s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 17, in <module>
+[14.593s]     import setuptools.version
+[14.594s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[14.596s]     import pkg_resources
+[14.597s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3254, in <module>
+[14.599s]     def _initialize_master_working_set():
+[14.600s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3237, in _call_aside
+[14.600s]     f(*args, **kwargs)
+[14.601s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[14.616s]     tuple(
+[14.616s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3280, in <genexpr>
+[14.635s]     dist.activate(replace=False)
+[14.635s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2785, in activate
+[14.635s]     for pkg in self._get_metadata('namespace_packages.txt'):
+[14.635s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2768, in _get_metadata
+[14.635s]     if self.has_metadata(name):
+[14.636s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1415, in has_metadata
+[14.636s]     return self._has(path)
+[14.637s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1605, in _has
+[14.637s]     return os.path.exists(path)
+[14.638s]   File "/usr/lib/python3.8/genericpath.py", line 19, in exists
+[14.639s]     os.stat(path)
+[14.639s] KeyboardInterrupt

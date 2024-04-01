@@ -46,6 +46,60 @@ class DockDolly(Node):
         self.docking = Docking()
         self.navigate = Navigation()
 
+        self.create_timer(0.1, self.dock_func)
+
+    def dock_func(self):
+
+        if self.navigate_flag:
+            try:
+                tb3_transform = self.tf_buffer.lookup_transform(self.source_frame, self.tb3_frame, Time())
+                dolly_transform = self.tf_buffer.lookup_transform(self.source_frame, self.dolly_frame, Time())
+                self.update_frame(tb3_frame=tb3_transform, target_frame=dolly_transform)
+
+            except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException) as e:
+                self.get_logger().warn("LookupException: {0}".format(str(e)))
+                pass
+                
+            distance = math.fabs(sqrt(pow(self.dolly_x - self.tb3_x, 2) + pow(self.dolly_y - self.tb3_y, 2)))
+            angle_difference = self.dolly_angle_z - self.tb3_angle_z
+            distance_error = atan2(self.dolly_y - self.tb3_y, self.dolly_x - self.tb3_x)
+            yaw_angle_error = atan2(self.dolly_y - self.tb3_y, self.dolly_x - self.tb3_x) - self.tb3_angle_z
+
+            if distance > 0.2:
+
+                print("---------------")
+                print(distance)
+                print(distance_error)
+                print(yaw_angle_error)
+                print("---------------")
+
+                self.docking.docked_to_target = False
+                self.docking.angle_to_target = angle_difference
+                self.docking.distance_to_target = distance
+                self.dock_pub.publish(self.docking)
+
+                if abs(yaw_angle_error) > 0.15:
+                    if abs(angle_difference) > 0.1:
+                        if yaw_angle_error > 0.0:
+                            self.move_tug.angular.z = 0.1
+                        else:
+                            self.move_tug.angular.z = -0.1
+                else:
+                    self.move_tug.linear.x = 0.09
+                self.cmd_pub.publish(self.move_tug)
+
+            else:
+                print("Goal Reached")
+                self.docking.docked_to_target = True
+                self.dock_pub.publish(self.docking)
+                self.cmd_pub.publish(self.move_tug)
+                self.move_tug.linear.x = 0.0
+                self.move_tug.angular.z = 0.0
+                self.dock_flag = False
+        else:
+            self.get_logger().warn("Navigation is still under process...")
+                # Add a sleep to control the loop rate
+    
     def update_frame(self, tb3_frame, target_frame):
         self.tb3_x = tb3_frame.transform.translation.x
         self.tb3_y = tb3_frame.transform.translation.y
@@ -68,72 +122,12 @@ class DockDolly(Node):
 
         self.dolly_angle_z = self.euler_from_quaternion(dolly_angle_x, dolly_angle_y, 
                                                         dolly_angle_z, dolly_angle_w)
-
-    def dock_func(self):
-        while True:
-
-            try:
-                self.dock_flag = True 
-            
-                # if self.navigate_flag:  # Continue docking while navigation flag is True
-
-                tb3_transform = self.tf_buffer.lookup_transform(self.source_frame, self.tb3_frame, Time())
-                dolly_transform = self.tf_buffer.lookup_transform(self.source_frame, self.dolly_frame, Time())
-
-                # print("tb3_transform:", tb3_transform)
-                # print("dolly_transform:", dolly_transform)
-                self.update_frame(tb3_frame=tb3_transform, target_frame=dolly_transform)
-
-                distance = math.fabs(sqrt(pow(self.dolly_x - self.tb3_x, 2) + pow(self.dolly_y - self.tb3_y, 2)))
-                angle_difference = self.dolly_angle_z - self.tb3_angle_z
-                distance_error = atan2(self.dolly_y - self.tb3_y, self.dolly_x - self.tb3_x)
-                yaw_angle_error = atan2(self.dolly_y - self.tb3_y, self.dolly_x - self.tb3_x) - self.tb3_angle_z
-
-                if distance > 0.2:
-
-                    print("---------------")
-                    print(distance)
-                    print(distance_error)
-                    print(yaw_angle_error)
-                    print("---------------")
-
-                    self.docking.docked_to_target = False
-                    self.docking.angle_to_target = angle_difference
-                    self.docking.distance_to_target = distance
-                    self.dock_pub.publish(self.docking)
-
-                    if abs(yaw_angle_error) > 0.15:
-                        if abs(angle_difference) > 0.5:
-                            if yaw_angle_error > 0.0:
-                                self.move_tug.angular.z = 0.5
-                            else:
-                                self.move_tug.angular.z = -0.5
-                    else:
-                        self.move_tug.linear.x = 0.3
-                    self.cmd_pub.publish(self.move_tug)
-
-                else:
-                    print("Goal Reached")
-                    self.docking.docked_to_target = True
-                    self.dock_pub.publish(self.docking)
-                    self.cmd_pub.publish(self.move_tug)
-                    self.move_tug.linear.x = 0.0
-                    self.move_tug.angular.z = 0.0
-                    self.dock_flag = False
-
-                # Add a sleep to control the loop rate
-
-            except (tf2_ros.LookupException, tf2_ros.ConnectivityException, tf2_ros.ExtrapolationException) as e:
-                self.get_logger().warn("LookupException: {0}".format(str(e)))
-
+        
     def navigate_callback(self, msg):
         self.idx_number = msg.idx_of_dolly
         self.navigate_flag = msg.moved_to_spot
         self.navigate_err = msg.error
-        self.dock_func()
         print(self.navigate_flag)
-
-
 
     def euler_from_quaternion(self, x, y, z, w):
         t0 = +2.0 * (w * x + y * z)
@@ -151,13 +145,11 @@ class DockDolly(Node):
 
         return yaw_z
 
-
-            
 def main():
     rclpy.init()
     docker = DockDolly()
-    # docker.spin_this()
     rclpy.spin(docker)
     rclpy.shutdown()
+
 if __name__=='__main__':
     main()
