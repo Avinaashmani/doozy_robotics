@@ -23,15 +23,16 @@ class NaviDolly(Node):
 
         self.goal_poses = [PoseStamped(), PoseStamped(), PoseStamped()]
 
-        self.navigation_node_pub = self.create_publisher(Navigation, '/dolly_dock_node', 10)
+        self.navigation_node_pub = self.create_publisher(Navigation, '/dolly_navigate_node', 10)
 
-        self.create_subscription(Docking, '/dolly_navigate_node', self.docking_node_callback,10)
+        self.create_subscription(Docking, '/dolly_dock_node', self.docking_node_callback,10)
         #self.create_subscription(SickTMini, '/sick_vision_t_mini/one', 10)
 
         self.result = None
 
         self.navigation_msg = Navigation()
-        self.navigation_flag = False
+        self.navigation_flag = True
+        self.navigation_node_pub.publish(self.navigation_msg)
 
         self.is_docked = False
         self.is_latched = False
@@ -119,10 +120,10 @@ class NaviDolly(Node):
 
             elif self.result == TaskResult.UNKNOWN:
                 self.get_logger().info('Failed ! -- Unknown')
-                self.navigation_msg.moved_to_spot = False
+                self.navigation_msg.moved_to_spot = True
                 print(self.result)
                 time.sleep(5)
-                self.navigation_flag = False
+                self.navigation_flag = True
             self.navigation_node_pub.publish(self.navigation_msg)
             return self.navigation_flag
         
@@ -130,7 +131,6 @@ class NaviDolly(Node):
             print("Invalid input. Please enter a valid goal ID or 'exit'.")
             self.navigation_msg.error = "Invalid input. Please enter a valid goal ID or 'exit'."
             pass
-
 
     def docking_node_callback(self, msg):
 

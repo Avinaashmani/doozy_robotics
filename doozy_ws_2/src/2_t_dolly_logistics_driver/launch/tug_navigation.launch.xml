@@ -1,0 +1,4 @@
+<launch>
+    <node pkg='2_t_dolly_logistics_driver' exec="Navigate_01"/>
+    <node pkg='2_t_dolly_logistics_driver' exec="Dock2Dolly_02"/>
+</launch>

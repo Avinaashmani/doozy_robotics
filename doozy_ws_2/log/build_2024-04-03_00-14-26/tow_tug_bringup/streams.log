@@ -1,0 +1,48 @@
+[0.031s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake /home/avinaash/doozy_robotics/doozy_ws_2/src/tow_tug_bringup -DCMAKE_INSTALL_PREFIX=/home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup
+[0.159s] -- The C compiler identification is GNU 9.4.0
+[0.289s] -- The CXX compiler identification is GNU 9.4.0
+[0.301s] -- Check for working C compiler: /usr/bin/cc
+[0.470s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.472s] -- Detecting C compiler ABI info
+[0.617s] -- Detecting C compiler ABI info - done
+[0.655s] -- Detecting C compile features
+[0.656s] -- Detecting C compile features - done
+[0.666s] -- Check for working CXX compiler: /usr/bin/c++
+[0.837s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.839s] -- Detecting CXX compiler ABI info
+[1.029s] -- Detecting CXX compiler ABI info - done
+[1.055s] -- Detecting CXX compile features
+[1.056s] -- Detecting CXX compile features - done
+[1.062s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.118s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.118s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.318s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.494s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.217s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.515s] -- Added test 'lint_cmake' to check CMake code style
+[2.603s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.464s] -- Added test 'xmllint' to check XML markup files
+[3.480s] -- Configuring done
+[3.485s] -- Generating done
+[3.487s] -- Build files have been written to: /home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup
+[3.511s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake /home/avinaash/doozy_robotics/doozy_ws_2/src/tow_tug_bringup -DCMAKE_INSTALL_PREFIX=/home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup
+[3.512s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup -- -j12 -l12
+[3.652s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup -- -j12 -l12
+[4.028s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup
+[4.086s] -- Install configuration: ""
+[4.087s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/ament_index/resource_index/package_run_dependencies/tow_tug_bringup
+[4.087s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/ament_index/resource_index/parent_prefix_path/tow_tug_bringup
+[4.088s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/environment/ament_prefix_path.sh
+[4.090s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/environment/ament_prefix_path.dsv
+[4.090s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/environment/path.sh
+[4.090s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/environment/path.dsv
+[4.090s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/local_setup.bash
+[4.090s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/local_setup.sh
+[4.091s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/local_setup.zsh
+[4.091s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/local_setup.dsv
+[4.091s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/package.dsv
+[4.091s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/ament_index/resource_index/packages/tow_tug_bringup
+[4.091s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/cmake/tow_tug_bringupConfig.cmake
+[4.092s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/cmake/tow_tug_bringupConfig-version.cmake
+[4.092s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/tow_tug_bringup/share/tow_tug_bringup/package.xml
+[4.097s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/tow_tug_bringup

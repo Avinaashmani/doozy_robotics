@@ -96,6 +96,10 @@ class DockDolly(Node):
                 self.move_tug.linear.x = 0.0
                 self.move_tug.angular.z = 0.0
                 self.dock_flag = False
+
+                time.sleep(1)
+                self.docking.safe_to_latch = True
+                self.docking.docked_to_target = True
         else:
             self.get_logger().warn("Navigation is still under process...")
                 # Add a sleep to control the loop rate
