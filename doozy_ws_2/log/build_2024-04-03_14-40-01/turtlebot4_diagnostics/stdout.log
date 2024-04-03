@@ -1,0 +1,39 @@
+running egg_info
+creating ../../../build/turtlebot4_diagnostics/turtlebot4_diagnostics.egg-info
+writing ../../../build/turtlebot4_diagnostics/turtlebot4_diagnostics.egg-info/PKG-INFO
+writing dependency_links to ../../../build/turtlebot4_diagnostics/turtlebot4_diagnostics.egg-info/dependency_links.txt
+writing entry points to ../../../build/turtlebot4_diagnostics/turtlebot4_diagnostics.egg-info/entry_points.txt
+writing requirements to ../../../build/turtlebot4_diagnostics/turtlebot4_diagnostics.egg-info/requires.txt
+writing top-level names to ../../../build/turtlebot4_diagnostics/turtlebot4_diagnostics.egg-info/top_level.txt
+writing manifest file '../../../build/turtlebot4_diagnostics/turtlebot4_diagnostics.egg-info/SOURCES.txt'
+reading manifest file '../../../build/turtlebot4_diagnostics/turtlebot4_diagnostics.egg-info/SOURCES.txt'
+writing manifest file '../../../build/turtlebot4_diagnostics/turtlebot4_diagnostics.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_diagnostics/build
+creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_diagnostics/build/lib
+creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_diagnostics/build/lib/turtlebot4_diagnostics
+copying turtlebot4_diagnostics/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_diagnostics/build/lib/turtlebot4_diagnostics
+copying turtlebot4_diagnostics/diagnostics_updater.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_diagnostics/build/lib/turtlebot4_diagnostics
+running install
+running install_lib
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/lib/python3.8/site-packages/turtlebot4_diagnostics
+copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_diagnostics/build/lib/turtlebot4_diagnostics/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/lib/python3.8/site-packages/turtlebot4_diagnostics
+copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_diagnostics/build/lib/turtlebot4_diagnostics/diagnostics_updater.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/lib/python3.8/site-packages/turtlebot4_diagnostics
+byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/lib/python3.8/site-packages/turtlebot4_diagnostics/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/lib/python3.8/site-packages/turtlebot4_diagnostics/diagnostics_updater.py to diagnostics_updater.cpython-38.pyc
+running install_data
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/share/ament_index
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/share/ament_index/resource_index
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/share/ament_index/resource_index/packages
+copying resource/turtlebot4_diagnostics -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/share/ament_index/resource_index/packages
+copying package.xml -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/share/turtlebot4_diagnostics
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/share/turtlebot4_diagnostics/launch
+copying launch/diagnostics.launch.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/share/turtlebot4_diagnostics/launch
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/share/turtlebot4_diagnostics/config
+copying config/diagnostics.yaml -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/share/turtlebot4_diagnostics/config
+running install_egg_info
+Copying ../../../build/turtlebot4_diagnostics/turtlebot4_diagnostics.egg-info to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/lib/python3.8/site-packages/turtlebot4_diagnostics-1.0.2-py3.8.egg-info
+running install_scripts
+Installing diagnostics_updater script to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics/lib/turtlebot4_diagnostics
+writing list of installed files to '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_diagnostics/install.log'

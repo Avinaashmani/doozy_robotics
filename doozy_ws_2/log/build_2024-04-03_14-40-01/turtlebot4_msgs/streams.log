@@ -1,0 +1,268 @@
+[0.124s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake /home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot4/turtlebot4_msgs -DCMAKE_INSTALL_PREFIX=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs
+[1.824s] -- The C compiler identification is GNU 9.4.0
+[1.826s] -- The CXX compiler identification is GNU 9.4.0
+[1.826s] -- Check for working C compiler: /usr/bin/cc
+[1.826s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.826s] -- Detecting C compiler ABI info
+[1.826s] -- Detecting C compiler ABI info - done
+[1.826s] -- Detecting C compile features
+[1.826s] -- Detecting C compile features - done
+[1.826s] -- Check for working CXX compiler: /usr/bin/c++
+[1.827s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.827s] -- Detecting CXX compiler ABI info
+[1.827s] -- Detecting CXX compiler ABI info - done
+[1.827s] -- Detecting CXX compile features
+[1.827s] -- Detecting CXX compile features - done
+[1.827s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.827s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.827s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.827s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.827s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.827s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.828s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.828s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.900s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.058s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.137s] -- Found std_msgs: 2.2.4 (/opt/ros/galactic/share/std_msgs/cmake)
+[2.298s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.501s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[2.841s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.905s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.993s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[2.998s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[3.082s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.083s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.084s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.084s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.149s] -- Found PythonExtra: .so  
+[3.308s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.314s] -- Added test 'lint_cmake' to check CMake code style
+[3.317s] -- Added test 'xmllint' to check XML markup files
+[3.336s] -- Configuring done
+[3.440s] -- Generating done
+[3.448s] -- Build files have been written to: /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs
+[3.468s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake /home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot4/turtlebot4_msgs -DCMAKE_INSTALL_PREFIX=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs
+[3.474s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs -- -j12 -l12
+[4.124s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.125s] [35m[1mScanning dependencies of target turtlebot4_msgs__cpp[0m
+[4.125s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.869s] [  4%] Built target turtlebot4_msgs__cpp
+[4.897s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.901s] [  8%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.904s] [35m[1mScanning dependencies of target turtlebot4_msgs__rosidl_generator_c[0m
+[4.915s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.977s] [ 12%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_led__functions.c.o[0m
+[4.992s] [ 17%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_display__functions.c.o[0m
+[4.997s] [ 14%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot4_msgs/msg/detail/user_button__functions.c.o[0m
+[5.197s] [ 19%] [32m[1mLinking C shared library libturtlebot4_msgs__rosidl_generator_c.so[0m
+[5.296s] [ 19%] Built target turtlebot4_msgs__rosidl_generator_c
+[5.340s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.357s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.846s] [35m[1mScanning dependencies of target turtlebot4_msgs__rosidl_typesupport_cpp[0m
+[5.879s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_button__type_support.cpp.o[0m
+[5.901s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_led__type_support.cpp.o[0m
+[5.929s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot4_msgs/msg/user_display__type_support.cpp.o[0m
+[5.983s] [35m[1mScanning dependencies of target turtlebot4_msgs__rosidl_typesupport_introspection_cpp[0m
+[6.126s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_led__type_support.cpp.o[0m
+[6.127s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_display__type_support.cpp.o[0m
+[6.129s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot4_msgs/msg/detail/user_button__type_support.cpp.o[0m
+[6.129s] [35m[1mScanning dependencies of target turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[6.202s] [ 38%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_led__type_support.cpp.o[0m
+[6.229s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_button__type_support.cpp.o[0m
+[6.239s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot4_msgs/msg/detail/dds_fastrtps/user_display__type_support.cpp.o[0m
+[6.715s] [35m[1mScanning dependencies of target turtlebot4_msgs__rosidl_typesupport_c[0m
+[6.723s] [35m[1mScanning dependencies of target turtlebot4_msgs__rosidl_typesupport_introspection_c[0m
+[6.814s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_button__type_support.cpp.o[0m
+[6.843s] [ 46%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_led__type_support.cpp.o[0m
+[6.846s] [ 48%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_button__type_support.c.o[0m
+[6.877s] [ 51%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_led__type_support.c.o[0m
+[6.957s] [ 53%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot4_msgs/msg/user_display__type_support.cpp.o[0m
+[7.013s] [ 55%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot4_msgs/msg/detail/user_display__type_support.c.o[0m
+[7.135s] [ 57%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_c.so[0m
+[7.195s] [ 59%] [32m[1mLinking C shared library libturtlebot4_msgs__rosidl_typesupport_introspection_c.so[0m
+[7.437s] [ 59%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c
+[7.542s] [ 59%] Built target turtlebot4_msgs__rosidl_typesupport_c
+[7.750s] [ 61%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_cpp.so[0m
+[7.930s] [ 63%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[8.023s] [ 63%] Built target turtlebot4_msgs__rosidl_typesupport_cpp
+[8.208s] [ 63%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_cpp
+[9.023s] [ 65%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[9.273s] [ 65%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_cpp
+[9.296s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[10.782s] [35m[1mScanning dependencies of target turtlebot4_msgs__rosidl_typesupport_fastrtps_c[0m
+[10.925s] [ 70%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_led__type_support_c.cpp.o[0m
+[10.948s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_button__type_support_c.cpp.o[0m
+[11.012s] [ 74%] [32mBuilding CXX object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot4_msgs/msg/detail/user_display__type_support_c.cpp.o[0m
+[13.521s] [ 76%] [32m[1mLinking CXX shared library libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[14.301s] [ 76%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c
+[14.456s] [35m[1mScanning dependencies of target turtlebot4_msgs[0m
+[14.555s] [ 76%] Built target turtlebot4_msgs
+[14.657s] [35m[1mScanning dependencies of target turtlebot4_msgs__py[0m
+[14.773s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[19.064s] [ 78%] Built target turtlebot4_msgs__py
+[19.141s] [35m[1mScanning dependencies of target turtlebot4_msgs__python[0m
+[19.224s] [ 80%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__python.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_led_s.c.o[0m
+[19.272s] [ 82%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__python.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_display_s.c.o[0m
+[19.286s] [ 85%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__python.dir/rosidl_generator_py/turtlebot4_msgs/msg/_user_button_s.c.o[0m
+[19.794s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/libturtlebot4_msgs__python.so[0m
+[20.102s] [ 87%] Built target turtlebot4_msgs__python
+[20.195s] [35m[1mScanning dependencies of target turtlebot4_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[20.206s] [35m[1mScanning dependencies of target turtlebot4_msgs__rosidl_typesupport_c__pyext[0m
+[20.226s] [35m[1mScanning dependencies of target turtlebot4_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[20.343s] [ 89%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[20.386s] [ 91%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[20.409s] [ 93%] [32mBuilding C object CMakeFiles/turtlebot4_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot4_msgs/_turtlebot4_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[20.892s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[20.901s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[21.066s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[21.136s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_introspection_c__pyext
+[21.204s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_c__pyext
+[21.340s] [100%] Built target turtlebot4_msgs__rosidl_typesupport_fastrtps_c__pyext
+[21.398s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs -- -j12 -l12
+[23.203s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs
+[23.269s] -- Install configuration: ""
+[23.270s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot4_msgs
+[23.277s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs
+[23.277s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg
+[23.278s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/user_button.h
+[23.285s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/rosidl_generator_c__visibility_control.h
+[23.285s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/user_led.h
+[23.298s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail
+[23.299s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__struct.h
+[23.299s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__functions.c
+[23.299s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__functions.c
+[23.299s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__functions.h
+[23.299s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__struct.h
+[23.300s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__type_support.h
+[23.300s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__functions.h
+[23.300s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__type_support.h
+[23.300s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__type_support.h
+[23.301s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__functions.c
+[23.301s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__functions.h
+[23.301s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__struct.h
+[23.301s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/user_display.h
+[23.313s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.sh
+[23.313s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/library_path.dsv
+[23.328s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_c.so
+[23.337s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_generator_c.so" to ""
+[23.337s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs
+[23.337s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg
+[23.337s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail
+[23.338s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_c.h
+[23.338s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_c.h
+[23.338s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_c.h
+[23.338s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[23.338s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so
+[23.339s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[23.339s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs
+[23.340s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg
+[23.340s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[23.340s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail
+[23.340s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_fastrtps_cpp.hpp
+[23.340s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_fastrtps_cpp.hpp
+[23.341s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/dds_fastrtps
+[23.341s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_fastrtps_cpp.hpp
+[23.341s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so
+[23.352s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[23.352s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs
+[23.353s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg
+[23.353s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[23.353s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail
+[23.353s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_c.h
+[23.353s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_c.h
+[23.354s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_c.h
+[23.354s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__type_support.c
+[23.354s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__type_support.c
+[23.354s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__type_support.c
+[23.354s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_c.so
+[23.363s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_c.so" to ""
+[23.363s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_c.so
+[23.373s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_c.so" to ""
+[23.373s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs
+[23.373s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg
+[23.373s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/user_button.hpp
+[23.389s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail
+[23.389s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__struct.hpp
+[23.390s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__builder.hpp
+[23.403s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__traits.hpp
+[23.405s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__traits.hpp
+[23.410s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__traits.hpp
+[23.415s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__builder.hpp
+[23.419s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__struct.hpp
+[23.420s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__builder.hpp
+[23.423s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__struct.hpp
+[23.423s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/user_led.hpp
+[23.425s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/user_display.hpp
+[23.429s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs
+[23.429s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg
+[23.429s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail
+[23.430s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__rosidl_typesupport_introspection_cpp.hpp
+[23.434s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__rosidl_typesupport_introspection_cpp.hpp
+[23.436s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_button__type_support.cpp
+[23.437s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_display__type_support.cpp
+[23.437s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__rosidl_typesupport_introspection_cpp.hpp
+[23.439s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/include/turtlebot4_msgs/msg/detail/user_led__type_support.cpp
+[23.439s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so
+[23.440s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[23.441s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_cpp.so
+[23.442s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__rosidl_typesupport_cpp.so" to ""
+[23.442s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.sh
+[23.442s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/pythonpath.dsv
+[23.443s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/__init__.py
+[23.620s] Compiling '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/__init__.py'...
+[23.642s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/msg
+[23.642s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/msg/_user_button_s.c
+[23.643s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/msg/_user_button.py
+[23.643s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/msg/_user_led_s.c
+[23.644s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/msg/_user_led.py
+[23.644s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/msg/_user_display.py
+[23.645s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/msg/__init__.py
+[23.645s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/msg/_user_display_s.c
+[23.646s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[23.648s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[23.648s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[23.650s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[23.651s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[23.652s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/python3.8/site-packages/turtlebot4_msgs/turtlebot4_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[23.653s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__python.so
+[23.654s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/lib/libturtlebot4_msgs__python.so" to ""
+[23.655s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.idl
+[23.655s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.idl
+[23.656s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.idl
+[23.657s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserLed.msg
+[23.657s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserButton.msg
+[23.658s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/msg/UserDisplay.msg
+[23.658s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot4_msgs
+[23.684s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot4_msgs
+[23.716s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.sh
+[23.717s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/ament_prefix_path.dsv
+[23.757s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.sh
+[23.757s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/environment/path.dsv
+[23.768s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.bash
+[23.771s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.sh
+[23.772s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.zsh
+[23.772s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/local_setup.dsv
+[23.773s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/package.dsv
+[23.779s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/ament_index/resource_index/packages/turtlebot4_msgs
+[23.781s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_generator_cExport.cmake
+[23.786s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_generator_cExport-noconfig.cmake
+[23.789s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport.cmake
+[23.793s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[23.796s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport.cmake
+[23.798s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[23.802s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_generator_cppExport.cmake
+[23.845s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[23.854s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[23.974s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport.cmake
+[23.997s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[24.002s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake-extras.cmake
+[24.011s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.019s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[24.028s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[24.041s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.050s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[24.059s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[24.066s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig.cmake
+[24.079s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake/turtlebot4_msgsConfig-version.cmake
+[24.086s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_msgs/share/turtlebot4_msgs/package.xml
+[24.098s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_msgs

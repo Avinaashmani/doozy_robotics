@@ -1,0 +1,90 @@
+[0.136s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake /home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot4/turtlebot4_navigation -DCMAKE_INSTALL_PREFIX=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation
+[1.560s] -- The C compiler identification is GNU 9.4.0
+[1.560s] -- The CXX compiler identification is GNU 9.4.0
+[1.560s] -- Check for working C compiler: /usr/bin/cc
+[1.561s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.561s] -- Detecting C compiler ABI info
+[1.561s] -- Detecting C compiler ABI info - done
+[1.561s] -- Detecting C compile features
+[1.562s] -- Detecting C compile features - done
+[1.562s] -- Check for working CXX compiler: /usr/bin/c++
+[1.562s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.562s] -- Detecting CXX compiler ABI info
+[1.623s] -- Detecting CXX compiler ABI info - done
+[1.656s] -- Detecting CXX compile features
+[1.657s] -- Detecting CXX compile features - done
+[1.669s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.805s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.806s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.603s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.290s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.305s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.308s] -- Added test 'lint_cmake' to check CMake code style
+[3.311s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.348s] -- Added test 'xmllint' to check XML markup files
+[3.357s] -- Configuring done
+[3.374s] -- Generating done
+[3.394s] -- Build files have been written to: /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation
+[3.404s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake /home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot4/turtlebot4_navigation -DCMAKE_INSTALL_PREFIX=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation
+[3.405s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation -- -j12 -l12
+[3.744s] [35m[1mScanning dependencies of target ament_cmake_python_copy_turtlebot4_navigation[0m
+[3.805s] Built target ament_cmake_python_copy_turtlebot4_navigation
+[3.919s] [35m[1mScanning dependencies of target ament_cmake_python_build_turtlebot4_navigation_egg[0m
+[5.687s] running egg_info
+[5.689s] creating turtlebot4_navigation.egg-info
+[5.689s] writing turtlebot4_navigation.egg-info/PKG-INFO
+[5.690s] writing dependency_links to turtlebot4_navigation.egg-info/dependency_links.txt
+[5.690s] writing top-level names to turtlebot4_navigation.egg-info/top_level.txt
+[5.693s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[5.878s] reading manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[5.879s] writing manifest file 'turtlebot4_navigation.egg-info/SOURCES.txt'
+[6.028s] Built target ament_cmake_python_build_turtlebot4_navigation_egg
+[6.056s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation -- -j12 -l12
+[6.444s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation
+[7.729s] -- Install configuration: ""
+[7.730s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/config
+[7.730s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/config/nav2.yaml
+[7.730s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/config/localization.yaml
+[7.730s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/config/slam.yaml
+[7.730s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/launch
+[7.731s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/nav2.launch.py
+[7.731s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/slam.launch.py
+[7.731s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/launch/localization.launch.py
+[7.731s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/maps
+[7.731s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.yaml
+[7.731s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/maze.pgm
+[7.731s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.pgm
+[7.732s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.pgm
+[7.732s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/warehouse.yaml
+[7.732s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/maps/depot.yaml
+[7.732s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.sh
+[7.732s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/pythonpath.dsv
+[7.732s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages//turtlebot4_navigation.egg-info
+[7.733s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages//turtlebot4_navigation.egg-info/SOURCES.txt
+[7.733s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages//turtlebot4_navigation.egg-info/top_level.txt
+[7.733s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages//turtlebot4_navigation.egg-info/dependency_links.txt
+[7.733s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages//turtlebot4_navigation.egg-info/PKG-INFO
+[7.733s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages/turtlebot4_navigation
+[7.733s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages/turtlebot4_navigation/__init__.py
+[7.734s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages/turtlebot4_navigation/turtlebot4_navigator.py
+[7.734s] Listing '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages/turtlebot4_navigation'...
+[7.740s] Compiling '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages/turtlebot4_navigation/__init__.py'...
+[7.741s] Compiling '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages/turtlebot4_navigation/turtlebot4_navigator.py'...
+[7.741s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages/turtlebot4_navigator.py
+[7.741s] Compiling '/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/lib/python3.8/site-packages/turtlebot4_navigator.py'...
+[7.741s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/ament_index/resource_index/package_run_dependencies/turtlebot4_navigation
+[7.741s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/ament_index/resource_index/parent_prefix_path/turtlebot4_navigation
+[7.742s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.sh
+[7.742s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/ament_prefix_path.dsv
+[7.742s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.sh
+[7.742s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/environment/path.dsv
+[7.742s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.bash
+[7.742s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.sh
+[7.742s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.zsh
+[7.743s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/local_setup.dsv
+[7.743s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/package.dsv
+[7.743s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/ament_index/resource_index/packages/turtlebot4_navigation
+[7.743s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig.cmake
+[7.743s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/cmake/turtlebot4_navigationConfig-version.cmake
+[7.743s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_navigation/share/turtlebot4_navigation/package.xml
+[7.782s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_navigation

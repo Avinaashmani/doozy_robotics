@@ -1,0 +1,309 @@
+[0.092s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions -DCMAKE_INSTALL_PREFIX=/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions
+[0.237s] -- The C compiler identification is GNU 9.4.0
+[0.390s] -- The CXX compiler identification is GNU 9.4.0
+[0.409s] -- Check for working C compiler: /usr/bin/cc
+[0.585s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.588s] -- Detecting C compiler ABI info
+[0.764s] -- Detecting C compiler ABI info - done
+[0.796s] -- Detecting C compile features
+[0.796s] -- Detecting C compile features - done
+[0.806s] -- Check for working CXX compiler: /usr/bin/c++
+[1.040s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.041s] -- Detecting CXX compiler ABI info
+[1.284s] -- Detecting CXX compiler ABI info - done
+[1.326s] -- Detecting CXX compile features
+[1.327s] -- Detecting CXX compile features - done
+[1.334s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.406s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.407s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.649s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.844s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[1.895s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.926s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[2.256s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.342s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.573s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.792s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.214s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)
+[3.945s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.565s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.571s] -- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)
+[4.811s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.812s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.812s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.812s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[5.027s] -- Found PythonExtra: .so  
+[5.327s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.333s] -- Added test 'lint_cmake' to check CMake code style
+[5.338s] -- Added test 'xmllint' to check XML markup files
+[5.368s] -- Configuring done
+[5.642s] -- Generating done
+[5.650s] -- Build files have been written to: /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions
+[5.697s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake /home/avinaash/doozy_robotics/doozy_ws_2/src/doozy_actions -DCMAKE_INSTALL_PREFIX=/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions
+[5.699s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions -- -j12 -l12
+[7.401s] [35m[1mScanning dependencies of target doozy_actions__cpp[0m
+[7.402s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.402s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[8.345s] [  3%] Built target doozy_actions__cpp
+[8.380s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.419s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.459s] [  9%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.246s] [35m[1mScanning dependencies of target doozy_actions__rosidl_generator_c[0m
+[9.354s] [ 10%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/action/detail/dolly_dock__functions.c.o[0m
+[9.397s] [ 12%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/docking__functions.c.o[0m
+[9.439s] [ 14%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/diagnostics__functions.c.o[0m
+[9.462s] [ 16%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_generator_c.dir/rosidl_generator_c/doozy_actions/msg/detail/navigation__functions.c.o[0m
+[10.229s] [ 18%] [32m[1mLinking C shared library libdoozy_actions__rosidl_generator_c.so[0m
+[10.639s] [ 18%] Built target doozy_actions__rosidl_generator_c
+[10.679s] [35m[1mScanning dependencies of target doozy_actions__rosidl_typesupport_cpp[0m
+[10.734s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[10.784s] [ 21%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.834s] [ 23%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/action/dolly_dock__type_support.cpp.o[0m
+[10.867s] [ 25%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/docking__type_support.cpp.o[0m
+[10.888s] [ 27%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/diagnostics__type_support.cpp.o[0m
+[10.918s] [ 29%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/doozy_actions/msg/navigation__type_support.cpp.o[0m
+[11.357s] [35m[1mScanning dependencies of target doozy_actions__rosidl_typesupport_introspection_cpp[0m
+[11.519s] [ 30%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/action/detail/dolly_dock__type_support.cpp.o[0m
+[11.522s] [ 32%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/docking__type_support.cpp.o[0m
+[11.562s] [ 34%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/navigation__type_support.cpp.o[0m
+[11.573s] [ 36%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/doozy_actions/msg/detail/diagnostics__type_support.cpp.o[0m
+[12.088s] [35m[1mScanning dependencies of target doozy_actions__rosidl_typesupport_fastrtps_cpp[0m
+[12.286s] [35m[1mScanning dependencies of target doozy_actions__rosidl_typesupport_c[0m
+[12.312s] [ 38%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/action/detail/dds_fastrtps/dolly_dock__type_support.cpp.o[0m
+[12.312s] [ 40%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/docking__type_support.cpp.o[0m
+[12.353s] [ 41%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/diagnostics__type_support.cpp.o[0m
+[12.397s] [ 43%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/action/dolly_dock__type_support.cpp.o[0m
+[12.787s] [ 45%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/docking__type_support.cpp.o[0m
+[12.820s] [ 47%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/diagnostics__type_support.cpp.o[0m
+[13.168s] [ 49%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_c.dir/rosidl_typesupport_c/doozy_actions/msg/navigation__type_support.cpp.o[0m
+[13.198s] [ 50%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/doozy_actions/msg/detail/dds_fastrtps/navigation__type_support.cpp.o[0m
+[13.330s] [ 52%] [32m[1mLinking CXX shared library libdoozy_actions__rosidl_typesupport_cpp.so[0m
+[13.487s] [ 54%] [32m[1mLinking CXX shared library libdoozy_actions__rosidl_typesupport_c.so[0m
+[13.792s] [ 54%] Built target doozy_actions__rosidl_typesupport_cpp
+[13.872s] [ 54%] Built target doozy_actions__rosidl_typesupport_c
+[14.499s] [35m[1mScanning dependencies of target doozy_actions__rosidl_typesupport_introspection_c[0m
+[14.632s] [ 56%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/action/detail/dolly_dock__type_support.c.o[0m
+[14.636s] [ 58%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/docking__type_support.c.o[0m
+[14.664s] [ 60%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/navigation__type_support.c.o[0m
+[14.677s] [ 61%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/doozy_actions/msg/detail/diagnostics__type_support.c.o[0m
+[14.981s] [ 63%] [32m[1mLinking C shared library libdoozy_actions__rosidl_typesupport_introspection_c.so[0m
+[15.273s] [ 63%] Built target doozy_actions__rosidl_typesupport_introspection_c
+[16.055s] [ 65%] [32m[1mLinking CXX shared library libdoozy_actions__rosidl_typesupport_introspection_cpp.so[0m
+[16.224s] [ 67%] [32m[1mLinking CXX shared library libdoozy_actions__rosidl_typesupport_fastrtps_cpp.so[0m
+[16.562s] [ 67%] Built target doozy_actions__rosidl_typesupport_introspection_cpp
+[16.826s] [ 67%] Built target doozy_actions__rosidl_typesupport_fastrtps_cpp
+[16.937s] [ 69%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[19.830s] [35m[1mScanning dependencies of target doozy_actions__rosidl_typesupport_fastrtps_c[0m
+[19.995s] [ 70%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/action/detail/dolly_dock__type_support_c.cpp.o[0m
+[19.996s] [ 72%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/docking__type_support_c.cpp.o[0m
+[20.042s] [ 74%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/navigation__type_support_c.cpp.o[0m
+[20.075s] [ 76%] [32mBuilding CXX object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/doozy_actions/msg/detail/diagnostics__type_support_c.cpp.o[0m
+[21.689s] [ 78%] [32m[1mLinking CXX shared library libdoozy_actions__rosidl_typesupport_fastrtps_c.so[0m
+[22.111s] [ 78%] Built target doozy_actions__rosidl_typesupport_fastrtps_c
+[22.171s] [35m[1mScanning dependencies of target doozy_actions[0m
+[22.197s] [ 78%] Built target doozy_actions
+[22.261s] [35m[1mScanning dependencies of target doozy_actions__py[0m
+[22.304s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[25.274s] [ 80%] Built target doozy_actions__py
+[25.315s] [35m[1mScanning dependencies of target doozy_actions__python[0m
+[25.447s] [ 83%] [32mBuilding C object CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_docking_s.c.o[0m
+[25.447s] [ 83%] [32mBuilding C object CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/action/_dolly_dock_s.c.o[0m
+[25.464s] [ 85%] [32mBuilding C object CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_diagnostics_s.c.o[0m
+[25.484s] [ 87%] [32mBuilding C object CMakeFiles/doozy_actions__python.dir/rosidl_generator_py/doozy_actions/msg/_navigation_s.c.o[0m
+[25.854s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/doozy_actions/libdoozy_actions__python.so[0m
+[25.958s] [ 89%] Built target doozy_actions__python
+[25.987s] [35m[1mScanning dependencies of target doozy_actions__rosidl_typesupport_c__pyext[0m
+[25.995s] [35m[1mScanning dependencies of target doozy_actions__rosidl_typesupport_fastrtps_c__pyext[0m
+[25.999s] [35m[1mScanning dependencies of target doozy_actions__rosidl_typesupport_introspection_c__pyext[0m
+[26.085s] [ 90%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.094s] [ 92%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_c.c.o[0m
+[26.181s] [ 94%] [32mBuilding C object CMakeFiles/doozy_actions__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/doozy_actions/_doozy_actions_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[26.453s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/doozy_actions/doozy_actions_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.538s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/doozy_actions/doozy_actions_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.558s] [100%] [32m[1mLinking C shared library rosidl_generator_py/doozy_actions/doozy_actions_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.640s] [100%] Built target doozy_actions__rosidl_typesupport_c__pyext
+[26.713s] [100%] Built target doozy_actions__rosidl_typesupport_introspection_c__pyext
+[26.737s] [100%] Built target doozy_actions__rosidl_typesupport_fastrtps_c__pyext
+[26.829s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions -- -j12 -l12
+[27.121s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions
+[27.156s] -- Install configuration: ""
+[27.156s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/ament_index/resource_index/rosidl_interfaces/doozy_actions
+[27.156s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions
+[27.157s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action
+[27.157s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/dolly_dock.h
+[27.157s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail
+[27.157s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__functions.h
+[27.158s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__type_support.h
+[27.158s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__struct.h
+[27.158s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__functions.c
+[27.158s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg
+[27.158s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/diagnostics.h
+[27.166s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/rosidl_generator_c__visibility_control.h
+[27.166s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail
+[27.167s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__struct.h
+[27.167s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__functions.c
+[27.167s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__type_support.h
+[27.167s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__functions.c
+[27.168s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__struct.h
+[27.168s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__functions.h
+[27.168s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__functions.h
+[27.168s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__functions.c
+[27.168s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__struct.h
+[27.169s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__type_support.h
+[27.169s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__type_support.h
+[27.169s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__functions.h
+[27.169s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/docking.h
+[27.169s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/navigation.h
+[27.170s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/environment/library_path.sh
+[27.170s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/environment/library_path.dsv
+[27.171s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_generator_c.so
+[27.173s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_generator_c.so" to ""
+[27.173s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions
+[27.173s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action
+[27.173s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail
+[27.174s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_c.h
+[27.174s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg
+[27.174s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail
+[27.174s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_fastrtps_c.h
+[27.174s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__rosidl_typesupport_fastrtps_c.h
+[27.175s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__rosidl_typesupport_fastrtps_c.h
+[27.175s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.175s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_fastrtps_c.so
+[27.176s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_fastrtps_c.so" to ""
+[27.176s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions
+[27.176s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action
+[27.177s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail
+[27.177s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dds_fastrtps
+[27.177s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_fastrtps_cpp.hpp
+[27.177s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg
+[27.177s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.178s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail
+[27.178s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__rosidl_typesupport_fastrtps_cpp.hpp
+[27.178s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__rosidl_typesupport_fastrtps_cpp.hpp
+[27.178s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/dds_fastrtps
+[27.178s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_fastrtps_cpp.hpp
+[27.179s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_fastrtps_cpp.so
+[27.179s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.180s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions
+[27.180s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action
+[27.180s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail
+[27.180s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_c.h
+[27.181s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__type_support.c
+[27.181s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg
+[27.181s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.181s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail
+[27.181s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__type_support.c
+[27.182s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__type_support.c
+[27.182s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__type_support.c
+[27.182s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_introspection_c.h
+[27.182s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__rosidl_typesupport_introspection_c.h
+[27.182s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__rosidl_typesupport_introspection_c.h
+[27.182s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_introspection_c.so
+[27.183s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_introspection_c.so" to ""
+[27.183s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_c.so
+[27.184s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_c.so" to ""
+[27.184s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions
+[27.185s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action
+[27.185s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/dolly_dock.hpp
+[27.188s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail
+[27.188s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__struct.hpp
+[27.189s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__builder.hpp
+[27.189s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__traits.hpp
+[27.193s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg
+[27.193s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/docking.hpp
+[27.194s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/diagnostics.hpp
+[27.198s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail
+[27.199s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__struct.hpp
+[27.199s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__struct.hpp
+[27.200s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__traits.hpp
+[27.205s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__struct.hpp
+[27.206s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__builder.hpp
+[27.206s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__traits.hpp
+[27.207s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__builder.hpp
+[27.208s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__builder.hpp
+[27.210s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__traits.hpp
+[27.211s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/navigation.hpp
+[27.214s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions
+[27.215s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action
+[27.216s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail
+[27.216s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__type_support.cpp
+[27.217s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/action/detail/dolly_dock__rosidl_typesupport_introspection_cpp.hpp
+[27.218s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg
+[27.218s] -- Up-to-date: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail
+[27.218s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__rosidl_typesupport_introspection_cpp.hpp
+[27.219s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__rosidl_typesupport_introspection_cpp.hpp
+[27.220s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__type_support.cpp
+[27.220s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/diagnostics__type_support.cpp
+[27.221s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/docking__rosidl_typesupport_introspection_cpp.hpp
+[27.222s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/include/doozy_actions/msg/detail/navigation__type_support.cpp
+[27.222s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_introspection_cpp.so
+[27.244s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_introspection_cpp.so" to ""
+[27.245s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_cpp.so
+[27.251s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__rosidl_typesupport_cpp.so" to ""
+[27.252s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/environment/pythonpath.sh
+[27.253s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/environment/pythonpath.dsv
+[27.256s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/__init__.py
+[27.357s] Compiling '/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/__init__.py'...
+[27.375s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/action
+[27.375s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/action/_dolly_dock_s.c
+[27.375s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/action/_dolly_dock.py
+[27.375s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/action/__init__.py
+[27.375s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/msg
+[27.375s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/msg/_diagnostics_s.c
+[27.376s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/msg/_docking_s.c
+[27.376s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/msg/_diagnostics.py
+[27.376s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/msg/__init__.py
+[27.376s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/msg/_docking.py
+[27.376s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/msg/_navigation.py
+[27.376s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/msg/_navigation_s.c
+[27.377s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/doozy_actions_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[27.377s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/doozy_actions_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[27.377s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/doozy_actions_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[27.377s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/doozy_actions_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[27.377s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/doozy_actions_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[27.377s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/python3.8/site-packages/doozy_actions/doozy_actions_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[27.377s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__python.so
+[27.406s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/lib/libdoozy_actions__python.so" to ""
+[27.406s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/action/DollyDock.idl
+[27.406s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/msg/Docking.idl
+[27.407s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/msg/Diagnostics.idl
+[27.407s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/msg/Navigation.idl
+[27.408s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/action/DollyDock.action
+[27.409s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/msg/Docking.msg
+[27.409s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/msg/Diagnostics.msg
+[27.410s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/msg/Navigation.msg
+[27.410s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/ament_index/resource_index/package_run_dependencies/doozy_actions
+[27.418s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/ament_index/resource_index/parent_prefix_path/doozy_actions
+[27.419s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/environment/ament_prefix_path.sh
+[27.420s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/environment/ament_prefix_path.dsv
+[27.421s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/environment/path.sh
+[27.421s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/environment/path.dsv
+[27.422s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/local_setup.bash
+[27.423s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/local_setup.sh
+[27.424s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/local_setup.zsh
+[27.425s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/local_setup.dsv
+[27.425s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.dsv
+[27.426s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/ament_index/resource_index/packages/doozy_actions
+[27.427s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_generator_cExport.cmake
+[27.428s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_generator_cExport-noconfig.cmake
+[27.431s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_typesupport_introspection_cExport.cmake
+[27.432s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.432s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_typesupport_cExport.cmake
+[27.443s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_typesupport_cExport-noconfig.cmake
+[27.444s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_generator_cppExport.cmake
+[27.445s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_typesupport_introspection_cppExport.cmake
+[27.446s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.447s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_typesupport_cppExport.cmake
+[27.448s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actions__rosidl_typesupport_cppExport-noconfig.cmake
+[27.448s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/rosidl_cmake-extras.cmake
+[27.449s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.450s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/ament_cmake_export_libraries-extras.cmake
+[27.451s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/ament_cmake_export_targets-extras.cmake
+[27.452s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.453s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.453s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.455s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actionsConfig.cmake
+[27.455s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/cmake/doozy_actionsConfig-version.cmake
+[27.456s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/doozy_actions/share/doozy_actions/package.xml
+[27.463s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/doozy_actions

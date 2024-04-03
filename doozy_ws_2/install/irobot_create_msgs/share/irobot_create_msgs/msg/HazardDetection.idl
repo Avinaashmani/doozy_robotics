@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from irobot_create_msgs/msg/HazardDetection.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module irobot_create_msgs {
+  module msg {
+    module HazardDetection_Constants {
+      const uint8 BACKUP_LIMIT = 0;
+      const uint8 BUMP = 1;
+      const uint8 CLIFF = 2;
+      const uint8 STALL = 3;
+      const uint8 WHEEL_DROP = 4;
+      const uint8 OBJECT_PROXIMITY = 5;
+    };
+    @verbatim (language="comment", text=
+      " This message describes a detected hazard." "\n"
+      " The frame ID allows to retrieve the location of the sensor that made the detection.")
+    struct HazardDetection {
+      std_msgs::msg::Header header;
+
+      uint8 type;
+    };
+  };
+};

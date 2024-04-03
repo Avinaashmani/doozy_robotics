@@ -1,0 +1,93 @@
+[0.120s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake /home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node
+[1.824s] -- The C compiler identification is GNU 9.4.0
+[1.825s] -- The CXX compiler identification is GNU 9.4.0
+[1.826s] -- Check for working C compiler: /usr/bin/cc
+[1.830s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.830s] -- Detecting C compiler ABI info
+[1.831s] -- Detecting C compiler ABI info - done
+[1.831s] -- Detecting C compile features
+[1.831s] -- Detecting C compile features - done
+[1.832s] -- Check for working CXX compiler: /usr/bin/c++
+[1.833s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.833s] -- Detecting CXX compiler ABI info
+[1.837s] -- Detecting CXX compiler ABI info - done
+[1.837s] -- Detecting CXX compile features
+[1.838s] -- Detecting CXX compile features - done
+[1.838s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.839s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.842s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.844s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/galactic/share/dynamixel_sdk/cmake)
+[1.844s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[1.844s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.845s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.845s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.846s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.880s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.087s] -- Found message_filters: 3.2.6 (/opt/ros/galactic/share/message_filters/cmake)
+[2.245s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.265s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.324s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.326s] -- Looking for pthread.h
+[2.558s] -- Looking for pthread.h - found
+[2.559s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.758s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.758s] -- Looking for pthread_create in pthreads
+[2.929s] -- Looking for pthread_create in pthreads - not found
+[2.930s] -- Looking for pthread_create in pthread
+[3.132s] -- Looking for pthread_create in pthread - found
+[3.138s] -- Found Threads: TRUE  
+[3.591s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[3.805s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[4.018s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[4.059s] -- Found tf2: 0.17.5 (/opt/ros/galactic/share/tf2/cmake)
+[4.094s] -- Found tf2_ros: 0.17.5 (/opt/ros/galactic/share/tf2_ros/cmake)
+[5.056s] -- Found turtlebot3_msgs: 2.2.2 (/opt/ros/galactic/share/turtlebot3_msgs/cmake)
+[5.583s] -- Configuring done
+[5.650s] -- Generating done
+[5.654s] -- Build files have been written to: /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node
+[5.672s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake /home/avinaash/doozy_robotics/doozy_ws_2/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node
+[5.678s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node -- -j12 -l12
+[6.112s] [35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[6.317s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[6.333s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[6.334s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[6.399s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[6.478s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[6.491s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[6.507s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[6.537s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[6.537s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[6.552s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[6.645s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[47.490s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[48.137s] [ 85%] Built target turtlebot3_node_lib
+[48.404s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[48.486s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[52.142s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[53.761s] [100%] Built target turtlebot3_ros
+[53.778s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --build /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node -- -j12 -l12
+[53.853s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node
+[53.868s] -- Install configuration: ""
+[53.868s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/param
+[53.868s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[53.868s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[53.869s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[53.869s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[53.882s] -- Set runtime path of "/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[53.882s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[53.882s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[53.883s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[53.883s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[53.883s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[53.883s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[53.884s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[53.884s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[53.884s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[53.885s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[53.885s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[53.886s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[53.886s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[53.886s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[53.887s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[53.887s] -- Installing: /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[53.890s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/src/install/2_t_dolly_logistics_driver:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_teleop:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot3_example:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests:/home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_diagnostics:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver:/opt/ros/galactic /usr/bin/cmake --install /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot3_node

@@ -1,0 +1,110 @@
+[2.087s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/pallet_docker_02': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pallet_docker_02 build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/install.log --single-version-externally-managed install_data
+[3.733s] running egg_info
+[3.734s] creating ../../build/pallet_docker_02/pallet_docker_02.egg-info
+[3.734s] writing ../../build/pallet_docker_02/pallet_docker_02.egg-info/PKG-INFO
+[3.734s] writing dependency_links to ../../build/pallet_docker_02/pallet_docker_02.egg-info/dependency_links.txt
+[3.734s] writing entry points to ../../build/pallet_docker_02/pallet_docker_02.egg-info/entry_points.txt
+[3.735s] writing requirements to ../../build/pallet_docker_02/pallet_docker_02.egg-info/requires.txt
+[3.735s] writing top-level names to ../../build/pallet_docker_02/pallet_docker_02.egg-info/top_level.txt
+[3.735s] writing manifest file '../../build/pallet_docker_02/pallet_docker_02.egg-info/SOURCES.txt'
+[3.735s] reading manifest file '../../build/pallet_docker_02/pallet_docker_02.egg-info/SOURCES.txt'
+[3.735s] writing manifest file '../../build/pallet_docker_02/pallet_docker_02.egg-info/SOURCES.txt'
+[3.736s] running build
+[3.736s] running build_py
+[3.736s] creating /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build
+[3.736s] creating /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib
+[3.736s] creating /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.736s] copying pallet_docker_02/nav_tb3_client_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.737s] copying pallet_docker_02/pallet_detect_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.737s] copying pallet_docker_02/pallet_navi_02.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.737s] copying pallet_docker_02/sick_mini_t.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.737s] copying pallet_docker_02/behaviour_tree_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.737s] copying pallet_docker_02/read_sick_camera_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.737s] copying pallet_docker_02/automatic_addison_docking_file.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.738s] copying pallet_docker_02/pid_controller_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.738s] copying pallet_docker_02/pallet_navi_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.738s] copying pallet_docker_02/dolly_navi_server_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.738s] copying pallet_docker_02/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.738s] copying pallet_docker_02/dock_tb3_server_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.738s] copying pallet_docker_02/pallet_navi_03.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.739s] copying pallet_docker_02/dolly_navi_client_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.742s] copying pallet_docker_02/pallet_navi_04.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.747s] copying pallet_docker_02/dock_with_dolly_cli.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.749s] copying pallet_docker_02/action_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.749s] copying pallet_docker_02/moved_to_position_cli.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.749s] copying pallet_docker_02/dock_with_dolly_srv_02.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.750s] copying pallet_docker_02/pallet_navi_dock_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.750s] copying pallet_docker_02/client_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02
+[3.750s] running install
+[3.750s] running install_lib
+[3.751s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.751s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/nav_tb3_client_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.751s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/pallet_detect_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.751s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/pallet_navi_02.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.751s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/sick_mini_t.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.752s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/behaviour_tree_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.752s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/read_sick_camera_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.752s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/automatic_addison_docking_file.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.752s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/pid_controller_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.752s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/pallet_navi_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.752s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/dolly_navi_server_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.753s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.753s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/dock_tb3_server_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.753s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/pallet_navi_03.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.753s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/dolly_navi_client_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.753s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/pallet_navi_04.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.754s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/dock_with_dolly_cli.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.754s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/action_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.754s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/moved_to_position_cli.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.755s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/dock_with_dolly_srv_02.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.755s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/pallet_navi_dock_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.755s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build/lib/pallet_docker_02/client_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02
+[3.755s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/nav_tb3_client_01.py to nav_tb3_client_01.cpython-38.pyc
+[3.755s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/pallet_detect_01.py to pallet_detect_01.cpython-38.pyc
+[3.755s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/pallet_navi_02.py to pallet_navi_02.cpython-38.pyc
+[3.756s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/sick_mini_t.py to sick_mini_t.cpython-38.pyc
+[3.756s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/behaviour_tree_01.py to behaviour_tree_01.cpython-38.pyc
+[3.756s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/read_sick_camera_01.py to read_sick_camera_01.cpython-38.pyc
+[3.756s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/automatic_addison_docking_file.py to automatic_addison_docking_file.cpython-38.pyc
+[3.756s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/pid_controller_01.py to pid_controller_01.cpython-38.pyc
+[3.760s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/pallet_navi_01.py to pallet_navi_01.cpython-38.pyc
+[3.760s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/dolly_navi_server_01.py to dolly_navi_server_01.cpython-38.pyc
+[3.760s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/__init__.py to __init__.cpython-38.pyc
+[3.760s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/dock_tb3_server_01.py to dock_tb3_server_01.cpython-38.pyc
+[3.760s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/pallet_navi_03.py to pallet_navi_03.cpython-38.pyc
+[3.761s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/dolly_navi_client_01.py to dolly_navi_client_01.cpython-38.pyc
+[3.761s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/pallet_navi_04.py to pallet_navi_04.cpython-38.pyc
+[3.761s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/dock_with_dolly_cli.py to dock_with_dolly_cli.cpython-38.pyc
+[3.761s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/action_01.py to action_01.cpython-38.pyc
+[3.761s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/moved_to_position_cli.py to moved_to_position_cli.cpython-38.pyc
+[3.761s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/dock_with_dolly_srv_02.py to dock_with_dolly_srv_02.cpython-38.pyc
+[3.761s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/pallet_navi_dock_01.py to pallet_navi_dock_01.cpython-38.pyc
+[3.762s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02/client_01.py to client_01.cpython-38.pyc
+[3.762s] running install_data
+[3.762s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/ament_index
+[3.762s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/ament_index/resource_index
+[3.762s] creating /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/ament_index/resource_index/packages
+[3.762s] copying resource/pallet_docker_02 -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/ament_index/resource_index/packages
+[3.762s] copying package.xml -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/share/pallet_docker_02
+[3.763s] running install_egg_info
+[3.787s] Copying ../../build/pallet_docker_02/pallet_docker_02.egg-info to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages/pallet_docker_02-0.0.0-py3.8.egg-info
+[3.787s] running install_scripts
+[3.787s] Installing CLIENT script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.788s] Installing DOCK_to_DOLLY script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.788s] Installing NAV_to_POSITION script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.788s] Installing SERVER script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.788s] Installing client_01 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.788s] Installing dock_to_dolly script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.788s] Installing dock_to_dolly2 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.789s] Installing get_pallet_tf script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.789s] Installing pallet_navi script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.789s] Installing pallet_navi_01 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.789s] Installing pallet_navi_02 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.789s] Installing pallet_navi_03 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.790s] Installing pallet_navi_04 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.790s] Installing server_01 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.790s] Installing sick_visionary_t_mini script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.790s] Installing tb3_cam_node script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.790s] Installing tf_broadcaster script to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/pallet_docker_02
+[3.790s] writing list of installed files to '/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/install.log'
+[3.794s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/pallet_docker_02' returned '0': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_docker_02/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pallet_docker_02 build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_docker_02/install.log --single-version-externally-managed install_data

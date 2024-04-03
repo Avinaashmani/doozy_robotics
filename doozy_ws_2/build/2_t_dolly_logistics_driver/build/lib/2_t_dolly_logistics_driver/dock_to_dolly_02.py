@@ -79,13 +79,13 @@ class DockDolly(Node):
                 self.dock_pub.publish(self.docking)
 
                 if abs(yaw_angle_error) > 0.15:
-                    if abs(angle_difference) > 0.3:
+                    if abs(angle_difference) > 0.1:
                         if yaw_angle_error > 0.0:
-                            self.move_tug.angular.z = 0.3
+                            self.move_tug.angular.z = 0.1
                         else:
-                            self.move_tug.angular.z = -0.3
+                            self.move_tug.angular.z = -0.1
                 else:
-                    self.move_tug.linear.x = 0.06
+                    self.move_tug.linear.x = 0.09
                 self.cmd_pub.publish(self.move_tug)
 
             else:

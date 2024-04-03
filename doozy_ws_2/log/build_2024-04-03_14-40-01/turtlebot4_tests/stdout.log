@@ -1,0 +1,38 @@
+running egg_info
+creating ../../../build/turtlebot4_tests/turtlebot4_tests.egg-info
+writing ../../../build/turtlebot4_tests/turtlebot4_tests.egg-info/PKG-INFO
+writing dependency_links to ../../../build/turtlebot4_tests/turtlebot4_tests.egg-info/dependency_links.txt
+writing entry points to ../../../build/turtlebot4_tests/turtlebot4_tests.egg-info/entry_points.txt
+writing requirements to ../../../build/turtlebot4_tests/turtlebot4_tests.egg-info/requires.txt
+writing top-level names to ../../../build/turtlebot4_tests/turtlebot4_tests.egg-info/top_level.txt
+writing manifest file '../../../build/turtlebot4_tests/turtlebot4_tests.egg-info/SOURCES.txt'
+reading manifest file '../../../build/turtlebot4_tests/turtlebot4_tests.egg-info/SOURCES.txt'
+writing manifest file '../../../build/turtlebot4_tests/turtlebot4_tests.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_tests/build
+creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_tests/build/lib
+creating /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_tests/build/lib/turtlebot4_tests
+copying turtlebot4_tests/test_tools.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_tests/build/lib/turtlebot4_tests
+copying turtlebot4_tests/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_tests/build/lib/turtlebot4_tests
+copying turtlebot4_tests/ros_tests.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_tests/build/lib/turtlebot4_tests
+running install
+running install_lib
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/lib/python3.8/site-packages/turtlebot4_tests
+copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_tests/build/lib/turtlebot4_tests/test_tools.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/lib/python3.8/site-packages/turtlebot4_tests
+copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_tests/build/lib/turtlebot4_tests/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/lib/python3.8/site-packages/turtlebot4_tests
+copying /home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_tests/build/lib/turtlebot4_tests/ros_tests.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/lib/python3.8/site-packages/turtlebot4_tests
+byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/lib/python3.8/site-packages/turtlebot4_tests/test_tools.py to test_tools.cpython-38.pyc
+byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/lib/python3.8/site-packages/turtlebot4_tests/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/lib/python3.8/site-packages/turtlebot4_tests/ros_tests.py to ros_tests.cpython-38.pyc
+running install_data
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/share/ament_index
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/share/ament_index/resource_index
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/share/ament_index/resource_index/packages
+copying resource/turtlebot4_tests -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/share/ament_index/resource_index/packages
+copying package.xml -> /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/share/turtlebot4_tests
+running install_egg_info
+Copying ../../../build/turtlebot4_tests/turtlebot4_tests.egg-info to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/lib/python3.8/site-packages/turtlebot4_tests-1.0.2-py3.8.egg-info
+running install_scripts
+Installing ros_tests script to /home/avinaash/doozy_robotics/doozy_ws_2/install/turtlebot4_tests/lib/turtlebot4_tests
+writing list of installed files to '/home/avinaash/doozy_robotics/doozy_ws_2/build/turtlebot4_tests/install.log'
