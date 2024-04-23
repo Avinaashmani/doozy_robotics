@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/dolly_action_msgs/share/gennodejs/ros/dolly_action_msgs/_index.js

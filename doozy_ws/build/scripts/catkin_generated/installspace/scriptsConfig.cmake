@@ -68,7 +68,7 @@ set(scripts_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(scripts_SOURCE_PREFIX /home/avinaash/doozy_robotics/doozy_ws/src/scripts)
-  set(scripts_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel)
+  set(scripts_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel/.private/scripts)
   set(scripts_INSTALL_PREFIX "")
   set(scripts_PREFIX ${scripts_DEVEL_PREFIX})
 else()

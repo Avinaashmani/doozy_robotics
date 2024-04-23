@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "/home/avinaash/doozy_robotics/doozy_ws/devel/share/roseus/ros/scripts/manifest.l"
+  "/home/avinaash/doozy_robotics/doozy_ws/devel/.private/scripts/share/roseus/ros/scripts/manifest.l"
   "CMakeFiles/scripts_generate_messages_eus"
 )
 

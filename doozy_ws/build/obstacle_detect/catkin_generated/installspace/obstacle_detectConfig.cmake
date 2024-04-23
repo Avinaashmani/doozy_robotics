@@ -68,7 +68,7 @@ set(obstacle_detect_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(obstacle_detect_SOURCE_PREFIX /home/avinaash/doozy_robotics/doozy_ws/src/obstacle_detect)
-  set(obstacle_detect_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel)
+  set(obstacle_detect_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel/.private/obstacle_detect)
   set(obstacle_detect_INSTALL_PREFIX "")
   set(obstacle_detect_PREFIX ${obstacle_detect_DEVEL_PREFIX})
 else()

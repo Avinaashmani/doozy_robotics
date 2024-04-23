@@ -68,7 +68,7 @@ set(ultrasonic_pallete_aligner_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(ultrasonic_pallete_aligner_SOURCE_PREFIX /home/avinaash/doozy_robotics/doozy_ws/src/ultrasonic_pallete_aligner)
-  set(ultrasonic_pallete_aligner_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel)
+  set(ultrasonic_pallete_aligner_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel/.private/ultrasonic_pallete_aligner)
   set(ultrasonic_pallete_aligner_INSTALL_PREFIX "")
   set(ultrasonic_pallete_aligner_PREFIX ${ultrasonic_pallete_aligner_DEVEL_PREFIX})
 else()

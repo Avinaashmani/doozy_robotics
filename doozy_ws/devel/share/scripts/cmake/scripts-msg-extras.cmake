@@ -1,2 +1,1 @@
-set(scripts_MESSAGE_FILES "")
-set(scripts_SERVICE_FILES "")
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/scripts/share/scripts/cmake/scripts-msg-extras.cmake

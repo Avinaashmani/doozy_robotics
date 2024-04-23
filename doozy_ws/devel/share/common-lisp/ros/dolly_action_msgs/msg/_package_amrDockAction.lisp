@@ -1,8 +1,1 @@
-(cl:in-package dolly_action_msgs-msg)
-(cl:export '(ACTION_GOAL-VAL
-          ACTION_GOAL
-          ACTION_RESULT-VAL
-          ACTION_RESULT
-          ACTION_FEEDBACK-VAL
-          ACTION_FEEDBACK
-))
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/dolly_action_msgs/share/common-lisp/ros/dolly_action_msgs/msg/_package_amrDockAction.lisp

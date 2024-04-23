@@ -2,13 +2,23 @@
 <!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
      Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+
 <robot
+
   name="amr_bot">
+
+  <!-- <link name="world" />
+
+  <joint name="world_to_base_footprint" type="fixed">
+    <parent link="world"/>
+    <child link="base_footprint"/>
+  </joint> -->
+
   <link
     name="base_footprint">
     <inertial>
       <origin
-        xyz="0.37605 0.49174 0.51412"
+        xyz="0 0 0"
         rpy="0 0 0" />
       <mass
         value="9.4248E-05" />
@@ -44,11 +54,14 @@
       </geometry>
     </collision>
   </link>
+
+<!-- BASE_LINK  -->
+
   <link
     name="base_link">
     <inertial>
       <origin
-        xyz="-0.050771 0.0017522 0.25697"
+        xyz="0 0 0"
         rpy="0 0 0" />
       <mass
         value="150" />
@@ -84,12 +97,13 @@
       </geometry>
     </collision>
   </link>
+
   <joint
     name="base_joint"
     type="fixed">
     <origin
-      xyz="0.40456 -0.53802 0.48728"
-      rpy="1.5708 0 0" />
+      xyz="0.40456 -0.53802 0.5"
+      rpy="0 0 0" />
     <parent
       link="base_footprint" />
     <child
@@ -97,6 +111,9 @@
     <axis
       xyz="0 0 0" />
   </joint>
+
+<!-- WHEEL : LEFT -->
+
   <link
     name="l_wheel_link">
     <inertial>
@@ -137,6 +154,7 @@
       </geometry>
     </collision>
   </link>
+
   <joint
     name="l_wheel_joint"
     type="continuous">
@@ -148,8 +166,11 @@
     <child
       link="l_wheel_link" />
     <axis
-      xyz="0 -1 0" />
+      xyz="0 1 0" />
   </joint>
+
+<!-- WHEEL : RIGHT -->
+
   <link
     name="r_wheel_link">
     <inertial>
@@ -203,6 +224,9 @@
     <axis
       xyz="0 1 0" />
   </joint>
+
+<!-- LASER LINK -->
+
   <link
     name="laser_link">
     <inertial>
@@ -243,6 +267,7 @@
       </geometry>
     </collision>
   </link>
+
   <joint
     name="laser_joint"
     type="fixed">
@@ -256,6 +281,9 @@
     <axis
       xyz="0 0 0" />
   </joint>
+
+<!-- CAMERA LINK -->
+
   <link
     name="camera_link">
     <inertial>
@@ -296,6 +324,7 @@
       </geometry>
     </collision>
   </link>
+
   <joint
     name="camera_joint"
     type="fixed">
@@ -309,6 +338,9 @@
     <axis
       xyz="0 0 0" />
   </joint>
+
+<!-- IMU LINK -->
+
   <link
     name="imu">
     <inertial>
@@ -349,6 +381,7 @@
       </geometry>
     </collision>
   </link>
+
   <joint
     name="imu_joint"
     type="fixed">
@@ -362,6 +395,9 @@
     <axis
       xyz="0 0 0" />
   </joint>
+
+<!-- SICK CAMERA LINK -->
+
   <link
     name="sickcam_link">
     <inertial>
@@ -402,12 +438,13 @@
       </geometry>
     </collision>
   </link>
+
   <joint
     name="sickcam_joint"
     type="fixed">
     <origin
       xyz="-0.77559 0.0013357 0.60934"
-      rpy="0 0 0" />
+      rpy="0 0 3.14" />
     <parent
       link="base_link" />
     <child
@@ -415,4 +452,193 @@
     <axis
       xyz="0 0 0" />
   </joint>
+
+<!-- GAZEBO PLUGINS -->
+
+<gazebo>
+  <plugin name="differential_drive_controller" filename="libgazebo_ros_diff_drive.so">
+    <gravity>true</gravity>
+    <!-- Plugin update rate in Hz -->
+    <updateRate>20</updateRate>
+
+    <!-- Name of left joint, defaults to `left_joint` -->
+    <leftJoint>l_wheel_joint</leftJoint>
+
+    <!-- Name of right joint, defaults to `right_joint` -->
+    <rightJoint>r_wheel_joint</rightJoint>
+
+    <!-- The distance from the center of one wheel to the other, in meters, defaults to 0.34 m -->
+    <wheelSeparation>0.5380</wheelSeparation>
+
+    <!-- Diameter of the wheels, in meters, defaults to 0.15 m -->
+    <wheelDiameter>0.2410</wheelDiameter>
+
+    <!-- Wheel acceleration, in rad/s^2, defaults to 0.0 rad/s^2 -->
+    <wheelAcceleration>1.0</wheelAcceleration>
+
+    <!-- Maximum torque which the wheels can produce, in Nm, defaults to 5 Nm -->
+    <wheelTorque>20</wheelTorque>
+
+    <!-- Topic to receive geometry_msgs/Twist message commands, defaults to `cmd_vel` -->
+    <commandTopic>cmd_vel</commandTopic>
+
+    <!-- Topic to publish nav_msgs/Odometry messages, defaults to `odom` -->
+    <odometryTopic>odom</odometryTopic>
+
+    <!-- Odometry frame, defaults to `odom` -->
+    <odometryFrame>odom</odometryFrame>
+
+    <!-- Robot frame to calculate odometry from, defaults to `base_footprint` -->
+    <robotBaseFrame>base_link</robotBaseFrame>
+
+    <!-- Odometry source, 0 for ENCODER, 1 for WORLD, defaults to WORLD -->
+    <odometrySource>1</odometrySource>
+
+    <!-- Set to true to publish transforms for the wheel links, defaults to false -->
+    <publishWheelTF>false</publishWheelTF>
+
+    <!-- Set to true to publish transforms for the odometry, defaults to true -->
+    <publishOdom>true</publishOdom>
+
+    <!-- Set to true to publish sensor_msgs/JointState on /joint_states for the wheel joints, defaults to false -->
+    <publishWheelJointState>false</publishWheelJointState>
+
+    <!-- Set to true to swap right and left wheels, defaults to true -->
+    <legacyMode>false</legacyMode>
+
+  </plugin>
+
+    <sensor name="imu_sensor" type="imu">
+      <always_on>true</always_on>
+      <update_rate>100</update_rate>
+      <visualize>true</visualize>
+      <topic>tug_robot/imu</topic>
+      <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
+        <topicName>imu</topicName>
+        <bodyName>imu_link</bodyName>
+        <updateRateHZ>10.0</updateRateHZ>
+        <gaussianNoise>0.0</gaussianNoise>
+        <xyzOffset>0 0 0</xyzOffset>
+        <rpyOffset>0 0 0</rpyOffset>
+        <frameName>imu</frameName>
+        <initialOrientationAsReference>false</initialOrientationAsReference>
+      </plugin>
+      <pose>0 0 0 0 0 0</pose>
+    </sensor>
+  </gazebo>
+
+  <gazebo reference="laser_link">
+    <material>Gazebo/FlatBlack</material>
+    <sensor type="ray" name="lds_lfcd_sensor">
+      <pose>0 0 0 0 0 0</pose>
+      <visualize>true</visualize>
+      <update_rate>10</update_rate>
+      <ray>
+        <scan>
+          <horizontal>
+            <samples>760</samples>
+            <resolution>1</resolution>
+            <min_angle>-1.91</min_angle>
+            <max_angle>1.91</max_angle>
+          </horizontal>
+        </scan>
+        <range>
+          <min>0.120</min>
+          <max>3.5</max>
+          <resolution>0.015</resolution>
+        </range>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </noise>
+      </ray>
+      <plugin name="gazebo_ros_lds_lfcd_controller" filename="libgazebo_ros_laser.so">
+        <topicName>/scan</topicName>
+        <frameName>laser_link</frameName>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+  <gazebo reference="camera_link">
+    <sensor type="camera" name="real_sense">
+      <update_rate>30.0</update_rate>
+      <camera name="head">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>800</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise is sampled independently per pixel on each frame.
+               That pixel's noise value is added to each of its color
+               channels, which at that point lie in the range [0,1]. -->
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>0.0</updateRate>
+        <cameraName>tug_robot/real_sense</cameraName>
+        <imageTopicName>tugbot/realsense/image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>camera_link</frameName>
+        <hackBaseline>0.07</hackBaseline>
+        <distortionK1>0.0</distortionK1>
+        <distortionK2>0.0</distortionK2>
+        <distortionK3>0.0</distortionK3>
+        <distortionT1>0.0</distortionT1>
+        <distortionT2>0.0</distortionT2>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+    <gazebo reference="sickcam_link">
+    <sensor type="camera" name="sick_visionary_t_mini">
+      <update_rate>30.0</update_rate>
+      <camera name="head">
+        <horizontal_fov>1.3962634</horizontal_fov>
+        <image>
+          <width>800</width>
+          <height>800</height>
+          <format>R8G8B8</format>
+        </image>
+        <clip>
+          <near>0.02</near>
+          <far>300</far>
+        </clip>
+        <noise>
+          <type>gaussian</type>
+          <!-- Noise is sampled independently per pixel on each frame.
+               That pixel's noise value is added to each of its color
+               channels, which at that point lie in the range [0,1]. -->
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
+      </camera>
+      <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+        <alwaysOn>true</alwaysOn>
+        <updateRate>0.0</updateRate>
+        <cameraName>sick_visionary_t_mini</cameraName>
+        <imageTopicName>tug_robot/sick_visionary_t_mini/image_raw</imageTopicName>
+        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+        <frameName>sickcam_link</frameName>
+        <hackBaseline>0.07</hackBaseline>
+        <distortionK1>0.0</distortionK1>
+        <distortionK2>0.0</distortionK2>
+        <distortionK3>0.0</distortionK3>
+        <distortionT1>0.0</distortionT1>
+        <distortionT2>0.0</distortionT2>
+      </plugin>
+    </sensor>
+  </gazebo>
+
+
 </robot>

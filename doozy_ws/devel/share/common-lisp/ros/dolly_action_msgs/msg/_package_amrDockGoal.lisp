@@ -1,6 +1,1 @@
-(cl:in-package dolly_action_msgs-msg)
-(cl:export '(REACHED_POINT-VAL
-          REACHED_POINT
-          PALLET_IDX-VAL
-          PALLET_IDX
-))
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/dolly_action_msgs/share/common-lisp/ros/dolly_action_msgs/msg/_package_amrDockGoal.lisp

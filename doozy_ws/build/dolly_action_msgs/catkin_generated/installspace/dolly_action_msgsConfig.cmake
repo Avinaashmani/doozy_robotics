@@ -68,7 +68,7 @@ set(dolly_action_msgs_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(dolly_action_msgs_SOURCE_PREFIX /home/avinaash/doozy_robotics/doozy_ws/src/dolly_action_msgs)
-  set(dolly_action_msgs_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel)
+  set(dolly_action_msgs_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel/.private/dolly_action_msgs)
   set(dolly_action_msgs_INSTALL_PREFIX "")
   set(dolly_action_msgs_PREFIX ${dolly_action_msgs_DEVEL_PREFIX})
 else()

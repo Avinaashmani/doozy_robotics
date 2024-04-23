@@ -1,4 +1,1 @@
-(cl:in-package dolly_action_msgs-msg)
-(cl:export '(DOCKED-VAL
-          DOCKED
-))
+/home/avinaash/doozy_robotics/doozy_ws/devel/.private/dolly_action_msgs/share/common-lisp/ros/dolly_action_msgs/msg/_package_amrDockResult.lisp

@@ -68,7 +68,7 @@ set(amr_bot_CONFIG_INCLUDED TRUE)
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
   set(amr_bot_SOURCE_PREFIX /home/avinaash/doozy_robotics/doozy_ws/src/amr_bot)
-  set(amr_bot_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel)
+  set(amr_bot_DEVEL_PREFIX /home/avinaash/doozy_robotics/doozy_ws/devel/.private/amr_bot)
   set(amr_bot_INSTALL_PREFIX "")
   set(amr_bot_PREFIX ${amr_bot_DEVEL_PREFIX})
 else()
