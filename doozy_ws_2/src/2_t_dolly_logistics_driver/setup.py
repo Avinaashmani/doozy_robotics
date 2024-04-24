@@ -24,6 +24,8 @@ setup(
             'Dock2Dolly_01 = 2_t_dolly_logistics_driver.dock_to_dolly_01:main',
             'Dock2Dolly_02 = 2_t_dolly_logistics_driver.dock_to_dolly_02:main',
             'Latch_Unlatch = 2_t_dolly_logistics_driver.latch_unlatch_01:main',
+            'GUI = 2_t_dolly_logistics_driver.gui_01:main',
+            'Tf= 2_t_dolly_logistics_driver.tf_broadcaster_01:main',
         ],
     },
 )
