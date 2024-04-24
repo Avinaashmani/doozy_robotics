@@ -21,17 +21,18 @@ class Latch_Unlatch(Node):
 
         self.docked = False
         self.home = '0'
+        self.turn_tug = '1'
+        self.latch_1 = '2'
+        self.latch_2 = '3'
+
         self.create_subscription(Bool, '/dock_topic', self.docked_callback, 10)
-        # self.create_subscription(Bool, '/latch_topic', self.latch_hook_cb, 10)
-        # self.create_subscription(Bool, '/tug_arm_center', self.tug_arm_center,10)
+        self.create_subscription(Bool, '/latch_topic', self.latch_hook_cb, 10)
+        self.create_subscription(Bool, '/tug_arm_center', self.tug_arm_center,10)
         # self.create_subscription(Bool, '/forearm_latch', self.forearm_cb, 10)
 
         self.create_timer(0.1, self.docked_compute)
         # self.create_timer(0.1, self.compute_forearm)
-
-
-
-        self.serial_port_1 = '/dev/ttyUSB1'
+        self.serial_port_1 = '/dev/ttyUSB2'
         self.serial_port_2 = '/dev/ttyUSB1'
         # self.serial_port_3 = '/dev/ttyUSB2'
 
@@ -39,7 +40,7 @@ class Latch_Unlatch(Node):
 
         self.arduino_nano_1 = serial.Serial(port=self.serial_port_1, baudrate=self.baudrate, timeout=0)
         self.arduino_nano_2 = serial.Serial(port=self.serial_port_2, baudrate=self.baudrate, timeout=0)
-        self.arduino_nano_3 = serial.Serial(port=self.serial_port_2, baudrate=self.baudrate, timeout=0)
+        # self.arduino_nano_3 = serial.Serial(port=self.serial_port_2, baudrate=self.baudrate, timeout=0)
        
         time.sleep(2)  # Wait for Arduino to initialize
         print(f"Opening port {self.serial_port_1} with baudrate {self.baudrate}")
@@ -49,25 +50,38 @@ class Latch_Unlatch(Node):
         try:
             if self.docked:
                 
-                turn_tug = '1'
+                
                 latch_1 = '2'
                 latch_2 = '3'
                 time.sleep(3)
-                # self.arduino_nano_1.write(turn_tug.encode('ascii'))
-                # print("Turning the Tug Arm")
-                # time.sleep(10)
-                self.arduino_nano_2.write(latch_1.encode('ascii'))
+                self.arduino_nano_2.write(self.turn_tug.encode('ascii'))
+                print("Turning the Tug Arm")
+                time.sleep(5)
+                self.arduino_nano_1.write(self.latch_1.encode('ascii'))
                 print("Enabling Latch 1")
                 # time.sleep(10)
                 # # self.arduino_nano_3.write(latch_2.encode('ascii'))
                 # # print("Enabling Latch 2")
-                # # time.sleep(10)
-                # self.docked = False
+                time.sleep(5)
+                self.docked = False
+            
+            elif self.latch_flag:
+                self.arduino_nano_1.write(self.latch_1.encode('ascii'))
+                print("Enabling Latch")
+                time.sleep(5)
+                self.latch_flag = False
+            
+            elif self.tug_arm:
+                self.arduino_nano_2.write(self.turn_tug.encode('ascii'))
+                print("Tug arm Activated")
+                time.sleep(5)
+                self.tug_arm = False
+            
             else:
                 print("Setting everything to Default")
                 self.arduino_nano_1.write(self.home.encode('ascii'))
                 self.arduino_nano_2.write(self.home.encode('ascii'))
-                self.arduino_nano_3.write(self.home.encode('ascii'))
+                # self.arduino_nano_3.write(self.home.encode('ascii'))
 
         except serial.serialutil.SerialException as e:
             print (e)
