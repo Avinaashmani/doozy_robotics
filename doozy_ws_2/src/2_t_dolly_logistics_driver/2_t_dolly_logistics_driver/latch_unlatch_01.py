@@ -16,8 +16,9 @@ class Latch_Unlatch(Node):
         self.latch_flag = False
         self.unlatch_flag = False
 
-        self.create_subscription(Bool, '/latch_hook', self.latch_hook_cb, 10)
-        self.create_subscription(Bool, '/unlatch_hook', self.unlatch_hook_cb, 10)
+        # self.create_subscription(Bool, '/latch_hook', self.latch_hook_cb, 10)
+        # self.create_subscription(Bool, '/unlatch_hook', self.unlatch_hook_cb, 10)
+        self.create_subscription(Bool, '/dock')
 
         self.create_timer(0.1, self.compute)
 
@@ -27,30 +28,30 @@ class Latch_Unlatch(Node):
         time.sleep(2)  # Wait for Arduino to initialize
         print(f"Opening port {self.serial_port} with baudrate {self.baudrate}")
 
-    def compute(self):
+    # def compute(self):
         
-        try:
-            self.serial_port = '/dev/ttyUSB0'
-            self.baudrate = 9600
-            self.arduino_nano = serial.Serial(port=self.serial_port, baudrate=self.baudrate, timeout=0)
+    #     try:
+    #         self.serial_port = '/dev/ttyUSB0'
+    #         self.baudrate = 9600
+    #         self.arduino_nano = serial.Serial(port=self.serial_port, baudrate=self.baudrate, timeout=0)
 
-        except serial.serialutil.SerialException as e:
+    #     except serial.serialutil.SerialException as e:
 
-            print(f"Failed to write to port {self.serial_port}. {e}")
+    #         print(f"Failed to write to port {self.serial_port}. {e}")
 
-            try:
-                self.serial_port = '/dev/ttyUSB1'
-                self.baudrate = 9600
-                self.arduino_nano = serial.Serial(port=self.serial_port, baudrate=self.baudrate, timeout=0)
+    #         try:
+    #             self.serial_port = '/dev/ttyUSB1'
+    #             self.baudrate = 9600
+    #             self.arduino_nano = serial.Serial(port=self.serial_port, baudrate=self.baudrate, timeout=0)
 
-            except serial.serialutil.SerialException as e:
-                print(f"Failed to write to port {self.serial_port}. {e}")
+    #         except serial.serialutil.SerialException as e:
+    #             print(f"Failed to write to port {self.serial_port}. {e}")
 
-    def latch_hook_cb(self, msg):
-        self.latch_flag = msg.data
+    # def latch_hook_cb(self, msg):
+    #     self.latch_flag = msg.data
 
-    def unlatch_hook_cb(self, msg):
-        self.unlatch_flag = msg.data
+    # def unlatch_hook_cb(self, msg):
+    #     self.unlatch_flag = msg.data
 
 def main():
     rclpy.init()
