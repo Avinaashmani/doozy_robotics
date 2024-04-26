@@ -22,17 +22,27 @@ void loop()
         {
           rise_latch_func();
         }
-
       }
 }
 
 void rise_latch_func()
 {
+  digitalWrite (rise_latch, HIGH);
+  digitalWrite (lower_latch, LOW);
+  analogWrite (speed_control, speed_value);
+//  Serial.println("Rise latch Activated"); 
+  
+  delay(800);
+  
   digitalWrite (rise_latch, LOW);
   digitalWrite (lower_latch, HIGH);
   analogWrite (speed_control, speed_value);
-  Serial.println("Rise latch Activated"); 
-  delay(2000);
+//  Serial.println("Rise latch Activated"); 
+
+  delay(800);
+  
+  Serial.write("1");
+  
   digitalWrite (rise_latch, LOW);
   digitalWrite (lower_latch, LOW);
   analogWrite (speed_control, 0);

@@ -1,6 +1,8 @@
-int tug_arm_cw = 4;
-int tug_arm_ccw = 3;
+int tug_arm_cw = 3;
+int tug_arm_ccw = 4;
 int speed_control = 5;
+
+bool flag = false;
 
 void setup() 
 {
@@ -27,8 +29,8 @@ void loop()
     digitalWrite(tug_arm_cw, LOW);
     digitalWrite(tug_arm_ccw, LOW);
     analogWrite(speed_control, 0);
-    Serial.println ("Turn Tug Arm Deactivated");
   }
+
  }
 }
 
@@ -38,12 +40,15 @@ void turn_tug()
  digitalWrite(tug_arm_cw, LOW);
  digitalWrite(tug_arm_ccw, HIGH);
  analogWrite(speed_control, 125);
- Serial.println ("Turn Tug Arm Activated");
  
  delay(1000);
- 
- digitalWrite(tug_arm_cw, LOW);
- digitalWrite(tug_arm_ccw, LOW);
+
+// Serial.println ("1");
+
+ digitalWrite(tug_arm_cw, HIGH);
+ digitalWrite(tug_arm_ccw, HIGH);
  analogWrite(speed_control, 0);
- Serial.println ("Turn Tug Arm Deactivated");
+
+ Serial.println ("1");
+ 
 }

@@ -1,0 +1,39 @@
+[0.681s] Invoking command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/2_t_dolly_logistics_driver': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/2_t_dolly_logistics_driver build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/install.log --single-version-externally-managed install_data
+[0.802s] running egg_info
+[0.802s] writing ../../build/2_t_dolly_logistics_driver/2_t_dolly_logistics_driver.egg-info/PKG-INFO
+[0.802s] writing dependency_links to ../../build/2_t_dolly_logistics_driver/2_t_dolly_logistics_driver.egg-info/dependency_links.txt
+[0.802s] writing entry points to ../../build/2_t_dolly_logistics_driver/2_t_dolly_logistics_driver.egg-info/entry_points.txt
+[0.803s] writing requirements to ../../build/2_t_dolly_logistics_driver/2_t_dolly_logistics_driver.egg-info/requires.txt
+[0.803s] writing top-level names to ../../build/2_t_dolly_logistics_driver/2_t_dolly_logistics_driver.egg-info/top_level.txt
+[0.825s] reading manifest file '../../build/2_t_dolly_logistics_driver/2_t_dolly_logistics_driver.egg-info/SOURCES.txt'
+[0.826s] writing manifest file '../../build/2_t_dolly_logistics_driver/2_t_dolly_logistics_driver.egg-info/SOURCES.txt'
+[0.826s] running build
+[0.826s] running build_py
+[0.827s] copying 2_t_dolly_logistics_driver/latch_unlatch_02.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/build/lib/2_t_dolly_logistics_driver
+[0.827s] copying 2_t_dolly_logistics_driver/latch_unlatch_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/build/lib/2_t_dolly_logistics_driver
+[0.827s] copying 2_t_dolly_logistics_driver/behavior_tree_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/build/lib/2_t_dolly_logistics_driver
+[0.827s] running install
+[0.828s] running install_lib
+[0.829s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/build/lib/2_t_dolly_logistics_driver/latch_unlatch_02.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/python3.8/site-packages/2_t_dolly_logistics_driver
+[0.829s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/build/lib/2_t_dolly_logistics_driver/latch_unlatch_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/python3.8/site-packages/2_t_dolly_logistics_driver
+[0.830s] copying /home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/build/lib/2_t_dolly_logistics_driver/behavior_tree_01.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/python3.8/site-packages/2_t_dolly_logistics_driver
+[0.830s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/python3.8/site-packages/2_t_dolly_logistics_driver/latch_unlatch_02.py to latch_unlatch_02.cpython-38.pyc
+[0.831s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/python3.8/site-packages/2_t_dolly_logistics_driver/latch_unlatch_01.py to latch_unlatch_01.cpython-38.pyc
+[0.832s] byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/python3.8/site-packages/2_t_dolly_logistics_driver/behavior_tree_01.py to behavior_tree_01.cpython-38.pyc
+[0.832s] running install_data
+[0.832s] running install_egg_info
+[0.833s] removing '/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/python3.8/site-packages/2_t_dolly_logistics_driver-0.0.0-py3.8.egg-info' (and everything under it)
+[0.833s] Copying ../../build/2_t_dolly_logistics_driver/2_t_dolly_logistics_driver.egg-info to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/python3.8/site-packages/2_t_dolly_logistics_driver-0.0.0-py3.8.egg-info
+[0.835s] running install_scripts
+[0.848s] Installing Dock2Dolly_01 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/2_t_dolly_logistics_driver
+[0.848s] Installing Dock2Dolly_02 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/2_t_dolly_logistics_driver
+[0.848s] Installing Dock2Dolly_03 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/2_t_dolly_logistics_driver
+[0.848s] Installing GUI script to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/2_t_dolly_logistics_driver
+[0.848s] Installing Latch_Unlatch script to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/2_t_dolly_logistics_driver
+[0.848s] Installing Latch_Unlatch_2 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/2_t_dolly_logistics_driver
+[0.848s] Installing Latch_Unlatch_3 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/2_t_dolly_logistics_driver
+[0.849s] Installing Navigate_01 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/2_t_dolly_logistics_driver
+[0.849s] Installing Navigate_02 script to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/2_t_dolly_logistics_driver
+[0.849s] Installing Tf script to /home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/2_t_dolly_logistics_driver
+[0.849s] writing list of installed files to '/home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/install.log'
+[0.867s] Invoked command in '/home/avinaash/doozy_robotics/doozy_ws_2/src/2_t_dolly_logistics_driver' returned '0': PYTHONPATH=/home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/prefix_override:/home/avinaash/doozy_robotics/doozy_ws_2/install/2_t_dolly_logistics_driver/lib/python3.8/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/2_t_dolly_logistics_driver build --build-base /home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/build install --record /home/avinaash/doozy_robotics/doozy_ws_2/build/2_t_dolly_logistics_driver/install.log --single-version-externally-managed install_data

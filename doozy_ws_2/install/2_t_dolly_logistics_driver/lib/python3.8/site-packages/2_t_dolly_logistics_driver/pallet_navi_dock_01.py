@@ -2,14 +2,10 @@
 
 import rclpy
 
-import numpy as np
-import math
 from rclpy.node import Node
 from rclpy.time import Time
 from tf2_ros import TransformBroadcaster
-from nav2_simple_commander.robot_navigator import BasicNavigator
 from geometry_msgs.msg import TransformStamped
-from sick_visionary_t_mini.msg import SickTMini
 
 # from sick_visionary_t_mini.msg import SickTMini
 

@@ -34,13 +34,13 @@ void rise_latch_func()
   analogWrite (speed_control, 255);
   Serial.println("Rise latch Activated"); 
   
-  delay(3500);
+  delay(2000);
   
   digitalWrite (rise_latch, LOW);
   digitalWrite (lower_latch, HIGH);
   analogWrite (speed_control, 255);
   
-  delay(2800);
+  delay(2000);
   
   digitalWrite (rise_latch, LOW);
   digitalWrite (lower_latch, LOW);
