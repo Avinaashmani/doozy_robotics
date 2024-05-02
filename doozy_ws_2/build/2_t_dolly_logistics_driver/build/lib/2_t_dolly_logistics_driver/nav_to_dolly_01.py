@@ -87,7 +87,7 @@ class NaviDolly(Node):
         # self.navigator.goToPose(self.goal_poses[self.current_goal_index])
         
         #while True:
-        user_input = input("Enter the next goal ID (1, 2) for Dolly Pickup / '0' for Home or 'exit' to end: ")
+        user_input = input("Enter the next goal ID (0, 1, 2, 3) for Dolly Pickup / '0' for Home or 'exit' to end: ")
         self.navigation_msg.idx_of_dolly = str(user_input)
         self.navigation_node_pub.publish(self.navigation_msg)
             

@@ -15,9 +15,8 @@ try:
         while True:
             try:
                 # Read data from Arduino
-                line = arduino_nano.readline().decode('utf-8').strip()
-                if line:  # Check if the line is not empty
-                    print(f"TUG ARM POSITION --> {line}")
+                line = arduino_nano.readline().decode().strip()
+                print(line)
             except serial.serialutil.SerialException:
                 # Handle serial errors
                 print("Serial exception occurred. Reconnecting...")

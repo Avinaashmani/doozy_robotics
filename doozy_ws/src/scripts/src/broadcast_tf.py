@@ -4,44 +4,11 @@ import rospy
 import tf2_ros
 
 from geometry_msgs.msg import TransformStamped, Quaternion
-from jsk_recognition_msgs.msg import BoundingBox
+
 
 def main():
     rospy.init_node('tf_publisher')
     tf_broadcaster = tf2_ros.TransformBroadcaster()
-
-    box_one = BoundingBox()
-    box_two = BoundingBox()
-    box_three = BoundingBox()
-
-    box_1 = rospy.Publisher('/bounding_box/One', BoundingBox, queue_size=10)
-    box_2 = rospy.Publisher('/bounding_box/Two', BoundingBox, queue_size=10)        
-    box_3 = rospy.Publisher('/bounding_box/Three', BoundingBox, queue_size=10)
-
-    box_one.pose.position.x = 1.97
-    box_one.pose.position.y = -1.93
-    box_one.pose.position.z = 0.1
-    box_one.dimensions.x = 0.4
-    box_one.dimensions.y = 0.2
-    box_one.dimensions.z = 0.2
-
-    box_two.pose.position.x = -1.31
-    box_two.pose.position.y = 1.03
-    box_two.pose.position.z = 0.1
-    box_two.dimensions.x = 0.4
-    box_two.dimensions.y = 0.2
-    box_two.dimensions.z = 0.2
-
-    box_three.pose.position.x = -1.22
-    box_three.pose.position.y = -2.15
-    box_three.pose.position.z = 0.1
-    box_three.dimensions.x = 0.4
-    box_three.dimensions.y = 0.2
-    box_three.dimensions.z = 0.2
-
-    box_one.header.frame_id ='map'
-    box_two.header.frame_id ='map'
-    box_three.header.frame_id ='map'    
 
     while not rospy.is_shutdown():
         try:
@@ -77,10 +44,6 @@ def main():
             t3.transform.translation.z = 0.0
             t3.transform.rotation = Quaternion(0.0, 0.0, 0.0, 1.0)
             tf_broadcaster.sendTransform(t3)
-
-            box_1.publish(box_one)
-            box_2.publish(box_two)
-            box_3.publish(box_three)
 
         except rospy.ROSInterruptException:
             pass

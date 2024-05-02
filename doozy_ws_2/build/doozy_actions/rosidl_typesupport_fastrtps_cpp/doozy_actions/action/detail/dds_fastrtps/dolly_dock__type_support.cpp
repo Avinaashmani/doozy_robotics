@@ -89,21 +89,27 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_doozy_actions
 max_serialized_size_DollyDock_Goal(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
 
   // Member: reached_point
   {
     size_t array_size = 1;
 
+    last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
 
@@ -112,6 +118,7 @@ max_serialized_size_DollyDock_Goal(
     size_t array_size = 1;
 
     full_bounded = false;
+    is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
       current_alignment += padding +
         eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
@@ -119,7 +126,20 @@ max_serialized_size_DollyDock_Goal(
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = doozy_actions::action::DollyDock_Goal;
+    is_plain =
+      (
+      offsetof(DataType, idx_no) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _DollyDock_Goal__cdr_serialize(
@@ -151,9 +171,18 @@ static uint32_t _DollyDock_Goal__get_serialized_size(
   return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
 }
 
-static size_t _DollyDock_Goal__max_serialized_size(bool & full_bounded)
+static size_t _DollyDock_Goal__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_DollyDock_Goal(full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_DollyDock_Goal(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 static message_type_support_callbacks_t _DollyDock_Goal__callbacks = {
@@ -288,25 +317,44 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_doozy_actions
 max_serialized_size_DollyDock_Result(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
 
   // Member: docked_to_dolly
   {
     size_t array_size = 1;
 
+    last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = doozy_actions::action::DollyDock_Result;
+    is_plain =
+      (
+      offsetof(DataType, docked_to_dolly) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _DollyDock_Result__cdr_serialize(
@@ -338,9 +386,18 @@ static uint32_t _DollyDock_Result__get_serialized_size(
   return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
 }
 
-static size_t _DollyDock_Result__max_serialized_size(bool & full_bounded)
+static size_t _DollyDock_Result__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_DollyDock_Result(full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_DollyDock_Result(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 static message_type_support_callbacks_t _DollyDock_Result__callbacks = {
@@ -478,15 +535,20 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_doozy_actions
 max_serialized_size_DollyDock_Feedback(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
 
   // Member: distance_to_dolly
@@ -494,6 +556,7 @@ max_serialized_size_DollyDock_Feedback(
     size_t array_size = 1;
 
     full_bounded = false;
+    is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
       current_alignment += padding +
         eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
@@ -506,6 +569,7 @@ max_serialized_size_DollyDock_Feedback(
     size_t array_size = 1;
 
     full_bounded = false;
+    is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
       current_alignment += padding +
         eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
@@ -513,7 +577,20 @@ max_serialized_size_DollyDock_Feedback(
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = doozy_actions::action::DollyDock_Feedback;
+    is_plain =
+      (
+      offsetof(DataType, angle_to_dolly) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _DollyDock_Feedback__cdr_serialize(
@@ -545,9 +622,18 @@ static uint32_t _DollyDock_Feedback__get_serialized_size(
   return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
 }
 
-static size_t _DollyDock_Feedback__max_serialized_size(bool & full_bounded)
+static size_t _DollyDock_Feedback__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_DollyDock_Feedback(full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_DollyDock_Feedback(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 static message_type_support_callbacks_t _DollyDock_Feedback__callbacks = {
@@ -636,33 +722,13 @@ size_t get_serialized_size(
 size_t
 max_serialized_size_UUID(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 }  // namespace typesupport_fastrtps_cpp
 }  // namespace msg
 }  // namespace unique_identifier_msgs
 
-namespace doozy_actions
-{
-namespace action
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const doozy_actions::action::DollyDock_Goal &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  doozy_actions::action::DollyDock_Goal &);
-size_t get_serialized_size(
-  const doozy_actions::action::DollyDock_Goal &,
-  size_t current_alignment);
-size_t
-max_serialized_size_DollyDock_Goal(
-  bool & full_bounded,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace action
-}  // namespace doozy_actions
+// functions for doozy_actions::action::DollyDock_Goal already declared above
 
 
 namespace doozy_actions
@@ -739,15 +805,20 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_doozy_actions
 max_serialized_size_DollyDock_SendGoal_Request(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
 
   // Member: goal_id
@@ -755,10 +826,17 @@ max_serialized_size_DollyDock_SendGoal_Request(
     size_t array_size = 1;
 
 
+    last_member_size = 0;
     for (size_t index = 0; index < array_size; ++index) {
-      current_alignment +=
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
         unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
@@ -767,14 +845,34 @@ max_serialized_size_DollyDock_SendGoal_Request(
     size_t array_size = 1;
 
 
+    last_member_size = 0;
     for (size_t index = 0; index < array_size; ++index) {
-      current_alignment +=
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
         doozy_actions::action::typesupport_fastrtps_cpp::max_serialized_size_DollyDock_Goal(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = doozy_actions::action::DollyDock_SendGoal_Request;
+    is_plain =
+      (
+      offsetof(DataType, goal) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _DollyDock_SendGoal_Request__cdr_serialize(
@@ -806,9 +904,18 @@ static uint32_t _DollyDock_SendGoal_Request__get_serialized_size(
   return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
 }
 
-static size_t _DollyDock_SendGoal_Request__max_serialized_size(bool & full_bounded)
+static size_t _DollyDock_SendGoal_Request__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_DollyDock_SendGoal_Request(full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_DollyDock_SendGoal_Request(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 static message_type_support_callbacks_t _DollyDock_SendGoal_Request__callbacks = {
@@ -898,6 +1005,7 @@ size_t get_serialized_size(
 size_t
 max_serialized_size_Time(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment);
 }  // namespace typesupport_fastrtps_cpp
 }  // namespace msg
@@ -980,21 +1088,27 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_doozy_actions
 max_serialized_size_DollyDock_SendGoal_Response(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
 
   // Member: accepted
   {
     size_t array_size = 1;
 
+    last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
 
@@ -1003,14 +1117,34 @@ max_serialized_size_DollyDock_SendGoal_Response(
     size_t array_size = 1;
 
 
+    last_member_size = 0;
     for (size_t index = 0; index < array_size; ++index) {
-      current_alignment +=
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
         builtin_interfaces::msg::typesupport_fastrtps_cpp::max_serialized_size_Time(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = doozy_actions::action::DollyDock_SendGoal_Response;
+    is_plain =
+      (
+      offsetof(DataType, stamp) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _DollyDock_SendGoal_Response__cdr_serialize(
@@ -1042,9 +1176,18 @@ static uint32_t _DollyDock_SendGoal_Response__get_serialized_size(
   return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
 }
 
-static size_t _DollyDock_SendGoal_Response__max_serialized_size(bool & full_bounded)
+static size_t _DollyDock_SendGoal_Response__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_DollyDock_SendGoal_Response(full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_DollyDock_SendGoal_Response(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 static message_type_support_callbacks_t _DollyDock_SendGoal_Response__callbacks = {
@@ -1176,28 +1319,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 
 
 // forward declaration of message dependencies and their conversion functions
-namespace unique_identifier_msgs
-{
-namespace msg
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const unique_identifier_msgs::msg::UUID &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  unique_identifier_msgs::msg::UUID &);
-size_t get_serialized_size(
-  const unique_identifier_msgs::msg::UUID &,
-  size_t current_alignment);
-size_t
-max_serialized_size_UUID(
-  bool & full_bounded,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace msg
-}  // namespace unique_identifier_msgs
+// functions for unique_identifier_msgs::msg::UUID already declared above
 
 
 namespace doozy_actions
@@ -1261,15 +1383,20 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_doozy_actions
 max_serialized_size_DollyDock_GetResult_Request(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
 
   // Member: goal_id
@@ -1277,14 +1404,34 @@ max_serialized_size_DollyDock_GetResult_Request(
     size_t array_size = 1;
 
 
+    last_member_size = 0;
     for (size_t index = 0; index < array_size; ++index) {
-      current_alignment +=
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
         unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = doozy_actions::action::DollyDock_GetResult_Request;
+    is_plain =
+      (
+      offsetof(DataType, goal_id) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _DollyDock_GetResult_Request__cdr_serialize(
@@ -1316,9 +1463,18 @@ static uint32_t _DollyDock_GetResult_Request__get_serialized_size(
   return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
 }
 
-static size_t _DollyDock_GetResult_Request__max_serialized_size(bool & full_bounded)
+static size_t _DollyDock_GetResult_Request__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_DollyDock_GetResult_Request(full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_DollyDock_GetResult_Request(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 static message_type_support_callbacks_t _DollyDock_GetResult_Request__callbacks = {
@@ -1390,28 +1546,7 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 
 
 // forward declaration of message dependencies and their conversion functions
-namespace doozy_actions
-{
-namespace action
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const doozy_actions::action::DollyDock_Result &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  doozy_actions::action::DollyDock_Result &);
-size_t get_serialized_size(
-  const doozy_actions::action::DollyDock_Result &,
-  size_t current_alignment);
-size_t
-max_serialized_size_DollyDock_Result(
-  bool & full_bounded,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace action
-}  // namespace doozy_actions
+// functions for doozy_actions::action::DollyDock_Result already declared above
 
 
 namespace doozy_actions
@@ -1486,21 +1621,27 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_doozy_actions
 max_serialized_size_DollyDock_GetResult_Response(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
 
   // Member: status
   {
     size_t array_size = 1;
 
+    last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
 
@@ -1509,14 +1650,34 @@ max_serialized_size_DollyDock_GetResult_Response(
     size_t array_size = 1;
 
 
+    last_member_size = 0;
     for (size_t index = 0; index < array_size; ++index) {
-      current_alignment +=
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
         doozy_actions::action::typesupport_fastrtps_cpp::max_serialized_size_DollyDock_Result(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = doozy_actions::action::DollyDock_GetResult_Response;
+    is_plain =
+      (
+      offsetof(DataType, result) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _DollyDock_GetResult_Response__cdr_serialize(
@@ -1548,9 +1709,18 @@ static uint32_t _DollyDock_GetResult_Response__get_serialized_size(
   return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
 }
 
-static size_t _DollyDock_GetResult_Response__max_serialized_size(bool & full_bounded)
+static size_t _DollyDock_GetResult_Response__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_DollyDock_GetResult_Response(full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_DollyDock_GetResult_Response(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 static message_type_support_callbacks_t _DollyDock_GetResult_Response__callbacks = {
@@ -1685,51 +1855,9 @@ ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_fastrtps_cp
 
 
 // forward declaration of message dependencies and their conversion functions
-namespace unique_identifier_msgs
-{
-namespace msg
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const unique_identifier_msgs::msg::UUID &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  unique_identifier_msgs::msg::UUID &);
-size_t get_serialized_size(
-  const unique_identifier_msgs::msg::UUID &,
-  size_t current_alignment);
-size_t
-max_serialized_size_UUID(
-  bool & full_bounded,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace msg
-}  // namespace unique_identifier_msgs
+// functions for unique_identifier_msgs::msg::UUID already declared above
 
-namespace doozy_actions
-{
-namespace action
-{
-namespace typesupport_fastrtps_cpp
-{
-bool cdr_serialize(
-  const doozy_actions::action::DollyDock_Feedback &,
-  eprosima::fastcdr::Cdr &);
-bool cdr_deserialize(
-  eprosima::fastcdr::Cdr &,
-  doozy_actions::action::DollyDock_Feedback &);
-size_t get_serialized_size(
-  const doozy_actions::action::DollyDock_Feedback &,
-  size_t current_alignment);
-size_t
-max_serialized_size_DollyDock_Feedback(
-  bool & full_bounded,
-  size_t current_alignment);
-}  // namespace typesupport_fastrtps_cpp
-}  // namespace action
-}  // namespace doozy_actions
+// functions for doozy_actions::action::DollyDock_Feedback already declared above
 
 
 namespace doozy_actions
@@ -1806,15 +1934,20 @@ size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_doozy_actions
 max_serialized_size_DollyDock_FeedbackMessage(
   bool & full_bounded,
+  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
-  (void)full_bounded;
+
+  full_bounded = true;
+  is_plain = true;
 
 
   // Member: goal_id
@@ -1822,10 +1955,17 @@ max_serialized_size_DollyDock_FeedbackMessage(
     size_t array_size = 1;
 
 
+    last_member_size = 0;
     for (size_t index = 0; index < array_size; ++index) {
-      current_alignment +=
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
         unique_identifier_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_UUID(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
@@ -1834,14 +1974,34 @@ max_serialized_size_DollyDock_FeedbackMessage(
     size_t array_size = 1;
 
 
+    last_member_size = 0;
     for (size_t index = 0; index < array_size; ++index) {
-      current_alignment +=
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
         doozy_actions::action::typesupport_fastrtps_cpp::max_serialized_size_DollyDock_Feedback(
-        full_bounded, current_alignment);
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = doozy_actions::action::DollyDock_FeedbackMessage;
+    is_plain =
+      (
+      offsetof(DataType, feedback) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _DollyDock_FeedbackMessage__cdr_serialize(
@@ -1873,9 +2033,18 @@ static uint32_t _DollyDock_FeedbackMessage__get_serialized_size(
   return static_cast<uint32_t>(get_serialized_size(*typed_message, 0));
 }
 
-static size_t _DollyDock_FeedbackMessage__max_serialized_size(bool & full_bounded)
+static size_t _DollyDock_FeedbackMessage__max_serialized_size(char & bounds_info)
 {
-  return max_serialized_size_DollyDock_FeedbackMessage(full_bounded, 0);
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_DollyDock_FeedbackMessage(full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
 }
 
 static message_type_support_callbacks_t _DollyDock_FeedbackMessage__callbacks = {
