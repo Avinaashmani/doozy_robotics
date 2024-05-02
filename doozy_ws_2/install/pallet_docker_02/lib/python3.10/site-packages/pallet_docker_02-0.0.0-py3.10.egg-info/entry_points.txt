@@ -3,6 +3,7 @@ CLIENT = pallet_docker_02.nav_tb3_client_01:main
 DOCK_to_DOLLY = pallet_docker_02.dolly_navi_client_01:main
 NAV_to_POSITION = pallet_docker_02.dolly_navi_client_01:main
 SERVER = pallet_docker_02.dock_tb3_server_01:main
+SICK_Pallet_Detect = pallet_docker_02.sick_pallet_detection_01:main
 client_01 = pallet_docker_02.client_01:main
 dock_to_dolly = pallet_docker_02.dock_with_dolly_cli:main
 dock_to_dolly2 = pallet_docker_02.dolly_navi_server_01:main

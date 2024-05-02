@@ -68,6 +68,14 @@ max_serialized_size_Vector3(
 
 // functions for geometry_msgs::msg::Vector3 already declared above
 
+// functions for std_msgs::msg::Header already declared above
+
+// functions for geometry_msgs::msg::Vector3 already declared above
+
+// functions for geometry_msgs::msg::Vector3 already declared above
+
+// functions for geometry_msgs::msg::Vector3 already declared above
+
 
 namespace sick_visionary_t_mini
 {
@@ -84,9 +92,9 @@ cdr_serialize(
   const sick_visionary_t_mini::msg::SickTMini & ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
-  // Member: header
+  // Member: header_dolly
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
-    ros_message.header,
+    ros_message.header_dolly,
     cdr);
   // Member: status_of_camera
   cdr << ros_message.status_of_camera;
@@ -106,6 +114,28 @@ cdr_serialize(
   cdr << (ros_message.dolly_found ? true : false);
   // Member: corners_distance
   cdr << ros_message.corners_distance;
+  // Member: header_pallet_detection
+  std_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.header_pallet_detection,
+    cdr);
+  // Member: message
+  cdr << ros_message.message;
+  // Member: left_pocket
+  geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.left_pocket,
+    cdr);
+  // Member: right_pocket
+  geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.right_pocket,
+    cdr);
+  // Member: center_point
+  geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_serialize(
+    ros_message.center_point,
+    cdr);
+  // Member: pallet_found
+  cdr << (ros_message.pallet_found ? true : false);
+  // Member: pallet_angle
+  cdr << ros_message.pallet_angle;
   return true;
 }
 
@@ -115,9 +145,9 @@ cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
   sick_visionary_t_mini::msg::SickTMini & ros_message)
 {
-  // Member: header
+  // Member: header_dolly
   std_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
-    cdr, ros_message.header);
+    cdr, ros_message.header_dolly);
 
   // Member: status_of_camera
   cdr >> ros_message.status_of_camera;
@@ -144,6 +174,35 @@ cdr_deserialize(
   // Member: corners_distance
   cdr >> ros_message.corners_distance;
 
+  // Member: header_pallet_detection
+  std_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.header_pallet_detection);
+
+  // Member: message
+  cdr >> ros_message.message;
+
+  // Member: left_pocket
+  geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.left_pocket);
+
+  // Member: right_pocket
+  geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.right_pocket);
+
+  // Member: center_point
+  geometry_msgs::msg::typesupport_fastrtps_cpp::cdr_deserialize(
+    cdr, ros_message.center_point);
+
+  // Member: pallet_found
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message.pallet_found = tmp ? true : false;
+  }
+
+  // Member: pallet_angle
+  cdr >> ros_message.pallet_angle;
+
   return true;
 }
 
@@ -160,11 +219,11 @@ get_serialized_size(
   (void)padding;
   (void)wchar_size;
 
-  // Member: header
+  // Member: header_dolly
 
   current_alignment +=
     std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
-    ros_message.header, current_alignment);
+    ros_message.header_dolly, current_alignment);
   // Member: status_of_camera
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
@@ -196,6 +255,42 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
+  // Member: header_pallet_detection
+
+  current_alignment +=
+    std_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.header_pallet_detection, current_alignment);
+  // Member: message
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message.message.size() + 1);
+  // Member: left_pocket
+
+  current_alignment +=
+    geometry_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.left_pocket, current_alignment);
+  // Member: right_pocket
+
+  current_alignment +=
+    geometry_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.right_pocket, current_alignment);
+  // Member: center_point
+
+  current_alignment +=
+    geometry_msgs::msg::typesupport_fastrtps_cpp::get_serialized_size(
+    ros_message.center_point, current_alignment);
+  // Member: pallet_found
+  {
+    size_t item_size = sizeof(ros_message.pallet_found);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // Member: pallet_angle
+  {
+    size_t item_size = sizeof(ros_message.pallet_angle);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
 
   return current_alignment - initial_alignment;
 }
@@ -220,7 +315,7 @@ max_serialized_size_SickTMini(
   is_plain = true;
 
 
-  // Member: header
+  // Member: header_dolly
   {
     size_t array_size = 1;
 
@@ -326,6 +421,112 @@ max_serialized_size_SickTMini(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
+  // Member: header_pallet_detection
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        std_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Header(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  // Member: message
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+
+  // Member: left_pocket
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        geometry_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Vector3(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  // Member: right_pocket
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        geometry_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Vector3(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  // Member: center_point
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size =
+        geometry_msgs::msg::typesupport_fastrtps_cpp::max_serialized_size_Vector3(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+
+  // Member: pallet_found
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+
+  // Member: pallet_angle
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
     // All members are plain, and type is not empty.
@@ -334,7 +535,7 @@ max_serialized_size_SickTMini(
     using DataType = sick_visionary_t_mini::msg::SickTMini;
     is_plain =
       (
-      offsetof(DataType, corners_distance) +
+      offsetof(DataType, pallet_angle) +
       last_member_size
       ) == ret_val;
   }

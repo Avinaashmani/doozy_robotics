@@ -35,6 +35,22 @@ ROSIDL_GENERATOR_C_IMPORT
 bool geometry_msgs__msg__vector3__convert_from_py(PyObject * _pymsg, void * _ros_message);
 ROSIDL_GENERATOR_C_IMPORT
 PyObject * geometry_msgs__msg__vector3__convert_to_py(void * raw_ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+bool std_msgs__msg__header__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * std_msgs__msg__header__convert_to_py(void * raw_ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+bool geometry_msgs__msg__vector3__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * geometry_msgs__msg__vector3__convert_to_py(void * raw_ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+bool geometry_msgs__msg__vector3__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * geometry_msgs__msg__vector3__convert_to_py(void * raw_ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+bool geometry_msgs__msg__vector3__convert_from_py(PyObject * _pymsg, void * _ros_message);
+ROSIDL_GENERATOR_C_IMPORT
+PyObject * geometry_msgs__msg__vector3__convert_to_py(void * raw_ros_message);
 
 ROSIDL_GENERATOR_C_EXPORT
 bool sick_visionary_t_mini__msg__sick_t_mini__convert_from_py(PyObject * _pymsg, void * _ros_message)
@@ -69,12 +85,12 @@ bool sick_visionary_t_mini__msg__sick_t_mini__convert_from_py(PyObject * _pymsg,
     assert(strncmp("sick_visionary_t_mini.msg._sick_t_mini.SickTMini", full_classname_dest, 48) == 0);
   }
   sick_visionary_t_mini__msg__SickTMini * ros_message = _ros_message;
-  {  // header
-    PyObject * field = PyObject_GetAttrString(_pymsg, "header");
+  {  // header_dolly
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header_dolly");
     if (!field) {
       return false;
     }
-    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header)) {
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header_dolly)) {
       Py_DECREF(field);
       return false;
     }
@@ -146,6 +162,83 @@ bool sick_visionary_t_mini__msg__sick_t_mini__convert_from_py(PyObject * _pymsg,
     ros_message->corners_distance = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
+  {  // header_pallet_detection
+    PyObject * field = PyObject_GetAttrString(_pymsg, "header_pallet_detection");
+    if (!field) {
+      return false;
+    }
+    if (!std_msgs__msg__header__convert_from_py(field, &ros_message->header_pallet_detection)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // message
+    PyObject * field = PyObject_GetAttrString(_pymsg, "message");
+    if (!field) {
+      return false;
+    }
+    assert(PyUnicode_Check(field));
+    PyObject * encoded_field = PyUnicode_AsUTF8String(field);
+    if (!encoded_field) {
+      Py_DECREF(field);
+      return false;
+    }
+    rosidl_runtime_c__String__assign(&ros_message->message, PyBytes_AS_STRING(encoded_field));
+    Py_DECREF(encoded_field);
+    Py_DECREF(field);
+  }
+  {  // left_pocket
+    PyObject * field = PyObject_GetAttrString(_pymsg, "left_pocket");
+    if (!field) {
+      return false;
+    }
+    if (!geometry_msgs__msg__vector3__convert_from_py(field, &ros_message->left_pocket)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // right_pocket
+    PyObject * field = PyObject_GetAttrString(_pymsg, "right_pocket");
+    if (!field) {
+      return false;
+    }
+    if (!geometry_msgs__msg__vector3__convert_from_py(field, &ros_message->right_pocket)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // center_point
+    PyObject * field = PyObject_GetAttrString(_pymsg, "center_point");
+    if (!field) {
+      return false;
+    }
+    if (!geometry_msgs__msg__vector3__convert_from_py(field, &ros_message->center_point)) {
+      Py_DECREF(field);
+      return false;
+    }
+    Py_DECREF(field);
+  }
+  {  // pallet_found
+    PyObject * field = PyObject_GetAttrString(_pymsg, "pallet_found");
+    if (!field) {
+      return false;
+    }
+    assert(PyBool_Check(field));
+    ros_message->pallet_found = (Py_True == field);
+    Py_DECREF(field);
+  }
+  {  // pallet_angle
+    PyObject * field = PyObject_GetAttrString(_pymsg, "pallet_angle");
+    if (!field) {
+      return false;
+    }
+    assert(PyFloat_Check(field));
+    ros_message->pallet_angle = PyFloat_AS_DOUBLE(field);
+    Py_DECREF(field);
+  }
 
   return true;
 }
@@ -168,14 +261,14 @@ PyObject * sick_visionary_t_mini__msg__sick_t_mini__convert_to_py(void * raw_ros
     }
   }
   sick_visionary_t_mini__msg__SickTMini * ros_message = (sick_visionary_t_mini__msg__SickTMini *)raw_ros_message;
-  {  // header
+  {  // header_dolly
     PyObject * field = NULL;
-    field = std_msgs__msg__header__convert_to_py(&ros_message->header);
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header_dolly);
     if (!field) {
       return NULL;
     }
     {
-      int rc = PyObject_SetAttrString(_pymessage, "header", field);
+      int rc = PyObject_SetAttrString(_pymessage, "header_dolly", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;
@@ -257,6 +350,101 @@ PyObject * sick_visionary_t_mini__msg__sick_t_mini__convert_to_py(void * raw_ros
     field = PyFloat_FromDouble(ros_message->corners_distance);
     {
       int rc = PyObject_SetAttrString(_pymessage, "corners_distance", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // header_pallet_detection
+    PyObject * field = NULL;
+    field = std_msgs__msg__header__convert_to_py(&ros_message->header_pallet_detection);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "header_pallet_detection", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // message
+    PyObject * field = NULL;
+    field = PyUnicode_DecodeUTF8(
+      ros_message->message.data,
+      strlen(ros_message->message.data),
+      "replace");
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "message", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // left_pocket
+    PyObject * field = NULL;
+    field = geometry_msgs__msg__vector3__convert_to_py(&ros_message->left_pocket);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "left_pocket", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // right_pocket
+    PyObject * field = NULL;
+    field = geometry_msgs__msg__vector3__convert_to_py(&ros_message->right_pocket);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "right_pocket", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // center_point
+    PyObject * field = NULL;
+    field = geometry_msgs__msg__vector3__convert_to_py(&ros_message->center_point);
+    if (!field) {
+      return NULL;
+    }
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "center_point", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // pallet_found
+    PyObject * field = NULL;
+    field = PyBool_FromLong(ros_message->pallet_found ? 1 : 0);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "pallet_found", field);
+      Py_DECREF(field);
+      if (rc) {
+        return NULL;
+      }
+    }
+  }
+  {  // pallet_angle
+    PyObject * field = NULL;
+    field = PyFloat_FromDouble(ros_message->pallet_angle);
+    {
+      int rc = PyObject_SetAttrString(_pymessage, "pallet_angle", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

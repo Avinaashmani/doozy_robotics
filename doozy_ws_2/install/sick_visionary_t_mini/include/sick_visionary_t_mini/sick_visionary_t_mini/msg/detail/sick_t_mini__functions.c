@@ -12,13 +12,18 @@
 
 
 // Include directives for member types
-// Member `header`
+// Member `header_dolly`
+// Member `header_pallet_detection`
 #include "std_msgs/msg/detail/header__functions.h"
 // Member `status_of_camera`
+// Member `message`
 #include "rosidl_runtime_c/string_functions.h"
 // Member `left_corners`
 // Member `right_corners`
 // Member `point`
+// Member `left_pocket`
+// Member `right_pocket`
+// Member `center_point`
 #include "geometry_msgs/msg/detail/vector3__functions.h"
 
 bool
@@ -27,8 +32,8 @@ sick_visionary_t_mini__msg__SickTMini__init(sick_visionary_t_mini__msg__SickTMin
   if (!msg) {
     return false;
   }
-  // header
-  if (!std_msgs__msg__Header__init(&msg->header)) {
+  // header_dolly
+  if (!std_msgs__msg__Header__init(&msg->header_dolly)) {
     sick_visionary_t_mini__msg__SickTMini__fini(msg);
     return false;
   }
@@ -54,6 +59,33 @@ sick_visionary_t_mini__msg__SickTMini__init(sick_visionary_t_mini__msg__SickTMin
   }
   // dolly_found
   // corners_distance
+  // header_pallet_detection
+  if (!std_msgs__msg__Header__init(&msg->header_pallet_detection)) {
+    sick_visionary_t_mini__msg__SickTMini__fini(msg);
+    return false;
+  }
+  // message
+  if (!rosidl_runtime_c__String__init(&msg->message)) {
+    sick_visionary_t_mini__msg__SickTMini__fini(msg);
+    return false;
+  }
+  // left_pocket
+  if (!geometry_msgs__msg__Vector3__init(&msg->left_pocket)) {
+    sick_visionary_t_mini__msg__SickTMini__fini(msg);
+    return false;
+  }
+  // right_pocket
+  if (!geometry_msgs__msg__Vector3__init(&msg->right_pocket)) {
+    sick_visionary_t_mini__msg__SickTMini__fini(msg);
+    return false;
+  }
+  // center_point
+  if (!geometry_msgs__msg__Vector3__init(&msg->center_point)) {
+    sick_visionary_t_mini__msg__SickTMini__fini(msg);
+    return false;
+  }
+  // pallet_found
+  // pallet_angle
   return true;
 }
 
@@ -63,8 +95,8 @@ sick_visionary_t_mini__msg__SickTMini__fini(sick_visionary_t_mini__msg__SickTMin
   if (!msg) {
     return;
   }
-  // header
-  std_msgs__msg__Header__fini(&msg->header);
+  // header_dolly
+  std_msgs__msg__Header__fini(&msg->header_dolly);
   // status_of_camera
   rosidl_runtime_c__String__fini(&msg->status_of_camera);
   // left_corners
@@ -75,6 +107,18 @@ sick_visionary_t_mini__msg__SickTMini__fini(sick_visionary_t_mini__msg__SickTMin
   geometry_msgs__msg__Vector3__fini(&msg->point);
   // dolly_found
   // corners_distance
+  // header_pallet_detection
+  std_msgs__msg__Header__fini(&msg->header_pallet_detection);
+  // message
+  rosidl_runtime_c__String__fini(&msg->message);
+  // left_pocket
+  geometry_msgs__msg__Vector3__fini(&msg->left_pocket);
+  // right_pocket
+  geometry_msgs__msg__Vector3__fini(&msg->right_pocket);
+  // center_point
+  geometry_msgs__msg__Vector3__fini(&msg->center_point);
+  // pallet_found
+  // pallet_angle
 }
 
 bool
@@ -83,9 +127,9 @@ sick_visionary_t_mini__msg__SickTMini__are_equal(const sick_visionary_t_mini__ms
   if (!lhs || !rhs) {
     return false;
   }
-  // header
+  // header_dolly
   if (!std_msgs__msg__Header__are_equal(
-      &(lhs->header), &(rhs->header)))
+      &(lhs->header_dolly), &(rhs->header_dolly)))
   {
     return false;
   }
@@ -121,6 +165,44 @@ sick_visionary_t_mini__msg__SickTMini__are_equal(const sick_visionary_t_mini__ms
   if (lhs->corners_distance != rhs->corners_distance) {
     return false;
   }
+  // header_pallet_detection
+  if (!std_msgs__msg__Header__are_equal(
+      &(lhs->header_pallet_detection), &(rhs->header_pallet_detection)))
+  {
+    return false;
+  }
+  // message
+  if (!rosidl_runtime_c__String__are_equal(
+      &(lhs->message), &(rhs->message)))
+  {
+    return false;
+  }
+  // left_pocket
+  if (!geometry_msgs__msg__Vector3__are_equal(
+      &(lhs->left_pocket), &(rhs->left_pocket)))
+  {
+    return false;
+  }
+  // right_pocket
+  if (!geometry_msgs__msg__Vector3__are_equal(
+      &(lhs->right_pocket), &(rhs->right_pocket)))
+  {
+    return false;
+  }
+  // center_point
+  if (!geometry_msgs__msg__Vector3__are_equal(
+      &(lhs->center_point), &(rhs->center_point)))
+  {
+    return false;
+  }
+  // pallet_found
+  if (lhs->pallet_found != rhs->pallet_found) {
+    return false;
+  }
+  // pallet_angle
+  if (lhs->pallet_angle != rhs->pallet_angle) {
+    return false;
+  }
   return true;
 }
 
@@ -132,9 +214,9 @@ sick_visionary_t_mini__msg__SickTMini__copy(
   if (!input || !output) {
     return false;
   }
-  // header
+  // header_dolly
   if (!std_msgs__msg__Header__copy(
-      &(input->header), &(output->header)))
+      &(input->header_dolly), &(output->header_dolly)))
   {
     return false;
   }
@@ -166,6 +248,40 @@ sick_visionary_t_mini__msg__SickTMini__copy(
   output->dolly_found = input->dolly_found;
   // corners_distance
   output->corners_distance = input->corners_distance;
+  // header_pallet_detection
+  if (!std_msgs__msg__Header__copy(
+      &(input->header_pallet_detection), &(output->header_pallet_detection)))
+  {
+    return false;
+  }
+  // message
+  if (!rosidl_runtime_c__String__copy(
+      &(input->message), &(output->message)))
+  {
+    return false;
+  }
+  // left_pocket
+  if (!geometry_msgs__msg__Vector3__copy(
+      &(input->left_pocket), &(output->left_pocket)))
+  {
+    return false;
+  }
+  // right_pocket
+  if (!geometry_msgs__msg__Vector3__copy(
+      &(input->right_pocket), &(output->right_pocket)))
+  {
+    return false;
+  }
+  // center_point
+  if (!geometry_msgs__msg__Vector3__copy(
+      &(input->center_point), &(output->center_point)))
+  {
+    return false;
+  }
+  // pallet_found
+  output->pallet_found = input->pallet_found;
+  // pallet_angle
+  output->pallet_angle = input->pallet_angle;
   return true;
 }
 

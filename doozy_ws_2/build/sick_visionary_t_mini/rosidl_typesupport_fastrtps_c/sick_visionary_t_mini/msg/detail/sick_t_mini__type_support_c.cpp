@@ -34,10 +34,10 @@ extern "C"
 {
 #endif
 
-#include "geometry_msgs/msg/detail/vector3__functions.h"  // left_corners, point, right_corners
-#include "rosidl_runtime_c/string.h"  // status_of_camera
-#include "rosidl_runtime_c/string_functions.h"  // status_of_camera
-#include "std_msgs/msg/detail/header__functions.h"  // header
+#include "geometry_msgs/msg/detail/vector3__functions.h"  // center_point, left_corners, left_pocket, point, right_corners, right_pocket
+#include "rosidl_runtime_c/string.h"  // message, status_of_camera
+#include "rosidl_runtime_c/string_functions.h"  // message, status_of_camera
+#include "std_msgs/msg/detail/header__functions.h"  // header_dolly, header_pallet_detection
 
 // forward declare type support functions
 ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_sick_visionary_t_mini
@@ -81,7 +81,7 @@ static bool _SickTMini__cdr_serialize(
     return false;
   }
   const _SickTMini__ros_msg_type * ros_message = static_cast<const _SickTMini__ros_msg_type *>(untyped_ros_message);
-  // Field name: header
+  // Field name: header_dolly
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
@@ -89,7 +89,7 @@ static bool _SickTMini__cdr_serialize(
         rosidl_typesupport_fastrtps_c, std_msgs, msg, Header
       )()->data);
     if (!callbacks->cdr_serialize(
-        &ros_message->header, cdr))
+        &ros_message->header_dolly, cdr))
     {
       return false;
     }
@@ -161,6 +161,86 @@ static bool _SickTMini__cdr_serialize(
     cdr << ros_message->corners_distance;
   }
 
+  // Field name: header_pallet_detection
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Header
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->header_pallet_detection, cdr))
+    {
+      return false;
+    }
+  }
+
+  // Field name: message
+  {
+    const rosidl_runtime_c__String * str = &ros_message->message;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
+  }
+
+  // Field name: left_pocket
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Vector3
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->left_pocket, cdr))
+    {
+      return false;
+    }
+  }
+
+  // Field name: right_pocket
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Vector3
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->right_pocket, cdr))
+    {
+      return false;
+    }
+  }
+
+  // Field name: center_point
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Vector3
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->center_point, cdr))
+    {
+      return false;
+    }
+  }
+
+  // Field name: pallet_found
+  {
+    cdr << (ros_message->pallet_found ? true : false);
+  }
+
+  // Field name: pallet_angle
+  {
+    cdr << ros_message->pallet_angle;
+  }
+
   return true;
 }
 
@@ -173,7 +253,7 @@ static bool _SickTMini__cdr_deserialize(
     return false;
   }
   _SickTMini__ros_msg_type * ros_message = static_cast<_SickTMini__ros_msg_type *>(untyped_ros_message);
-  // Field name: header
+  // Field name: header_dolly
   {
     const message_type_support_callbacks_t * callbacks =
       static_cast<const message_type_support_callbacks_t *>(
@@ -181,7 +261,7 @@ static bool _SickTMini__cdr_deserialize(
         rosidl_typesupport_fastrtps_c, std_msgs, msg, Header
       )()->data);
     if (!callbacks->cdr_deserialize(
-        cdr, &ros_message->header))
+        cdr, &ros_message->header_dolly))
     {
       return false;
     }
@@ -257,6 +337,90 @@ static bool _SickTMini__cdr_deserialize(
     cdr >> ros_message->corners_distance;
   }
 
+  // Field name: header_pallet_detection
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, std_msgs, msg, Header
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->header_pallet_detection))
+    {
+      return false;
+    }
+  }
+
+  // Field name: message
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->message.data) {
+      rosidl_runtime_c__String__init(&ros_message->message);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->message,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'message'\n");
+      return false;
+    }
+  }
+
+  // Field name: left_pocket
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Vector3
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->left_pocket))
+    {
+      return false;
+    }
+  }
+
+  // Field name: right_pocket
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Vector3
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->right_pocket))
+    {
+      return false;
+    }
+  }
+
+  // Field name: center_point
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Vector3
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->center_point))
+    {
+      return false;
+    }
+  }
+
+  // Field name: pallet_found
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->pallet_found = tmp ? true : false;
+  }
+
+  // Field name: pallet_angle
+  {
+    cdr >> ros_message->pallet_angle;
+  }
+
   return true;
 }  // NOLINT(readability/fn_size)
 
@@ -274,10 +438,10 @@ size_t get_serialized_size_sick_visionary_t_mini__msg__SickTMini(
   (void)padding;
   (void)wchar_size;
 
-  // field.name header
+  // field.name header_dolly
 
   current_alignment += get_serialized_size_std_msgs__msg__Header(
-    &(ros_message->header), current_alignment);
+    &(ros_message->header_dolly), current_alignment);
   // field.name status_of_camera
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
@@ -303,6 +467,38 @@ size_t get_serialized_size_sick_visionary_t_mini__msg__SickTMini(
   // field.name corners_distance
   {
     size_t item_size = sizeof(ros_message->corners_distance);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name header_pallet_detection
+
+  current_alignment += get_serialized_size_std_msgs__msg__Header(
+    &(ros_message->header_pallet_detection), current_alignment);
+  // field.name message
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->message.size + 1);
+  // field.name left_pocket
+
+  current_alignment += get_serialized_size_geometry_msgs__msg__Vector3(
+    &(ros_message->left_pocket), current_alignment);
+  // field.name right_pocket
+
+  current_alignment += get_serialized_size_geometry_msgs__msg__Vector3(
+    &(ros_message->right_pocket), current_alignment);
+  // field.name center_point
+
+  current_alignment += get_serialized_size_geometry_msgs__msg__Vector3(
+    &(ros_message->center_point), current_alignment);
+  // field.name pallet_found
+  {
+    size_t item_size = sizeof(ros_message->pallet_found);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name pallet_angle
+  {
+    size_t item_size = sizeof(ros_message->pallet_angle);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -335,7 +531,7 @@ size_t max_serialized_size_sick_visionary_t_mini__msg__SickTMini(
   full_bounded = true;
   is_plain = true;
 
-  // member: header
+  // member: header_dolly
   {
     size_t array_size = 1;
 
@@ -438,6 +634,109 @@ size_t max_serialized_size_sick_visionary_t_mini__msg__SickTMini(
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
+  // member: header_pallet_detection
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_std_msgs__msg__Header(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+  // member: message
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+  // member: left_pocket
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_geometry_msgs__msg__Vector3(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+  // member: right_pocket
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_geometry_msgs__msg__Vector3(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+  // member: center_point
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_geometry_msgs__msg__Vector3(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+  // member: pallet_found
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: pallet_angle
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
 
   size_t ret_val = current_alignment - initial_alignment;
   if (is_plain) {
@@ -447,7 +746,7 @@ size_t max_serialized_size_sick_visionary_t_mini__msg__SickTMini(
     using DataType = sick_visionary_t_mini__msg__SickTMini;
     is_plain =
       (
-      offsetof(DataType, corners_distance) +
+      offsetof(DataType, pallet_angle) +
       last_member_size
       ) == ret_val;
   }

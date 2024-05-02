@@ -21,16 +21,128 @@ namespace msg
 namespace builder
 {
 
+class Init_SickTMini_pallet_angle
+{
+public:
+  explicit Init_SickTMini_pallet_angle(::sick_visionary_t_mini::msg::SickTMini & msg)
+  : msg_(msg)
+  {}
+  ::sick_visionary_t_mini::msg::SickTMini pallet_angle(::sick_visionary_t_mini::msg::SickTMini::_pallet_angle_type arg)
+  {
+    msg_.pallet_angle = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::sick_visionary_t_mini::msg::SickTMini msg_;
+};
+
+class Init_SickTMini_pallet_found
+{
+public:
+  explicit Init_SickTMini_pallet_found(::sick_visionary_t_mini::msg::SickTMini & msg)
+  : msg_(msg)
+  {}
+  Init_SickTMini_pallet_angle pallet_found(::sick_visionary_t_mini::msg::SickTMini::_pallet_found_type arg)
+  {
+    msg_.pallet_found = std::move(arg);
+    return Init_SickTMini_pallet_angle(msg_);
+  }
+
+private:
+  ::sick_visionary_t_mini::msg::SickTMini msg_;
+};
+
+class Init_SickTMini_center_point
+{
+public:
+  explicit Init_SickTMini_center_point(::sick_visionary_t_mini::msg::SickTMini & msg)
+  : msg_(msg)
+  {}
+  Init_SickTMini_pallet_found center_point(::sick_visionary_t_mini::msg::SickTMini::_center_point_type arg)
+  {
+    msg_.center_point = std::move(arg);
+    return Init_SickTMini_pallet_found(msg_);
+  }
+
+private:
+  ::sick_visionary_t_mini::msg::SickTMini msg_;
+};
+
+class Init_SickTMini_right_pocket
+{
+public:
+  explicit Init_SickTMini_right_pocket(::sick_visionary_t_mini::msg::SickTMini & msg)
+  : msg_(msg)
+  {}
+  Init_SickTMini_center_point right_pocket(::sick_visionary_t_mini::msg::SickTMini::_right_pocket_type arg)
+  {
+    msg_.right_pocket = std::move(arg);
+    return Init_SickTMini_center_point(msg_);
+  }
+
+private:
+  ::sick_visionary_t_mini::msg::SickTMini msg_;
+};
+
+class Init_SickTMini_left_pocket
+{
+public:
+  explicit Init_SickTMini_left_pocket(::sick_visionary_t_mini::msg::SickTMini & msg)
+  : msg_(msg)
+  {}
+  Init_SickTMini_right_pocket left_pocket(::sick_visionary_t_mini::msg::SickTMini::_left_pocket_type arg)
+  {
+    msg_.left_pocket = std::move(arg);
+    return Init_SickTMini_right_pocket(msg_);
+  }
+
+private:
+  ::sick_visionary_t_mini::msg::SickTMini msg_;
+};
+
+class Init_SickTMini_message
+{
+public:
+  explicit Init_SickTMini_message(::sick_visionary_t_mini::msg::SickTMini & msg)
+  : msg_(msg)
+  {}
+  Init_SickTMini_left_pocket message(::sick_visionary_t_mini::msg::SickTMini::_message_type arg)
+  {
+    msg_.message = std::move(arg);
+    return Init_SickTMini_left_pocket(msg_);
+  }
+
+private:
+  ::sick_visionary_t_mini::msg::SickTMini msg_;
+};
+
+class Init_SickTMini_header_pallet_detection
+{
+public:
+  explicit Init_SickTMini_header_pallet_detection(::sick_visionary_t_mini::msg::SickTMini & msg)
+  : msg_(msg)
+  {}
+  Init_SickTMini_message header_pallet_detection(::sick_visionary_t_mini::msg::SickTMini::_header_pallet_detection_type arg)
+  {
+    msg_.header_pallet_detection = std::move(arg);
+    return Init_SickTMini_message(msg_);
+  }
+
+private:
+  ::sick_visionary_t_mini::msg::SickTMini msg_;
+};
+
 class Init_SickTMini_corners_distance
 {
 public:
   explicit Init_SickTMini_corners_distance(::sick_visionary_t_mini::msg::SickTMini & msg)
   : msg_(msg)
   {}
-  ::sick_visionary_t_mini::msg::SickTMini corners_distance(::sick_visionary_t_mini::msg::SickTMini::_corners_distance_type arg)
+  Init_SickTMini_header_pallet_detection corners_distance(::sick_visionary_t_mini::msg::SickTMini::_corners_distance_type arg)
   {
     msg_.corners_distance = std::move(arg);
-    return std::move(msg_);
+    return Init_SickTMini_header_pallet_detection(msg_);
   }
 
 private:
@@ -117,15 +229,15 @@ private:
   ::sick_visionary_t_mini::msg::SickTMini msg_;
 };
 
-class Init_SickTMini_header
+class Init_SickTMini_header_dolly
 {
 public:
-  Init_SickTMini_header()
+  Init_SickTMini_header_dolly()
   : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
   {}
-  Init_SickTMini_status_of_camera header(::sick_visionary_t_mini::msg::SickTMini::_header_type arg)
+  Init_SickTMini_status_of_camera header_dolly(::sick_visionary_t_mini::msg::SickTMini::_header_dolly_type arg)
   {
-    msg_.header = std::move(arg);
+    msg_.header_dolly = std::move(arg);
     return Init_SickTMini_status_of_camera(msg_);
   }
 
@@ -144,7 +256,7 @@ template<>
 inline
 auto build<::sick_visionary_t_mini::msg::SickTMini>()
 {
-  return sick_visionary_t_mini::msg::builder::Init_SickTMini_header();
+  return sick_visionary_t_mini::msg::builder::Init_SickTMini_header_dolly();
 }
 
 }  // namespace sick_visionary_t_mini

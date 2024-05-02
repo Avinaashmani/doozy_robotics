@@ -8,7 +8,7 @@
 module sick_visionary_t_mini {
   module msg {
     struct SickTMini {
-      std_msgs::msg::Header header;
+      std_msgs::msg::Header header_dolly;
 
       string status_of_camera;
 
@@ -21,6 +21,20 @@ module sick_visionary_t_mini {
       boolean dolly_found;
 
       double corners_distance;
+
+      std_msgs::msg::Header header_pallet_detection;
+
+      string message;
+
+      geometry_msgs::msg::Vector3 left_pocket;
+
+      geometry_msgs::msg::Vector3 right_pocket;
+
+      geometry_msgs::msg::Vector3 center_point;
+
+      boolean pallet_found;
+
+      double pallet_angle;
     };
   };
 };

@@ -13,19 +13,28 @@
 
 
 // Include directives for member types
-// Member `header`
+// Member `header_dolly`
+// Member `header_pallet_detection`
 #include "std_msgs/msg/header.h"
-// Member `header`
+// Member `header_dolly`
+// Member `header_pallet_detection`
 #include "std_msgs/msg/detail/header__rosidl_typesupport_introspection_c.h"
 // Member `status_of_camera`
+// Member `message`
 #include "rosidl_runtime_c/string_functions.h"
 // Member `left_corners`
 // Member `right_corners`
 // Member `point`
+// Member `left_pocket`
+// Member `right_pocket`
+// Member `center_point`
 #include "geometry_msgs/msg/vector3.h"
 // Member `left_corners`
 // Member `right_corners`
 // Member `point`
+// Member `left_pocket`
+// Member `right_pocket`
+// Member `center_point`
 #include "geometry_msgs/msg/detail/vector3__rosidl_typesupport_introspection_c.h"
 
 #ifdef __cplusplus
@@ -47,16 +56,16 @@ void sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__
   sick_visionary_t_mini__msg__SickTMini__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_member_array[7] = {
+static rosidl_typesupport_introspection_c__MessageMember sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_member_array[14] = {
   {
-    "header",  // name
+    "header_dolly",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
     0,  // upper bound of string
     NULL,  // members of sub message (initialized later)
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(sick_visionary_t_mini__msg__SickTMini, header),  // bytes offset in struct
+    offsetof(sick_visionary_t_mini__msg__SickTMini, header_dolly),  // bytes offset in struct
     NULL,  // default value
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
@@ -166,13 +175,132 @@ static rosidl_typesupport_introspection_c__MessageMember sick_visionary_t_mini__
     NULL,  // fetch(index, &value) function pointer
     NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
+  },
+  {
+    "header_pallet_detection",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(sick_visionary_t_mini__msg__SickTMini, header_pallet_detection),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "message",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_STRING,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(sick_visionary_t_mini__msg__SickTMini, message),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "left_pocket",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(sick_visionary_t_mini__msg__SickTMini, left_pocket),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "right_pocket",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(sick_visionary_t_mini__msg__SickTMini, right_pocket),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "center_point",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message (initialized later)
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(sick_visionary_t_mini__msg__SickTMini, center_point),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "pallet_found",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(sick_visionary_t_mini__msg__SickTMini, pallet_found),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
+  },
+  {
+    "pallet_angle",  // name
+    rosidl_typesupport_introspection_c__ROS_TYPE_DOUBLE,  // type
+    0,  // upper bound of string
+    NULL,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(sick_visionary_t_mini__msg__SickTMini, pallet_angle),  // bytes offset in struct
+    NULL,  // default value
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL,  // fetch(index, &value) function pointer
+    NULL,  // assign(index, value) function pointer
+    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_members = {
   "sick_visionary_t_mini__msg",  // message namespace
   "SickTMini",  // message name
-  7,  // number of fields
+  14,  // number of fields
   sizeof(sick_visionary_t_mini__msg__SickTMini),
   sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_member_array,  // message members
   sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_init_function,  // function to initialize message memory (memory has to be allocated)
@@ -197,6 +325,14 @@ ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspecti
   sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_member_array[3].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Vector3)();
   sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_member_array[4].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Vector3)();
+  sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_member_array[7].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, std_msgs, msg, Header)();
+  sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_member_array[9].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Vector3)();
+  sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_member_array[10].members_ =
+    ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Vector3)();
+  sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_member_array[11].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, geometry_msgs, msg, Vector3)();
   if (!sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_type_support_handle.typesupport_identifier) {
     sick_visionary_t_mini__msg__SickTMini__rosidl_typesupport_introspection_c__SickTMini_message_type_support_handle.typesupport_identifier =

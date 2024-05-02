@@ -35,19 +35,25 @@ class Latch_Unlatch(Node):
         self.load_process_flag = False
         self.unload_process_flag = False
 
-        self.create_subscription(Bool, 'navigation_topic', self.navigation_callback, 10)
+        self.create_subscription(Bool, '/navigation_topic', self.navigation_callback, 10)
         self.create_subscription(Bool, '/dock_topic', self.docked_callback, 10)
-
-        # self.create_subscription(Bool, '/latch_topic', self.latch_hook_cb, 10)
-        # self.create_subscription(Bool, '/tug_arm_center', self.tug_arm_center,10)
-        # self.create_subscription(Bool, '/forearm_latch', self.forearm_cb, 10)
+        self.create_subscription(Bool, '/loading_topic', self.load_callback, 10)
+        
+        self.loading_flag = False
+        self.unloading_flag = False
 
         self.diagnostics_msg_pub = self.create_publisher(String, 'display_topic', 10)
         self.diagnostic_msg = String()
-        self.create_timer(0.1, self.docked_compute)
+        
+        if self.loading_flag:
+            self.create_timer(0.1, self.docked_compute)
+        
+        elif self.unloading_flag:
+            self.create_timer(0.1, self.docked_compute)
+            
         self.diagnostic_msg.data = "DAIMLER TUGGER"
         self.diagnostics_msg_pub.publish(self.diagnostic_msg)
-        # self.create_timer(0.1, self.compute_forearm)
+        
         self.serial_port_1 = '/dev/ttyUSB1'  ## TUG ARM ##
         self.serial_port_2 = '/dev/ttyUSB0'  ## LOWER / RISE HOOK ##
         # self.serial_port_3 = '/dev/ttyUSB2' ## HOOK CLOSE / OPEN ##
@@ -56,17 +62,17 @@ class Latch_Unlatch(Node):
 
         self.arduino_nano_1 = serial.Serial(port=self.serial_port_1, baudrate=self.baudrate, timeout=0)
         self.arduino_nano_2 = serial.Serial(port=self.serial_port_2, baudrate=self.baudrate, timeout=0)
-        # self.arduino_nano_3 = serial.Serial(port=self.serial_port_2, baudrate=self.baudrate, timeout=0)
-       
-        time.sleep(2)  # Wait for Arduino to initialize
+
+        time.sleep(2)
         print(f"Opening port {self.serial_port_1} with baudrate {self.baudrate}")
     
     def docked_compute(self):
-        # self.flag = 0
+
         try:
             if self.navigation_flag:
 
                 ## TUG ARM FUNCTION ##
+                
                 self.load_process_flag = False
 
                 print("Reached Dolly, waiting for Tug arm to Dock..")
@@ -101,7 +107,9 @@ class Latch_Unlatch(Node):
                 self.navigation_flag = False
             
             if self.load_process_flag:
+                
                 ## HOOK LOWERING FUNCTION ##
+                
                 if self.dock_flag:
 
                     print("Lowering Hook")
@@ -137,30 +145,13 @@ class Latch_Unlatch(Node):
                         self.dock_flag = False
                         self.load_process_flag = False
                 else:
-                    print ("Waiting to Dock...")  
-
-
-                
-                # else:
-                #     print("Waiting to doc")
-                #     self.arduino_nano_1.write(self.home.encode('ascii'))
-                #     self.arduino_nano_2.write(self.home.encode('ascii'))
-                #     self.navigation_flag = False
-            # else:
-            #     print("Waiting to complete Navigation")       
+                    print ("Waiting to Dock...")   
                 
         except serial.serialutil.SerialException as e:
             print(e)
-
-
-    # def latch_hook_cb(self, msg):
-    #     self.latch_flag = msg.data
-    
-    # def tug_arm_center(self, msg):
-    #     self.tug_arm = msg.data
-    
-    # def forearm_cb (self, msg):
-    #     self.fore_arm = msg.data
+            
+    def undock_compute(self):
+        
 
     def navigation_callback(self, msg):
         self.navigation_flag = msg.data
@@ -168,11 +159,16 @@ class Latch_Unlatch(Node):
     def docked_callback(self, msg):
         self.dock_flag = msg.data
 
+    def load_callback(self, msg):
+        self.loading_flag = msg.data
+        
+    def unloading_callback (self, msg):
+        self.unloading_flag = msg.data
+    
 def main():
     rclpy.init()
     latch = Latch_Unlatch()
     rclpy.spin(latch)
-    # rclpy.shutdown()
 
 if __name__ == '__main__':
     main()

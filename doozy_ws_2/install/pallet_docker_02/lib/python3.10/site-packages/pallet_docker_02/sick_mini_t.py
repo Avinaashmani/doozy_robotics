@@ -2,13 +2,10 @@
 
 import rclpy
 from rclpy.node import Node
-from std_msgs.msg import Bool, Float64
-from geometry_msgs.msg import Vector3
 
 from sick_visionary_t_mini.msg import SickTMini
 
 import requests
-import json
 
 class Dolly_Identify(Node):
 

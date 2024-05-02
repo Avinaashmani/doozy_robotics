@@ -16,11 +16,15 @@
 
 
 // Include directives for member types
-// Member 'header'
+// Member 'header_dolly'
+// Member 'header_pallet_detection'
 #include "std_msgs/msg/detail/header__struct.hpp"
 // Member 'left_corners'
 // Member 'right_corners'
 // Member 'point'
+// Member 'left_pocket'
+// Member 'right_pocket'
+// Member 'center_point'
 #include "geometry_msgs/msg/detail/vector3__struct.hpp"
 
 #ifndef _WIN32
@@ -42,10 +46,14 @@ struct SickTMini_
   using Type = SickTMini_<ContainerAllocator>;
 
   explicit SickTMini_(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : header(_init),
+  : header_dolly(_init),
     left_corners(_init),
     right_corners(_init),
-    point(_init)
+    point(_init),
+    header_pallet_detection(_init),
+    left_pocket(_init),
+    right_pocket(_init),
+    center_point(_init)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
@@ -53,15 +61,23 @@ struct SickTMini_
       this->status_of_camera = "";
       this->dolly_found = false;
       this->corners_distance = 0.0;
+      this->message = "";
+      this->pallet_found = false;
+      this->pallet_angle = 0.0;
     }
   }
 
   explicit SickTMini_(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
-  : header(_alloc, _init),
+  : header_dolly(_alloc, _init),
     status_of_camera(_alloc),
     left_corners(_alloc, _init),
     right_corners(_alloc, _init),
-    point(_alloc, _init)
+    point(_alloc, _init),
+    header_pallet_detection(_alloc, _init),
+    message(_alloc),
+    left_pocket(_alloc, _init),
+    right_pocket(_alloc, _init),
+    center_point(_alloc, _init)
   {
     if (rosidl_runtime_cpp::MessageInitialization::ALL == _init ||
       rosidl_runtime_cpp::MessageInitialization::ZERO == _init)
@@ -69,13 +85,16 @@ struct SickTMini_
       this->status_of_camera = "";
       this->dolly_found = false;
       this->corners_distance = 0.0;
+      this->message = "";
+      this->pallet_found = false;
+      this->pallet_angle = 0.0;
     }
   }
 
   // field types and members
-  using _header_type =
+  using _header_dolly_type =
     std_msgs::msg::Header_<ContainerAllocator>;
-  _header_type header;
+  _header_dolly_type header_dolly;
   using _status_of_camera_type =
     std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
   _status_of_camera_type status_of_camera;
@@ -94,12 +113,33 @@ struct SickTMini_
   using _corners_distance_type =
     double;
   _corners_distance_type corners_distance;
+  using _header_pallet_detection_type =
+    std_msgs::msg::Header_<ContainerAllocator>;
+  _header_pallet_detection_type header_pallet_detection;
+  using _message_type =
+    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+  _message_type message;
+  using _left_pocket_type =
+    geometry_msgs::msg::Vector3_<ContainerAllocator>;
+  _left_pocket_type left_pocket;
+  using _right_pocket_type =
+    geometry_msgs::msg::Vector3_<ContainerAllocator>;
+  _right_pocket_type right_pocket;
+  using _center_point_type =
+    geometry_msgs::msg::Vector3_<ContainerAllocator>;
+  _center_point_type center_point;
+  using _pallet_found_type =
+    bool;
+  _pallet_found_type pallet_found;
+  using _pallet_angle_type =
+    double;
+  _pallet_angle_type pallet_angle;
 
   // setters for named parameter idiom
-  Type & set__header(
+  Type & set__header_dolly(
     const std_msgs::msg::Header_<ContainerAllocator> & _arg)
   {
-    this->header = _arg;
+    this->header_dolly = _arg;
     return *this;
   }
   Type & set__status_of_camera(
@@ -136,6 +176,48 @@ struct SickTMini_
     const double & _arg)
   {
     this->corners_distance = _arg;
+    return *this;
+  }
+  Type & set__header_pallet_detection(
+    const std_msgs::msg::Header_<ContainerAllocator> & _arg)
+  {
+    this->header_pallet_detection = _arg;
+    return *this;
+  }
+  Type & set__message(
+    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+  {
+    this->message = _arg;
+    return *this;
+  }
+  Type & set__left_pocket(
+    const geometry_msgs::msg::Vector3_<ContainerAllocator> & _arg)
+  {
+    this->left_pocket = _arg;
+    return *this;
+  }
+  Type & set__right_pocket(
+    const geometry_msgs::msg::Vector3_<ContainerAllocator> & _arg)
+  {
+    this->right_pocket = _arg;
+    return *this;
+  }
+  Type & set__center_point(
+    const geometry_msgs::msg::Vector3_<ContainerAllocator> & _arg)
+  {
+    this->center_point = _arg;
+    return *this;
+  }
+  Type & set__pallet_found(
+    const bool & _arg)
+  {
+    this->pallet_found = _arg;
+    return *this;
+  }
+  Type & set__pallet_angle(
+    const double & _arg)
+  {
+    this->pallet_angle = _arg;
     return *this;
   }
 
@@ -181,7 +263,7 @@ struct SickTMini_
   // comparison operators
   bool operator==(const SickTMini_ & other) const
   {
-    if (this->header != other.header) {
+    if (this->header_dolly != other.header_dolly) {
       return false;
     }
     if (this->status_of_camera != other.status_of_camera) {
@@ -200,6 +282,27 @@ struct SickTMini_
       return false;
     }
     if (this->corners_distance != other.corners_distance) {
+      return false;
+    }
+    if (this->header_pallet_detection != other.header_pallet_detection) {
+      return false;
+    }
+    if (this->message != other.message) {
+      return false;
+    }
+    if (this->left_pocket != other.left_pocket) {
+      return false;
+    }
+    if (this->right_pocket != other.right_pocket) {
+      return false;
+    }
+    if (this->center_point != other.center_point) {
+      return false;
+    }
+    if (this->pallet_found != other.pallet_found) {
+      return false;
+    }
+    if (this->pallet_angle != other.pallet_angle) {
       return false;
     }
     return true;

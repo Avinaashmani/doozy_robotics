@@ -1,0 +1,32 @@
+In file included from [01m[K/home/doozy/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini/rosidl_generator_c/sick_visionary_t_mini/msg/detail/sick_t_mini__functions.h:19[m[K,
+                 from [01m[K/home/doozy/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini/rosidl_generator_c/sick_visionary_t_mini/msg/detail/sick_t_mini__functions.c:4[m[K:
+[01m[K/home/doozy/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini/rosidl_generator_c/sick_visionary_t_mini/msg/detail/sick_t_mini__struct.h:35:10:[m[K [01;31m[Kfatal error: [m[Ksick_visionary_t_mini/msg/detail/int16__struct.h: No such file or directory
+   35 | #include [01;31m[K"sick_visionary_t_mini/msg/detail/int16__struct.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sick_visionary_t_mini__rosidl_generator_c.dir/build.make:166: CMakeFiles/sick_visionary_t_mini__rosidl_generator_c.dir/rosidl_generator_c/sick_visionary_t_mini/msg/detail/sick_t_mini__functions.c.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:213: CMakeFiles/sick_visionary_t_mini__rosidl_generator_c.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/doozy/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini/rosidl_typesupport_cpp/sick_visionary_t_mini/msg/sick_t_mini__type_support.cpp:7[m[K:
+[01m[K/home/doozy/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini/rosidl_generator_cpp/sick_visionary_t_mini/msg/detail/sick_t_mini__struct.hpp:30:10:[m[K [01;31m[Kfatal error: [m[Ksick_visionary_t_mini/msg/detail/int16__struct.hpp: No such file or directory
+   30 | #include [01;31m[K"sick_visionary_t_mini/msg/detail/int16__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_cpp.dir/build.make:147: CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sick_visionary_t_mini/msg/sick_t_mini__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:395: CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_cpp.dir/all] Error 2
+In file included from [01m[K/home/doozy/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini/rosidl_typesupport_introspection_cpp/sick_visionary_t_mini/msg/detail/sick_t_mini__type_support.cpp:12[m[K:
+[01m[K/home/doozy/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini/rosidl_generator_cpp/sick_visionary_t_mini/msg/detail/sick_t_mini__struct.hpp:30:10:[m[K [01;31m[Kfatal error: [m[Ksick_visionary_t_mini/msg/detail/int16__struct.hpp: No such file or directory
+   30 | #include [01;31m[K"sick_visionary_t_mini/msg/detail/int16__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_introspection_cpp.dir/build.make:152: CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sick_visionary_t_mini/msg/detail/sick_t_mini__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:369: CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+In file included from [01m[K/home/doozy/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini/rosidl_typesupport_fastrtps_cpp/sick_visionary_t_mini/msg/detail/sick_t_mini__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+                 from [01m[K/home/doozy/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini/rosidl_typesupport_fastrtps_cpp/sick_visionary_t_mini/msg/detail/dds_fastrtps/sick_t_mini__type_support.cpp:4[m[K:
+[01m[K/home/doozy/doozy_robotics/doozy_ws_2/build/sick_visionary_t_mini/rosidl_generator_cpp/sick_visionary_t_mini/msg/detail/sick_t_mini__struct.hpp:30:10:[m[K [01;31m[Kfatal error: [m[Ksick_visionary_t_mini/msg/detail/int16__struct.hpp: No such file or directory
+   30 | #include [01;31m[K"sick_visionary_t_mini/msg/detail/int16__struct.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_fastrtps_cpp.dir/build.make:152: CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sick_visionary_t_mini/msg/detail/dds_fastrtps/sick_t_mini__type_support.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:291: CMakeFiles/sick_visionary_t_mini__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
