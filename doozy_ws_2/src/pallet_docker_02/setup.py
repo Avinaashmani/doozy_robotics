@@ -38,8 +38,8 @@ setup(
             'DOCK_to_DOLLY = pallet_docker_02.dolly_navi_client_01:main',
             'SERVER=pallet_docker_02.dock_tb3_server_01:main',
             'CLIENT=pallet_docker_02.nav_tb3_client_01:main',
-            'SICK_Pallet_Detect=pallet_docker_02.sick_pallet_detection_01:main',
-            'Pallet_tf_publisher=pallet_tf_publisher:main',
+            'SICK_Pallet_Detect= pallet_docker_02.sick_pallet_detection_01:main',
+            'Pallet_tf_publisher= pallet_docker_02.pallet_tf_publisher_01:main',
         ],
     },
 )
