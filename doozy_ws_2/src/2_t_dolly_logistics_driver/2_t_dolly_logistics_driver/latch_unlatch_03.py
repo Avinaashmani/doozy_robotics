@@ -151,7 +151,7 @@ class Latch_Unlatch(Node):
             print(e)
             
     def undock_compute(self):
-        
+        pass
 
     def navigation_callback(self, msg):
         self.navigation_flag = msg.data

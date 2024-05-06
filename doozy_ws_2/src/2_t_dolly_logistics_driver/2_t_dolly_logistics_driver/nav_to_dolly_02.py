@@ -7,7 +7,7 @@ from rclpy.node import Node
 
 from nav2_simple_commander.robot_navigator import BasicNavigator, TaskResult
 from geometry_msgs.msg import PoseStamped
-from doozy_actions.msg import Navigation, Docking
+# from doozy_actions.msg import Navigation, Docking
 from std_msgs.msg import Bool
 
 class NaviDolly(Node):
@@ -19,12 +19,9 @@ class NaviDolly(Node):
         self.get_logger().info('Navigation to Position has begun')
 
         self.navigator = BasicNavigator()
+        
 
-        self.initial_pose = PoseStamped()
-
-        self.goal_poses = PoseStamped()
-
-        self.navigation_node_pub = self.create_publisher(Navigation, '/dolly_navigate_node', 10)
+        # self.navigation_node_pub = self.create_publisher(Navigation, '/dolly_navigate_node', 10)
 
         #self.create_subscription(Docking, '/dolly_dock_node', self.docking_node_callback,10)
         
@@ -39,7 +36,7 @@ class NaviDolly(Node):
         self.dolly_02_read = False
         self.go_to_home = False
 
-        self.navigation_msg = Navigation()
+        # self.navigation_msg = Navigation()
         self.navigation_flag = False
 
         self.is_docked = False
@@ -63,22 +60,22 @@ class NaviDolly(Node):
 
         if self.result == TaskResult.SUCCEEDED:
             self.get_logger().info('Target reached')
-            self.navigation_msg.moved_to_spot = True
+            # self.navigation_msg.moved_to_spot = True
             self.navigation_flag = True
 
         elif self.result == TaskResult.FAILED:
             self.get_logger().info('Failed ! -- Fail')
-            self.navigation_msg.moved_to_spot = False
+            # self.navigation_msg.moved_to_spot = False
             self.navigation_flag = False
 
         elif self.result == TaskResult.UNKNOWN:
             self.get_logger().info('Check Robot ! -- Unknown')
-            self.navigation_msg.moved_to_spot = False
+            # self.navigation_msg.moved_to_spot = False
             print(self.result)
             time.sleep(5)
             self.navigation_flag = False
             
-        self.navigation_node_pub.publish(self.navigation_msg)
+    #    self.navigation_node_pub.publish(self.navigation_msg)
         return self.navigation_flag
     
     def dolly_01(self, msg):
@@ -96,8 +93,8 @@ class NaviDolly(Node):
             pose_1.pose.orientation.z = -0.15
             pose_1.pose.orientation.w = 0.99
             self.navigator.goToPose(pose_1)
-            self.navigation_msg.idx_of_dolly = 'dolly_01'
-            self.navigation_node_pub.publish(self.navigation_msg)
+            # self.navigation_msg.idx_of_dolly = 'dolly_01'
+            # self.navigation_node_pub.publish(self.navigation_msg)
             self.get_logger().info("Navigating to Dolly 1")
     
     def dolly_02(self, msg):
