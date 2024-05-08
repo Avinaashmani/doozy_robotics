@@ -10,7 +10,6 @@ from rclpy.time import Time
 
 import tf2_ros
 from geometry_msgs.msg import Twist
-from doozy_actions.msg import Docking, Navigation
 
 class DockDolly(Node):
 
@@ -20,10 +19,8 @@ class DockDolly(Node):
         self.tf_buffer = tf2_ros.Buffer()
         self.tf_listener = tf2_ros.TransformListener(self.tf_buffer, self)
 
-        self.dock_pub = self.create_publisher(Docking, 'dolly_dock_node', 10)
         self.cmd_pub = self.create_publisher(Twist, 'cmd_vel', 10)
-        self.create_subscription(Navigation, 'dolly_navigate_node', self.navigate_callback, 10)
-
+ 
         self.dolly_frame = 'dolly_01'
         self.source_frame = 'map'
         self.tb3_frame = 'base_link'
@@ -43,8 +40,6 @@ class DockDolly(Node):
         self.navigate_err = ''
 
         self.move_tug = Twist()
-        self.docking = Docking()
-        self.navigate = Navigation()
 
         self.create_timer(0.1, self.dock_func)
 
