@@ -1,0 +1,32 @@
+running egg_info
+creating ../../build/pallet_robot/pallet_robot.egg-info
+writing ../../build/pallet_robot/pallet_robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/pallet_robot/pallet_robot.egg-info/dependency_links.txt
+writing entry points to ../../build/pallet_robot/pallet_robot.egg-info/entry_points.txt
+writing requirements to ../../build/pallet_robot/pallet_robot.egg-info/requires.txt
+writing top-level names to ../../build/pallet_robot/pallet_robot.egg-info/top_level.txt
+writing manifest file '../../build/pallet_robot/pallet_robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/pallet_robot/pallet_robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/pallet_robot/pallet_robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_robot/build
+creating /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_robot/build/lib
+creating /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_robot/build/lib/pallet_robot
+copying pallet_robot/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_robot/build/lib/pallet_robot
+running install
+running install_lib
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot/lib/python3.8/site-packages/pallet_robot
+copying /home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_robot/build/lib/pallet_robot/__init__.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot/lib/python3.8/site-packages/pallet_robot
+byte-compiling /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot/lib/python3.8/site-packages/pallet_robot/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot/share/ament_index
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot/share/ament_index/resource_index
+creating /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot/share/ament_index/resource_index/packages
+copying resource/pallet_robot -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot/share/pallet_robot
+copying launch/pallet_bot.launch.py -> /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot/share/pallet_robot
+running install_egg_info
+Copying ../../build/pallet_robot/pallet_robot.egg-info to /home/avinaash/doozy_robotics/doozy_ws_2/install/pallet_robot/lib/python3.8/site-packages/pallet_robot-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/avinaash/doozy_robotics/doozy_ws_2/build/pallet_robot/install.log'
